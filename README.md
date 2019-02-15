@@ -1,7 +1,5 @@
-# sherlock
+# detecting orientalism in sherlock holmes
 
-This project is looking at and analyzing representations of 
-disabled and "deviant" bodies in the Sherlock Holmes series. 
-These representations may include physically disability,
-diseased, and maimed bodies and their literary function in
-each text. 
+This project is analyzing representations of 
+Orientalism in Sherlock Holmes by examining Sir Author Conan Doyle's *The Sign of the Four*.
+This inquiry may consider bodies, locations, or objects associated with or assigned to the Orient. This research will also consider how the Occidental, or Western, viewpoint plays into these late Victorian fears and fascinations with the East. 
