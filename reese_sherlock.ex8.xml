@@ -3,11 +3,12 @@
     <meta>
         <title>
             <i>The Sign of the Four</i>
+            <!-- consider revising your presentational markup to descriptive markup -->
         </title>
         <chapter> excerpt from Ch. 8</chapter>
     </meta>
     <p>
-        <quote soeaker="Sherlock">I have no wish to make a mystery of him,—to you, anyway. But you
+        <quote speaker="Sherlock">I have no wish to make a mystery of him,—to you, anyway. But you
             must have formed your own opinion. Now, do consider the data. Diminutive footmarks, toes
             never fettered by boots, naked feet, stone-headed wooden mace, great agility, small
             poisoned darts. What do you make of all this?</quote>
@@ -16,7 +17,7 @@
         </quote>I exclaimed. <quote speaker="Watson">Perhaps one of those <ref use="orient"
                 type="noun">Indians</ref> who were the associates of Jonathan Small.</quote></p>
 
-    <p><quote speaker="Sherlock">Hardly that, </quote>said he. <quote speaker="Sherlock">When first
+    <p><quote speaker="Sherlock">Hardly that,</quote> said he. <quote speaker="Sherlock">When first
             I saw signs of <ref use="orient" type="adj">strange</ref>
             <ref use="orient" type="noun" class="object">weapons</ref> I was inclined to think so;
             but the remarkable character of the footmarks caused me to reconsider my views. Some of
