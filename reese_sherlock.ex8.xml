@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <meta>
+        <title>
+            <i>The Sign of the Four</i>
+        </title>
+        <chapter> excerpt from Ch. 8</chapter>
+    </meta>
+    <p>
+        <quote soeaker="Sherlock">I have no wish to make a mystery of him,—to you, anyway. But you
+            must have formed your own opinion. Now, do consider the data. Diminutive footmarks, toes
+            never fettered by boots, naked feet, stone-headed wooden mace, great agility, small
+            poisoned darts. What do you make of all this?</quote>
+    </p>
+    <p><quote speaker="Watson"><ref use="orient" type="noun">A savage!</ref>
+        </quote>I exclaimed. <quote speaker="Watson">Perhaps one of those <ref use="orient"
+                type="noun">Indians</ref> who were the associates of Jonathan Small.</quote></p>
+
+    <p><quote speaker="Sherlock">Hardly that, </quote>said he. <quote speaker="Sherlock">When first
+            I saw signs of <ref use="orient" type="adj">strange</ref>
+            <ref use="orient" type="noun" class="object">weapons</ref> I was inclined to think so;
+            but the remarkable character of the footmarks caused me to reconsider my views. Some of
+            the inhabitants of the <ref loc="orient">Indian Peninsula</ref> are <ref use="orient"
+                type="adj" class="person">small men</ref>, but none could have left such marks as
+            that. The <ref use="orient" type="adj" class="person">Hindoo</ref> proper has long and
+            thin feet. The sandal-wearing <ref use="orient" type="adj" class="person"
+                >Mohammedan</ref> has the great toe well separated from the others, because the
+            thong is commonly passed between. These <ref use="orient" type="noun" class="object"
+                >little darts</ref>, too, could only be shot in one way. They are from a blow-pipe.
+            Now, then, where are we to find <ref use="orient" type="adj" class="person">our
+                savage?</ref></quote></p>
+
+    <p><quote speaker="Watson">South American,</quote> I hazarded.</p>
+
+    <p>He stretched his hand up, and took down a bulky volume from the shelf. <quote
+            speaker="Sherlock">This is the first volume of a <ref use="occident" type="noun"
+                class="object">gazetteer</ref> which is now being published. It may be looked upon
+            as <ref use="occident" class="object" value="pos">the very latest authority.</ref> What
+            have we here? <subquote speaker="occident"><ref loc="orient">Andaman Islands,</ref>
+                situated 340 miles to the north of <ref loc="orient">Sumatra</ref>, in the <ref
+                    loc="orient">Bay of Bengal.</ref></subquote> Hum! hum! What's all this? Moist
+            climate, coral reefs, sharks, Port Blair, convict-barracks, Rutland Island,
+            cottonwoods—Ah, here we are. <subquote speaker="occident">The <ref use="orient"
+                    type="noun" class="person">aborigines</ref> of the <ref loc="orient">Andaman
+                    Islands</ref> may perhaps claim the distinction of being the smallest race upon
+                this earth, though some <ref use="occident" type="noun" class="person" value="pos"
+                    >anthropologists</ref> prefer <ref use="exotic" type="noun" class="person">the
+                    Bushmen of Africa</ref>, <ref use="exotic" type="noun" class="person">the Digger
+                    Indians of America,</ref> and <ref use="exotic" type="noun" class="person">the
+                    Terra del Fuegians.</ref> The average height is rather below four feet, although
+                many full-grown adults may be found who are very much smaller than this. They are a
+                    <ref use="orient" type="adj" class="person" value="neg">fierce,</ref>
+                <ref use="orient" type="adj" class="person" value="neg"> morose</ref>, and <ref
+                    use="orient" type="adj" class="person" value="neg">intractable</ref> people,
+                though capable of forming most devoted friendships when their confidence has once
+                been gained.</subquote> Mark that, Watson. Now, then, listen to this. <subquote
+                speaker="orient">They are <ref use="orient" type="adj" class="person" value="neg"
+                    >naturally hideous</ref>, having <ref use="orient" type="adj" class="person"
+                    value="neg">large, misshapen heads,</ref>
+                <ref use="orient" type="adj" class="person" value="neg">small, fierce eyes,</ref>
+                and <ref use="orient" type="adj" class="person" value="neg">distorted
+                    features.</ref> Their feet and hands, however, are remarkably small. So <ref
+                    use="orient" type="adj" class="person" value="neg">intractable</ref> and <ref
+                    use="orient" type="adj" class="person" value="neg">fierce</ref> are they that
+                all the <ref use="occident" type="verb" class="person">efforts of the British
+                    official</ref> have <ref use="occident" type="verb" class="person">failed to win
+                    them over</ref> in any degree. They have always been a <ref use="orient"
+                    type="adj" class="person" value="neg">terror to shipwrecked crews,</ref>
+                <ref use="orient" type="verb" value="neg">braining</ref><ref use="occident"
+                    type="noun" class="person" value="pos"> the survivors</ref> with their <ref
+                    use="orient" type="noun" class="object">stone-headed clubs,</ref> or shooting
+                them with their <ref use="orient" type="noun" class="object">poisoned arrows.</ref>
+                These <ref use="orient" type="verb" class="people" value="neg">massacres</ref> are
+                invariably concluded by a <ref use="orient" type="adj" value="neg">cannibal
+                    feast.</ref></subquote>
+            <sarcasm use="occident">Nice, amiable people,</sarcasm> Watson! If this fellow had been
+            left to his own unaided devices this affair might have taken an even more ghastly turn.
+            I fancy that, even as it is, Jonathan Small would give a good deal not to have employed
+            him.</quote></p>
+    <p>
+        <quote speaker="Watson">But how came he to have so singular a companion?</quote>
+    </p>
+
+    <p>
+        <quote speaker="Watson">Ah, that is more than I can tell. Since, however, we had already
+            determined that Small had come from the <ref loc="orient">Andamans,</ref> it is not so
+            very wonderful that this <ref use="orient" type="adj" class="person" value="neg"
+                >islander</ref> should be with him. No doubt we shall know all about it in time.
+            Look here, Watson; you look regularly done. Lie down there on the sofa, and see if I can
+            put you to sleep.</quote>
+    </p>
+    <p> He took up his <ref use="occident" type="noun" class="object" value="pos">violin</ref> from
+        the corner, and as I stretched myself out he began to play some low, dreamy, melodious
+        air,—his own, no doubt, for he had a <ref use="occident" type="noun">remarkable</ref> gift
+        for improvisation. I have a vague remembrance of his<ref use="occident" type="adj"
+            class="person" value="pos"> gaunt limbs</ref>, his <ref use="occident" type="adj"
+            class="person" value="pos">earnest face,</ref> and the rise and fall of his bow. Then I
+        seemed to be floated peacefully away upon a soft sea of sound, until I found myself in
+        dream-land, with the sweet face of Mary Morstan looking down upon me.</p>
+
+
+</text>
