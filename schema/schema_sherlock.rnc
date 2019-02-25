@@ -1,5 +1,5 @@
 start = txt
-txt = element txt {titleText, author, ch*, title*, p*}
+txt = element txt {titleText, author, ch+, title+, p+}
 titleText = element titleText {text}
 author = element author {text}
 ch = element ch {no}
