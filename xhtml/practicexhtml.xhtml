@@ -4,27 +4,33 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head><title>Practice Sherlock</title> <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica" rel="stylesheet"/>
     <style type="text/css">
-        h1{
+        h1, li, ul{
     font-family: 'IM Fell DW Pica', serif;
-    text-align: center}
+    text-align: center;
+    }
+   h1 {
+   font-size: 300 px;}
     </style>
     </head>
-  
     <body>
-          <div><h1>Practice Sherlock</h1></div>
-        <ul class="flex-container"> 
-            <li class="flex-item" style="list-style-type:none"><img src="eyedrawing.jpg" alt="eye drawing" style="width:200px;height:200px;"></img></li>
-            <li class="flex-item" style="list-style-type:none"><img src="so4news.jpg" alt="Sign of Four Newspaper" style="width:200px;height:200px;"></img></li>
-            <li class="flex-item" style="list-style-type:none"><img src="so4indiansoldier.jpg" alt="Drawing from book of Indian soldier" style="width:200px;height:200px;"></img></li>
-            <li class="flex-item" style="list-style-type:none"><img src="so4soldier1.jpg" alt="Drawing from book of a British soldier and Indian man" style="width:200px;height:200px;"></img></li>
-        </ul>
-        <ul id="list-nav">
-            <li style="list-style:none"><a href="home.xhtml"> Home</a></li>
-            <li style="list-style:none"><a href="bakerst.xhtml">Baker Street</a></li>
-            <li style="list-style:none"><a href="london.xhtml">London</a></li>
-            <li style="list-style:none"><a href="rivert.xhtml">The River Thames</a></li>
-            <li style="list-style:none"><a href="britishempire">British Empire</a></li>
-        </ul>
+          <h1>Practice Sherlock</h1>
+        <div class="flex-wrapper">
+            <table class="toc">
+            <tr>
+                <td><img src="so4news.jpg" alt="Sign of Four Newspaper" style="width: 50 px; height: 50 px"></img></td>
+                <td><img src="so4indiansoldier.jpg" alt="Drawing from book of Indian soldier" style="width: 50 px; height: 50 px"></img></td>
+                <td><img src="so4soldier1.jpg" alt="Drawing from book of a British soldier and Indian man" style="width: 50 px; height: 50 px"></img></td></tr>
+            </table>
+        </div>
+        <nav>
+        <div class="w3-sidebar w3-bar-block w3-black w3-xlarge w3-top" style="25%" id="navigation">
+           <l><a href="home.xhtml" class="w3-bar-item w3-button"> Home</a></l>
+            <l><a href="bakerst.xhtml" class="w3-bar-item w3-button w3-hover-light-grey">Baker Street</a></l>
+            <l><a href="london.xhtml" class="w3-bar-item w3-button w3-hover-light-grey">London</a></l>
+            <l><a href="rivert.xhtml" class="w3-bar-item w3-button w3-hover-light-grey">The River Thames</a></l>
+            <l><a href="britishempire" class="w3-bar-item w3-button w3-hover-light-grey">British Empire</a></l>
+        </div>
+        </nav>
 
     </body>
 </html>
