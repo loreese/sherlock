@@ -1,0 +1,20 @@
+start = txt
+txt = element txt {titleText, author, ch*, title*, p*}
+titleText = element titleText {text}
+author = element author {text}
+ch = element ch {no}
+no = attribute no {text}
+title = element title {text}
+p = element p { mixed {adj*, adv*, q*, subq*, loc* } }
+adj = element adj { desc | cat }
+adv = element adv { desc | cat }
+desc = attribute desc {"orient"}
+cat = attribute cat {"prim" | "erot" | "pos" | "neg"}
+q = element q { speaker }
+speaker = attribute speaker {"name"}
+subq = element subq {type}
+type = attribute type {"pub" | "other"}
+loc = element loc {text}
+
+#i cant remeber the workaround for special phrases, e.g. "text" vs the root element <text>
+#so i marked it as txt in here while it remains <text> in the document itself. 
