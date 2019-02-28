@@ -1,8 +1,8 @@
 start = txt
-txt = element txt {titleText, author, ch+, title+, p+}
+txt = element txt {titleText, author, ch+}
 titleText = element titleText {text}
 author = element author {text}
-ch = element ch {no}
+ch = element ch {no, title, p+}
 no = attribute no {text}
 title = element title {text}
 p = element p { mixed {adj*, adv*, q*, subq*, loc* } }

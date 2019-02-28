@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
-<titletext>The Sign of the Four</titletext>
+<?xml-model href="../schema/schema_sherlock.rnc" type="application/relax-ng-compact-syntax"?>
+<txt>
+<titleText>The Sign of the Four</titleText>
 
 <author>Sir Arthur Conan Doyle</author>
 
@@ -327,7 +328,7 @@ name. Ask the young lady to step up, Mrs. Hudson. Don't go, doctor.
 I should prefer that you remain."</p></ch>
 
 
-<p><ch no="II"> 
+<ch no="II"> 
 <title>The Statement of the Case</title>
 
 <p>Miss Morstan entered the room with a firm step and an outward composure
@@ -1083,10 +1084,11 @@ certainly relieved when our cab pulled up with a jerk and the coachman
 sprang down to open the door.</p>
 
 <p>"This, Miss Morstan, is Pondicherry Lodge," said Mr. Thaddeus Sholto,
-as he handed her out.</ch></p>
+as he handed her out.</p>
+</ch>
 
-<p><ch no="V"> 
-<title>The Tragedy of Pondicherry Lodge</title></p>
+<ch no="V"> 
+<title>The Tragedy of Pondicherry Lodge</title>
 
 <p>It was nearly eleven o'clock when we reached this final stage of our
 night's adventures. We had left the damp fog of the great city behind
@@ -1370,10 +1372,10 @@ station to report this matter to the police. Offer to assist them in
 every way. We shall wait here until your return."</p>
 
 <p>The little man obeyed in a half-stupefied fashion, and we heard him
-stumbling down the stairs in the dark.</ch></p>
+ stumbling down the stairs in the dark.</p></ch>
 
-<p><ch no="VI"> 
-<title>Sherlock Holmes Gives a Demonstration</title></p>
+<ch no="VI"> 
+<title>Sherlock Holmes Gives a Demonstration</title>
 
 <p>"Now, Watson," said Holmes, rubbing his hands, "we have half an hour to
 ourselves. Let us make good use of it. My case is, as I have told
@@ -1728,10 +1730,10 @@ before three, if I can get a fresh horse."</p>
 and from the Indian servant, who, Mr. Thaddeus tell me, sleeps in the
 next garret. Then I shall study the great Jones's methods and listen
 to his not too delicate sarcasms. 'Wir sind gewohnt das die Menschen
-verhoehnen was sie nicht verstehen.' Goethe is always pithy."</ch></p>
+verhoehnen was sie nicht verstehen.' Goethe is always pithy."</p></ch>
 
-<p><ch no="VII"> 
-<title>The Episode of the Barrel</title></p>
+<ch no="VII"> 
+<title>The Episode of the Barrel</title>
 
 <p>The police had brought a cab with them, and in this I escorted Miss
 Morstan back to her home. After the angelic fashion of women, she had
@@ -2181,10 +2183,10 @@ were smeared with a dark liquid, and the whole air was heavy with the
 smell of creasote.</p>
 
 <p>Sherlock Holmes and I looked blankly at each other, and then burst
-simultaneously into an uncontrollable fit of laughter.</ch></p>
+ simultaneously into an uncontrollable fit of laughter.</p></ch>
 
-<p><ch no="VIII"> 
-<title>The Baker Street Irregulars</title></p>
+<ch no="VIII"> 
+<title>The Baker Street Irregulars</title>
 
 <p>"What now?" I asked. "Toby has lost his character for infallibility."</p>
 
@@ -2571,10 +2573,10 @@ he had a remarkable gift for improvisation. I have a vague remembrance
 of his gaunt limbs, his earnest face, and the rise and fall of his bow.
 Then I seemed to be floated peacefully away upon a soft sea of sound,
 until I found myself in dream-land, with the sweet face of Mary Morstan
-looking down upon me.</ch></p>
+looking down upon me.</p></ch>
 
-<p><ch no="IX"> 
-<title>A Break in the Chain</title></p>
+<ch no="IX"> 
+<title>A Break in the Chain</title>
 
 <p>It was late in the afternoon before I woke, strengthened and refreshed.
 Sherlock Holmes still sat exactly as I had left him, save that he had
@@ -2993,10 +2995,10 @@ don't see how I can refuse you an interview with him."</p>
 <p>"Only that I insist upon your dining with us. It will be ready in half
 an hour. I have oysters and a brace of grouse, with something a little
 choice in white wines.--Watson, you have never yet recognized my merits
-as a housekeeper."</ch></p>
+as a housekeeper."</p></ch>
 
-<p><ch no="X"> 
-<title>The End of the Islander</title></p>
+<ch no="X"> 
+<title>The End of the Islander</title>
 
 <p>Our meal was a merry one. Holmes could talk exceedingly well when he
 chose, and that night he did choose. He appeared to be in a state of
@@ -3324,10 +3326,10 @@ where we had been standing, stuck one of those murderous darts which we
 knew so well. It must have whizzed between us at the instant that we
 fired. Holmes smiled at it and shrugged his shoulders in his easy
 fashion, but I confess that it turned me sick to think of the horrible
-death which had passed so close to us that night.</ch></p>
+death which had passed so close to us that night.</p></ch>
 
-<p><ch no="XI"> 
-<title>The Great Agra Treasure</title></p>
+<ch no="XI"> 
+<title>The Great Agra Treasure</title>
 
 <p>Our captive sat in the cabin opposite to the iron box which he had done
 so much and waited so long to gain. He was a sunburned, reckless-eyed
@@ -3550,10 +3552,10 @@ said, 'Thank God.'"</p>
 
 <p>"Then I say, 'Thank God,' too," she whispered, as I drew her to my
 side. Whoever had lost a treasure, I knew that night that I had gained
-one.</ch></p>
+one.</p></ch>
 
-<p><ch no="XII"> 
-<title>The Strange Story of Jonathan Small</title></p>
+<ch no="XII"> 
+<title>The Strange Story of Jonathan Small</title>
 
 <p>A very patient man was that inspector in the cab, for it was a weary
 time before I rejoined him. His face clouded over when I showed him
@@ -4493,6 +4495,6 @@ work in this business. I get a wife out of it, Jones gets the credit,
 pray what remains for you?"</p>
 
 <p>"For me," said Sherlock Holmes, "there still remains the
-cocaine-bottle." And he stretched his long white hand up for it.</p>
+ cocaine-bottle." And he stretched his long white hand up for it.</p></ch>
 
-</ch></text>
+</txt>
