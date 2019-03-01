@@ -17,4 +17,4 @@ type = attribute type {"pub" | "other"}
 loc = element loc {text}
 
 #i cant remeber the workaround for special phrases, e.g. "text" vs the root element <text>
-#so i marked it as txt in here while it remains <text> in the document itself. 
+#so i marked it as txt in here while it remains <text> in the document itself.
