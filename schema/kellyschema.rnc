@@ -1,0 +1,37 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = chtext
+chtext = element chtext { meta, body }
+meta = element meta { title, chapterinfo }
+title = element title { text }
+chapterinfo = element chapterinfo { id }
+id = attribute xml:id { xsd:int }
+body = element body { p+ }
+p = element p { mixed {q*, narr*} }
+narr = element narr { text }
+q = element q { mixed {speaker, subq, loc, adj_per, adj_obj, adv_per, adv_obj, vb, empty} }
+speaker = attribute speaker {"Name"}
+subq = element subq {mixed {type, loc*, adj_per*, adj_obj*, adv_per*, adv_obj*, vb*} 
+type = attribute type {"Name"}
+loc = element loc { text }
+vb = element vb{ text}
+adj_per = element acj_obj{ mixed {desc, cat, empty} }
+adj_obj = element adj_obj{ mixed {desc, cat, empty} }
+adv_per = element adv_per{ mixed {desc, cat, empty} }
+adv_obj= element adv_obj{mixed {desc, cat, empty} }
+desc = attribute desc {"orient"}
+cat = attribute cat { "prim"|"erot"|"pos"|"neg"|"none"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
