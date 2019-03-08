@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/schema_sherlock.rnc" type="application/relax-ng-compact-syntax"?>
-<txt>
+<text>
 <titleText>The Sign of the Four</titleText>
 
 <author>Sir Arthur Conan Doyle</author>
@@ -336,7 +336,7 @@ of manner. She was a blonde young lady, small, dainty, well gloved,
 and dressed in the most perfect taste. There was, however, a plainness
 and simplicity about her costume which bore with it a suggestion of
 limited means. The dress was a sombre grayish beige, untrimmed and
-unbraided, and she wore a small turban of the same dull hue, relieved
+unbraided, and <desc target="pers">she wore a small turban</desc> of the same dull hue, relieved
 only by a suspicion of white feather in the side. Her face had neither
 regularity of feature nor beauty of complexion, but her expression was
 sweet and amiable, and her large blue eyes were singularly spiritual
@@ -401,7 +401,7 @@ the sentence.</p>
 
 <p>"Remained at the hotel. There was nothing in it to suggest a
 clue,--some clothes, some books, and a considerable number of
-curiosities from the Andaman Islands. He had been one of the officers
+<desc target="obj"><adj type="erot" att="pos">curiosities</adj></desc>from the Andaman Islands. He had been one of the officers
 in charge of the convict-guard there."</p>
 
 <p>"Had he any friends in town?"</p>
@@ -749,10 +749,10 @@ howling desert of South London."</p>
 invited us. In that sorry house it looked as out of place as a diamond
 of the first water in a setting of brass. The richest and glossiest of
 curtains and tapestries draped the walls, looped back here and there to
-expose some richly-mounted painting or Oriental vase. The carpet was
+expose some richly-mounted painting or <desc target="obj"><n att="pos">Oriental vase.</n></desc> The carpet was
 of amber-and-black, so soft and so thick that the foot sank pleasantly
-into it, as into a bed of moss. Two great tiger-skins thrown athwart
-it increased the suggestion of Eastern luxury, as did a huge hookah
+into it, as into a bed of moss. <desc target="obj"><n type="exotic">Two great tiger-skins</n></desc> thrown athwart
+it increased the suggestion of <desc target="obj"> <adj type="erot" att="pos">Eastern luxury,</adj></desc> as did a huge <desc target="obj"> <n type="exotic">hookah</n></desc>
 which stood upon a mat in the corner. A lamp in the fashion of a
 silver dove was hung from an almost invisible golden wire in the centre
 of the room. As it burned it filled the air with a subtle and aromatic
@@ -804,7 +804,7 @@ further."</p>
 <p>"That is well! That is well!" said he. "May I offer you a glass of
 Chianti, Miss Morstan? Or of Tokay? I keep no other wines. Shall I
 open a flask? No? Well, then, I trust that you have no objection to
-tobacco-smoke, to the mild balsamic odor of the Eastern tobacco. I am
+tobacco-smoke, to the mild balsamic odor of the <desc target="obj"><n type="exotic" att="pos">Eastern tobacco.</n></desc> I am
 a little nervous, and I find my hookah an invaluable sedative." He
 applied a taper to the great bowl, and the smoke bubbled merrily
 through the rose-water. We sat all three in a semicircle, with our
@@ -4497,4 +4497,4 @@ pray what remains for you?"</p>
 <p>"For me," said Sherlock Holmes, "there still remains the
  cocaine-bottle." And he stretched his long white hand up for it.</p></ch>
 
-</txt>
+</text>
