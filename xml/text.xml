@@ -72,7 +72,7 @@
 
   <p><q speaker="Watson">Yes, indeed,</q> said I, cordially. <q speaker="Watson">I was never so
     struck by anything in my life. I even embodied it in a small brochure with the somewhat
-    fantastic title of <subq type="pub">A Study in Scarlet</subq>.</q></p>
+    fantastic title of A Study in Scarlet.</q></p>
 
   <p>He shook his head sadly. <q speaker="Sherlock">I glanced over it,</q> said he. <q
     speaker="Sherlock">Honestly, I cannot congratulate you upon it. Detection is, or ought to be, an
@@ -106,8 +106,7 @@
     which have suggested to him the true solution. Here is the letter which I had this morning
     acknowledging my assistance.</q> He tossed over, as he spoke, a crumpled sheet of foreign
    notepaper. I glanced my eyes down it, catching a profusion of notes of admiration, with stray
-    <subq type="letter1">magnifiques</subq>, <subq type="letter1">coup-de-maitres</subq>, and <subq
-    type="letter1">tours-de-force</subq>, all testifying to the ardent admiration of the
+    >magnifiques, coup-de-maitres, and tours-de-force, all testifying to the ardent admiration of the
    Frenchman.</p>
 
   <p><q speaker="Watson">He speaks as a pupil to his master,</q> said I.</p>
@@ -122,8 +121,8 @@
 
   <p><q speaker="Sherlock">Oh, didn't you know?</q> he cried, laughing. <q speaker="Sherlock">Yes, I
     have been guilty of several monographs. They are all upon technical subjects. Here, for example,
-    is one <subq type="sherpamph">Upon the Distinction between the Ashes of the Various
-     Tobaccoes</subq>. In it I enumerate a hundred and forty forms of cigar-, cigarette-, and
+    is one 'Upon the Distinction between the Ashes of the Various
+     Tobaccoes.' In it I enumerate a hundred and forty forms of cigar-, cigarette-, and
     pipe-tobacco, with colored plates illustrating the difference in the ash. It is a point which is
     continually turning up in criminal trials, and which is sometimes of supreme importance as a
     clue. If you can say definitely, for example, that some murder has been done by a man who was
@@ -1488,11 +1487,11 @@
    sending of the pearls, the advertisement, the letter,--we had had light upon all those events.
    They had only led us, however, to a deeper and far more tragic mystery. The <desc target="obj">
     <adj cat="prim" att="ambig">Indian</adj>
-    <n cat="none" att="pos">treasure</n>
-   </desc>, the curious plan found among Morstan's baggage, the strange scene at Major Sholto's
+    <n cat="none" att="pos">treasure,</n>
+   </desc> the curious plan found among Morstan's baggage, the strange scene at Major Sholto's
    death, the rediscovery of the treasure immediately followed by the murder of the discoverer, the
    very singular accompaniments to the crime, the footsteps, the <desc target="obj">
-    <adj cat="prim" att="ambig">remarkable</adj><n cat="none" att="ambig">weapons</n></desc>, the
+    <adj cat="prim" att="ambig">remarkable</adj><n cat="none" att="ambig">weapons,</n></desc> the
    words upon the card, corresponding with those upon Captain Morstan's chart,--here was indeed a
    labyrinth in which a man less singularly endowed than my fellow-lodger might well despair of ever
    finding the clue.</p>
@@ -1636,10 +1635,10 @@
     <n cat="prim" att="ambig">beads</n> strung round it. In shape and size it was not unlike a
     cigarette-case. Inside were half a dozen <n cat="prim" att="ambig">spines of dark wood</n>, <adj
      cat="none" att="ambig"> sharp at one end</adj> and <adj cat="none" att="ambig">rounded at the
-     other</adj></desc>, like that which had struck Bartholomew Sholto.</p>
+     other,</adj></desc> like that which had struck Bartholomew Sholto.</p>
 
   <p><q speaker="Sherlock">They are <desc target="obj"><adj cat="prim" att="neg">hellish</adj>
-     <n cat="none" att="ambig">things</n></desc>,</q> said he. <q speaker="Sherlock">Look out that
+     <n cat="none" att="ambig">things,</n></desc></q> said he. <q speaker="Sherlock">Look out that
     you don't prick yourself. I'm delighted to have them, for the chances are that they are all he
     has. There is the less fear of you or me finding one in our skin before long. I would sooner
     face a Martini bullet, myself. Are you game for a six-mile trudge, Watson?</q>"</p>
@@ -1754,7 +1753,7 @@
     it. We again trace the presence of some confederate in the household. Jonathan, with his wooden
     leg, is utterly unable to reach the lofty room of Bartholomew Sholto. He takes with him,
     however, a rather <desc target="pers">
-     <adj cat="prim" att="neg"> curious</adj><n cat="none" att="ambig">associate</n></desc>, who
+     <adj cat="prim" att="neg"> curious</adj><n cat="none" att="ambig">associate,</n></desc> who
     gets over this difficulty, but dips his naked foot into creasote, whence comes Toby, and a
     six-mile limp for a half-pay officer with a damaged tendo Achillis.</q></p>
 
@@ -2032,7 +2031,7 @@
    criminals, I had a tenfold stronger reason to urge me on to find the treasure.</p>
 
   <p>A bath at Baker Street and a complete change freshened me up wonderfully. When I came down to
-   our room I found the breakfast laid and Homes pouring out the coffee.</p>
+   our room I found the breakfast laid and Holmes pouring out the coffee.</p>
 
   <p>"Here it is," said he, laughing, and pointing to an open newspaper. "The energetic Jones and
    the ubiquitous reporter have fixed it up between them. But you have had enough of the case.
@@ -2178,34 +2177,34 @@
    sat exactly as I had left him, save that he had laid aside his violin and was deep in a book. He
    looked across at me, as I stirred, and I noticed that his face was dark and troubled.</p>
 
-  <p>"You have slept soundly," he said. "I feared that our talk would wake you."</p>
+  <p><q speaker="Sherlock">You have slept soundly,</q> he said. <q speaker="Sherlock">I feared that our talk would wake you.</q></p>
 
-  <p>"I heard nothing," I answered. "Have you had fresh news, then?"</p>
+  <p><q speaker="Watson">I heard nothing,</q> I answered. <q speaker="Watson">Have you had fresh news, then?</q></p>
 
-  <p>"Unfortunately, no. I confess that I am surprised and disappointed. I expected something
+  <p><q speaker="Sherlock">Unfortunately, no. I confess that I am surprised and disappointed. I expected something
    definite by this time. Wiggins has just been up to report. He says that no trace can be found of
-   the launch. It is a provoking check, for every hour is of importance."</p>
+   the launch. It is a provoking check, for every hour is of importance.</q></p>
 
-  <p>"Can I do anything? I am perfectly fresh now, and quite ready for another night's outing."</p>
+  <p><q speaker="Watson">Can I do anything? I am perfectly fresh now, and quite ready for another night's outing.</q></p>
 
-  <p>"No, we can do nothing. We can only wait. If we go ourselves, the message might come in our
-   absence, and delay be caused. You can do what you will, but I must remain on guard."</p>
+  <p><q speaker="Sherlock">No, we can do nothing. We can only wait. If we go ourselves, the message might come in our
+   absence, and delay be caused. You can do what you will, but I must remain on guard.</q></p>
 
-  <p>"Then I shall run over to Camberwell and call upon Mrs. Cecil Forrester. She asked me to,
-   yesterday."</p>
+  <p><q speaker="Watson">Then I shall run over to Camberwell and call upon Mrs. Cecil Forrester. She asked me to,
+   yesterday.</q></p>
 
-  <p>"On Mrs. Cecil Forrester?" asked Holmes, with the twinkle of a smile in his eyes.</p>
+  <p><q speaker="Sherlock">On Mrs. Cecil Forrester?</q> asked Holmes, with the twinkle of a smile in his eyes.</p>
 
-  <p>"Well, of course Miss Morstan too. They were anxious to hear what happened."</p>
+  <p><q speaker="Watson">Well, of course Miss Morstan too. They were anxious to hear what happened.</q></p>
 
-  <p>"I would not tell them too much," said Holmes. "Women are never to be entirely trusted,--not
-   the best of them."</p>
+  <p><q speaker="Sherlock">I would not tell them too much,</q> said Holmes. <q speaker="Sherlock">Women are never to 
+   be entirely trusted,--not the best of them.</q></p>
 
-  <p>I did not pause to argue over this atrocious sentiment. "I shall be back in an hour or two," I
-   remarked.</p>
+  <p>I did not pause to argue over this atrocious sentiment. <q speaker="Watson">I shall be back in an hour or two,</q>
+   I remarked.</p>
 
-  <p>"All right! Good luck! But, I say, if you are crossing the river you may as well return Toby,
-   for I don't think it is at all likely that we shall have any use for him now."</p>
+  <p><q speaker="Sherlock">All right! Good luck! But, I say, if you are crossing the river you may as well return Toby,
+   for I don't think it is at all likely that we shall have any use for him now.</q></p>
 
   <p>I took our mongrel accordingly, and left him, together with a half-sovereign, at the old
    naturalist's in Pinchin Lane. At Camberwell I found Miss Morstan a little weary after her night's
@@ -2214,73 +2213,74 @@
    although I spoke of Mr. Sholto's death, I said nothing of the exact manner and method of it. With
    all my omissions, however, there was enough to startle and amaze them.</p>
 
-  <p>"It is a romance!" cried Mrs. Forrester. "An injured lady, half a million in treasure, a black
-   cannibal, and a wooden-legged ruffian. They take the place of the conventional dragon or wicked
-   earl."</p>
+  <p><q speaker="Mrs. Forrester"> It is a romance!</q> cried Mrs. Forrester. <q speaker="Mrs. Forrester">An injured lady, 
+   half a million in treasure, a <desc target="pers"><adj cat="prim" att="neg">black</adj> <n cat="prim" att="neg">cannibal,</n></desc>
+    and a <desc target="pers"><adj cat="prim" att="ambig">wooden-legged</adj> <n cat="prim" att="neg">ruffian.</n></desc> They take the place 
+     of the conventional dragon or wicked earl.</q></p>
 
-  <p>"And two knight-errants to the rescue," added Miss Morstan, with a bright glance at me.</p>
+  <p><q speaker="Mary">And two knight-errants to the rescue,</q> added Miss Morstan, with a bright glance at me.</p>
 
-  <p>"Why, Mary, your fortune depends upon the issue of this search. I don't think that you are
+  <p><q speaker="Mrs. Forrester">Why, Mary, your fortune depends upon the issue of this search. I don't think that you are
    nearly excited enough. Just imagine what it must be to be so rich, and to have the world at your
-   feet!"</p>
+   feet!</q></p>
 
   <p>It sent a little thrill of joy to my heart to notice that she showed no sign of elation at the
    prospect. On the contrary, she gave a toss of her proud head, as though the matter were one in
    which she took small interest.</p>
 
-  <p>"It is for Mr. Thaddeus Sholto that I am anxious," she said. "Nothing else is of any
+  <p><q speaker="Mary">It is for Mr. Thaddeus Sholto that I am anxious,</q> she said. <q speaker="Mary">Nothing else is of any
    consequence; but I think that he has behaved most kindly and honorably throughout. It is our duty
-   to clear him of this dreadful and unfounded charge."</p>
+   to clear him of this dreadful and unfounded charge.</q></p>
 
   <p>It was evening before I left Camberwell, and quite dark by the time I reached home. My
    companion's book and pipe lay by his chair, but he had disappeared. I looked about in the hope of
    seeing a note, but there was none.</p>
 
-  <p>"I suppose that Mr. Sherlock Holmes has gone out," I said to Mrs. Hudson as she came up to
+  <p><q speaker="Watson">I suppose that Mr. Sherlock Holmes has gone out,</q> I said to Mrs. Hudson as she came up to
    lower the blinds.</p>
 
-  <p>"No, sir. He has gone to his room, sir. Do you know, sir," sinking her voice into an impressive
-   whisper, "I am afraid for his health?"</p>
+  <p><q speaker="Mrs. Hudson">No, sir. He has gone to his room, sir. Do you know, sir,</q> sinking her voice into an 
+   impressive whisper, <q speaker="Mrs. Hudson">I am afraid for his health?</q></p>
 
-  <p>"Why so, Mrs. Hudson?"</p>
+  <p><q speaker="Watson">Why so, Mrs. Hudson?</q></p>
 
-  <p>"Well, he's that strange, sir. After you was gone he walked and he walked, up and down, and up
-   and down, until I was weary of the sound of his footstep. Then I heard him talking to himself and
-   muttering, and every time the bell rang out he came on the stairhead, with 'What is that, Mrs.
-   Hudson?' And now he has slammed off to his room, but I can hear him walking away the same as
+  <p><q speaker="Mrs. Hudson">Well, he's that strange, sir. After you was gone he walked and he walked, up and down,
+   and up and down, until I was weary of the sound of his footstep. Then I heard him talking to himself and
+   muttering, and every time the bell rang out he came on the stairhead, with <subq type="other">What is that, Mrs.
+   Hudson?</subq> And now he has slammed off to his room, but I can hear him walking away the same as
    ever. I hope he's not going to be ill, sir. I ventured to say something to him about cooling
    medicine, but he turned on me, sir, with such a look that I don't know how ever I got out of the
-   room."</p>
+   room.</q></p>
 
-  <p>"I don't think that you have any cause to be uneasy, Mrs. Hudson," I answered. "I have seen him
-   like this before. He has some small matter upon his mind which makes him restless." I tried to
-   speak lightly to our worthy landlady, but I was myself somewhat uneasy when through the long
+  <p><q speaker="Watson">I don't think that you have any cause to be uneasy, Mrs. Hudson,</q> I answered.
+   <q speaker="Watson">I have seen him like this before. He has some small matter upon his mind which makes him 
+    restless. </q> I tried to speak lightly to our worthy landlady, but I was myself somewhat uneasy when through the long
    night I still from time to time heard the dull sound of his tread, and knew how his keen spirit
    was chafing against this involuntary inaction.</p>
 
   <p>At breakfast-time he looked worn and haggard, with a little fleck of feverish color upon either
    cheek.</p>
 
-  <p>"You are knocking yourself up, old man," I remarked. "I heard you marching about in the
-   night."</p>
+  <p><q speaker="Watson">You are knocking yourself up, old man,</q> I remarked. <q speaker="Watson">I heard you marching about in the
+   night.</q></p>
 
-  <p>"No, I could not sleep," he answered. "This infernal problem is consuming me. It is too much to
-   be balked by so petty an obstacle, when all else had been overcome. I know the men, the launch,
-   everything; and yet I can get no news. I have set other agencies at work, and used every means at
+  <p><q speaker="Sherlock">No, I could not sleep,</q> he answered. <q speaker="Sherlock">This infernal problem is
+   consuming me. It is too much to be balked by so petty an obstacle, when all else had been overcome. I know the men,
+   the launch, everything; and yet I can get no news. I have set other agencies at work, and used every means at
    my disposal. The whole river has been searched on either side, but there is no news, nor has Mrs.
    Smith heard of her husband. I shall come to the conclusion soon that they have scuttled the
-   craft. But there are objections to that."</p>
+   craft. But there are objections to that.</q></p>
 
-  <p>"Or that Mrs. Smith has put us on a wrong scent."</p>
+  <p><q speaker="Watson">Or that Mrs. Smith has put us on a wrong scent.</q></p>
 
-  <p>"No, I think that may be dismissed. I had inquiries made, and there is a launch of that
-   description."</p>
+  <p><q speaker="Sherlock">No, I think that may be dismissed. I had inquiries made, and there is a launch of that
+   description.</q></p>
 
-  <p>"Could it have gone up the river?"</p>
+  <p><q speaker="Watson">Could it have gone up the river?</q></p>
 
-  <p>"I have considered that possibility too, and there is a search-party who will work up as far as
+  <p><q speaker="Sherlock">I have considered that possibility too, and there is a search-party who will work up as far as
    Richmond. If no news comes to-day, I shall start off myself to-morrow, and go for the men rather
-   than the boat. But surely, surely, we shall hear something."</p>
+   than the boat. But surely, surely, we shall hear something.</q></p>
 
   <p>We did not, however. Not a word came to us either from Wiggins or from the other agencies.
    There were articles in most of the papers upon the Norwood tragedy. They all appeared to be
@@ -2296,21 +2296,21 @@
   <p>In the early dawn I woke with a start, and was surprised to find him standing by my bedside,
    clad in a rude sailor dress with a pea-jacket, and a coarse red scarf round his neck.</p>
 
-  <p>"I am off down the river, Watson," said he. "I have been turning it over in my mind, and I can
-   see only one way out of it. It is worth trying, at all events."</p>
+  <p><q speaker="Sherlock">I am off down the river, Watson,</q> said he. <q speaker="Sherlock">I have been turning it 
+   over in my mind, and I can see only one way out of it. It is worth trying, at all events.</q></p>
 
-  <p>"Surely I can come with you, then?" said I.</p>
+  <p><q speaker="Watson">Surely I can come with you, then?</q> said I.</p>
 
-  <p>"No; you can be much more useful if you will remain here as my representative. I am loath to
-   go, for it is quite on the cards that some message may come during the day, though Wiggins was
+  <p><q speaker="Sherlock">No; you can be much more useful if you will remain here as my representative. 
+   I am loath to go, for it is quite on the cards that some message may come during the day, though Wiggins was
    despondent about it last night. I want you to open all notes and telegrams, and to act on your
-   own judgment if any news should come. Can I rely upon you?"</p>
+   own judgment if any news should come. Can I rely upon you?</q></p>
 
-  <p>"Most certainly."</p>
+  <p><q speaker="Watson">Most certainly.</q></p>
 
-  <p>"I am afraid that you will not be able to wire to me, for I can hardly tell yet where I may
+  <p><q speaker="Sherlock">I am afraid that you will not be able to wire to me, for I can hardly tell yet where I may
    find myself. If I am in luck, however, I may not be gone so very long. I shall have news of some
-   sort or other before I get back."</p>
+   sort or other before I get back.</q></p>
 
   <p>I had heard nothing of him by breakfast-time. On opening the Standard, however, I found that
    there was a fresh allusion to the business. "With reference to the Upper Norwood tragedy," it
