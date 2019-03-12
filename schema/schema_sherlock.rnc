@@ -1,29 +1,26 @@
 start = body-text
-body-text = element text {titleText, author, ch+}
-# Consolidate to something like a <meta> tag to contain *all* your metadata.
+body-text = element text {metadata, ch+}
+metadata = element metadata {titleText, author}
 titleText = element titleText {text}
 author = element author {text}
 ch = element ch {no, title, p+}
 no = attribute no {text}
-# xsd:int data type
 title = element title {text}
-p = element p { mixed {desc*} }
-# Quotes can occur outside descriptions. 
-desc = element desc { text,  n*, vb*, adj*, adv*, q*, subq*, target }
-# desc = element desc { target, host, mixed { ( n | vb | adj | adv | q )* } }
+p = element p { mixed {desc*, q*, subq*} }
+desc = element desc { target, host, mixed { ( n | vb | adj | adv | q )* } }
 target = attribute target { "obj" | "pers" }
-n = element n { mixed{ type?,  att?} }
-vb = element vb { mixed{ type?,  att?} }
-adj = element adj { mixed{ type?, att?} }
-adv = element adv { mixed{ type?, att?} }
-# Redefine content models from lines 15-18 to better reflect the content model in the XML (example of treating attributes on line 13).
+host = attribute host {"orient" | "occident" }
+n = element n { mixed {type, att} } 
+vb = element vb{ mixed {type, att} }  
+adj = element adj  { mixed {type, att} } 
+adv = element adv { mixed {type, att} }  
 type = attribute type {"prim" | "erot" | "violent" |"exotic" }
 att = attribute  att { "ambig" | "pos" | "neg" }
-q = element q { speaker }
-# element <q> can only take a @speaker attribute right now.
-speaker = attribute speaker {"name"}
-# Revise your content model on line 23. As of now @speaker="name" is the only legal value.
-subq = element subq { source }
-# See line 23.
-source = attribute source {"pub" | "other"}
-
+q = element q { speaker, mixed { subq*, desc*} }
+speaker = attribute speaker { "Sherlock" | "Watson" | "Mary" | "Sholto" | "Bartholomew" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "servant" |"other" }
+subq = element subq { mixed {id | source} }
+id = attribute id { "Sherlock" | "Watson" | "Mary" | "Sholto" | "Bartholomew" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "other"  }
+source = attribute source {"Gazetter" | "other" }
+#as we come along any sources like the one listed above, add it to the @source list
+#my logic with @source vs. @id is that an @source is a quoted publication, like the Gazetter, whereas the @id is for instances when someone references something someone else said.
+#this is more often than not signified by single quotation marks inside a direct quote, and is really only relevant if what someone else said pertains to our research inquiry. 
