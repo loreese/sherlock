@@ -10,35 +10,16 @@ p = element p { mixed {desc*, q*, subq*} }
 desc = element desc { target, host, mixed { ( n | vb | adj | adv | q )* } }
 target = attribute target { "obj" | "pers" }
 host = attribute host {"orient" | "occident" }
-n = element n { mixed {type, att} } 
-vb = element vb{ mixed {type, att} }  
-adj = element adj  { mixed {type, att} } 
-adv = element adv { mixed {type, att} }  
-
-# zme: when we model an element's content, remember that we only like to use mixed content models when
-# the element contains children elemenrs mixed in with plain text.
-# This isn't an error per se, as we've discussed, but for clarity, we like to write our attributes
-# separately from the element's *actual* content.
-# We'd model an element like adv on line 16 like this: adv = element adv { type, att, text } to show
-# that we have a @type and @att attrbute, defined below, and a content model that only contains plain text.
-
+n = element n {type, att, text } 
+vb = element vb {type, att, text }   
+adj = element adj  {type, att, text } 
+adv = element adv {type, att, text }   
 type = attribute type {"prim" | "erot" | "violent" |"exotic" }
 att = attribute  att { "ambig" | "pos" | "neg" }
-q = element q { speaker, mixed { subq*, desc*} }
-
-# zme: On line 27, your content model enforces a structure that will allow 0 or more subq elements,
-# followed by 0 or more desc elements, rather than any combination of the two, in any order. If you wanted
-# to allow any combination of subq and desc, you'd use a vertical pipe "or selector" and write the following:
-# q = element q { speaker, mixed { (subq | desc)* } }
-# Above, this content model says "make a choice between subq and desc, make that choice 0 or more times,
-# and mix plain text before, between, and/or after them.
-
-speaker = attribute speaker { "Sherlock" | "Watson" | "Mary" | "Sholto" | "Bartholomew" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "servant" |"other" }
-subq = element subq { mixed {id | source} }
-
-# zme: see my comment on lines 18-23 for your subq content model.
-
-id = attribute id { "Sherlock" | "Watson" | "Mary" | "Sholto" | "Bartholomew" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "other"  }
+q = element q { speaker, mixed { (subq | desc)* } }
+speaker = attribute speaker { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "servant" |"other" }
+subq = element subq {id*, source*, text }
+id = attribute id { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Sholto" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "other"  }
 source = attribute source {"Gazetter" | "other" }
 #as we come along any sources like the one listed above, add it to the @source list
 #my logic with @source vs. @id is that an @source is a quoted publication, like the Gazetter, whereas the @id is for instances when someone references something someone else said.
