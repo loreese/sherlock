@@ -26,7 +26,7 @@ type = attribute type {"prim" | "erot" | "violent" |"exotic" }
 att = attribute  att { "ambig" | "pos" | "neg" }
 q = element q { speaker, mixed { subq*, desc*} }
 
-# zme: On line 25, your content model enforces a structure that will allow 0 or more subq elements,
+# zme: On line 27, your content model enforces a structure that will allow 0 or more subq elements,
 # followed by 0 or more desc elements, rather than any combination of the two, in any order. If you wanted
 # to allow any combination of subq and desc, you'd use a vertical pipe "or selector" and write the following:
 # q = element q { speaker, mixed { (subq | desc)* } }
