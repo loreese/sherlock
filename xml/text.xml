@@ -537,10 +537,10 @@
   <p><q speaker="Sherlock">It is paper of native Indian manufacture,</q> he remarked. <q
     speaker="Sherlock">It has at some time been pinned to a board. The diagram upon it appears to be
     a plan of part of a large building with numerous halls, corridors, and passages. At one point is
-    a small cross done in red ink, and above it is <subq type="paper">3.37 from left</subq>, in
+    a small cross done in red ink, and above it is <subq source="other">3.37 from left</subq>, in
     faded pencil-writing. In the left-hand corner is a curious hieroglyphic like four crosses in a
     line with their arms touching. Beside it is written, in very rough and coarse characters, <subq
-     type="paper">The sign of the four,--Jonathan Small, Mahomet Singh, Abdullah Khan, Dost
+     source="other"> The sign of the four,--Jonathan Small, Mahomet Singh, Abdullah Khan, Dost
      Akbar</subq>. No, I confess that I do not see how this bears upon the matter. Yet it is
     evidently a document of importance. It has been kept carefully in a pocket-book; for the one
     side is as clean as the other .</q></p>
@@ -573,13 +573,13 @@
    shirt-fronted men and beshawled, bediamonded women. We had hardly reached the third pillar, which
    was our rendezvous, before a small, dark, brisk man in the dress of a coachman accosted us.</p>
 
-  <p><q speaker="manonstreet">Are you the parties who come with Miss Morstan?</q> he asked.</p>
+  <p><q speaker="servant">Are you the parties who come with Miss Morstan?</q> he asked.</p>
 
   <p><q speaker="Mary">I am Miss Morstan, and these two gentlemen are my friends,</q> said she.</p>
 
   <p>He bent a pair of wonderfully penetrating and questioning eyes upon us. <q
-    speaker="manonstreet">You will excuse me, miss,</q> he said with a certain dogged manner, <q
-    speaker="manonstreet">but I was to ask you to give me your word that neither of your companions
+    speaker="servant">You will excuse me, miss,</q> he said with a certain dogged manner, <q
+    speaker="servant">but I was to ask you to give me your word that neither of your companions
     is a police-officer.</q></p>
 
   <p><q speaker="Mary">I give you my word on that,</q>" she answered.</p>
@@ -626,8 +626,8 @@
    framed in the commonplace door-way of a third-rate suburban dwelling-house.</p>
 
   <p><q speaker="servant">The Sahib awaits you,</q> said he, and even as he spoke there came a high
-   piping voice from some inner room. <q speaker="Sholto">Show them in to me, khitmutgar,</q> it
-   cried. <q speaker="Sholto">Show them straight in to me.</q></p>
+   piping voice from some inner room. <q speaker="Thaddeus">Show them in to me, khitmutgar,</q> it
+   cried. <q speaker="Thaddeus">Show them straight in to me.</q></p>
  </ch>
 
  <ch no="IV">
@@ -927,7 +927,7 @@
 
   <p><q speaker="McMurdo">Who is there?</q> cried a gruff voice from within.</p>
 
-  <p><q speaker="Sholto">It is I, McMurdo. You surely know my knock by this time.</q></p>
+  <p><q speaker="Thaddeus">It is I, McMurdo. You surely know my knock by this time.</q></p>
 
   <p>There was a grumbling sound and a clanking and jarring of keys. The door swung heavily back,
    and a short, deep-chested man stood in the opening, with the yellow light of the lantern shining
@@ -936,7 +936,7 @@
   <p><q speaker="McMurdo">That you, Mr. Thaddeus? But who are the others? I had no orders about them
     from the master.</q></p>
 
-  <p><q speaker="Sholto">No, McMurdo? You surprise me! I told my brother last night that I should
+  <p><q speaker="Thaddeus">No, McMurdo? You surprise me! I told my brother last night that I should
     bring some friends.</q></p>
 
   <p><q speaker="McMurdo">He ain't been out o' his room to-day, Mr. Thaddeus, and I have no orders.
@@ -944,7 +944,7 @@
     just stop where they are.</q></p>
 
   <p>This was an unexpected obstacle. Thaddeus Sholto looked about him in a perplexed and helpless
-   manner. <q speaker="Sholto">This is too bad of you, McMurdo</q>! he said. <q speaker="Sholto">If
+   manner. <q speaker="Thaddeus">This is too bad of you, McMurdo</q>! he said. <q speaker="Thaddeus">If
     I guarantee them, that is enough for you. There is the young lady, too. She cannot wait on the
     public road at this hour.</q></p>
 
@@ -977,13 +977,13 @@
    the heart. Even Thaddeus Sholto seemed ill at ease, and the lantern quivered and rattled in his
    hand.</p>
 
-  <p><q speaker="Sholto">I cannot understand it,</q> he said. <q speaker="Sholto">There must be some
+  <p><q speaker="Thaddeus">I cannot understand it,</q> he said. <q speaker="Thaddeus">There must be some
     mistake. I distinctly told Bartholomew that we should be here, and yet there is no light in his
     window. I do not know what to make of it.</q></p>
 
   <p><q speaker="Sherlock">Does he always guard the premises in this way?</q> asked Holmes.</p>
 
-  <p><q speaker="Sholto">Yes; he has followed my father's custom. He was the favorite son, you know,
+  <p><q speaker="Thaddeus">Yes; he has followed my father's custom. He was the favorite son, you know,
     and I sometimes think that my father may have told him more than he ever told me. That is
     Bartholomew's window up there where the moonshine strikes. It is quite bright, but there is no
     light from within, I think.</q></p>
@@ -991,7 +991,7 @@
   <p><q speaker="Sherlock">None,</q> said Holmes. <q speaker="Sherlock">But I see the glint of a
     light in that little window beside the door.</q></p>
 
-  <p><q speaker="Sholto">Ah, that is the housekeeper's room. That is where old Mrs. Bernstone sits.
+  <p><q speaker="Thaddeus">Ah, that is the housekeeper's room. That is where old Mrs. Bernstone sits.
     She can tell us all about it. But perhaps you would not mind waiting here for a minute or two,
     for if we all go in together and she has no word of our coming she may be alarmed. But hush!
     what is that?</q></p>
@@ -1001,7 +1001,7 @@
    ears. From the great black house there sounded through the silent night the saddest and most
    pitiful of sounds,--the shrill, broken whimpering of a frightened woman.</p>
 
-  <p><q speaker="Sholto">It is Mrs. Bernstone,</q>" said Sholto. <q speaker="Sholto">She is the only
+  <p><q speaker="Thaddeus">It is Mrs. Bernstone,</q>" said Sholto. <q speaker="Thaddeus">She is the only
     woman in the house. Wait here. I shall be back in a moment.</q> He hurried for the door, and
    knocked in his peculiar way. We could see a tall old woman admit him, and sway with pleasure at
    the very sight of him.</p>
@@ -1033,14 +1033,14 @@
   <p>At that moment the door of the house burst open, and Thaddeus Sholto came running out, with his
    hands thrown forward and terror in his eyes.</p>
 
-  <p><q speaker="Sholto">There is something amiss with Bartholomew</q>! he cried. <q
-    speaker="Sholto">I am frightened! My nerves cannot stand it.</q> He was, indeed, half blubbering
+  <p><q speaker="Thaddeus">There is something amiss with Bartholomew</q>! he cried. <q
+    speaker="Thaddeus">I am frightened! My nerves cannot stand it.</q> He was, indeed, half blubbering
    with fear, and his twitching feeble face peeping out from the great Astrakhan collar had the
    helpless appealing expression of a terrified child.</p>
 
   <p><q speaker="Sherlock">Come into the house,</q> said Holmes, in his crisp, firm way.</p>
 
-  <p><q speaker="Sholto">Yes, do</q>!" pleaded Thaddeus Sholto. <q speaker="Sholto">I really do not
+  <p><q speaker="Thaddeus">Yes, do</q>!" pleaded Thaddeus Sholto. <q speaker="Thaddeus">I really do not
     feel equal to giving directions.</q></p>
 
   <p>We all followed him into the housekeeper's room, which stood upon the left-hand side of the
@@ -1118,7 +1118,7 @@
 
   <p><q speaker="Sherlock">You see,</q> he said, with a significant raising of the eyebrows.</p>
 
-  <p>In the light of the lantern I read, with a thrill of horror, <subq type="so4">The sign of the
+  <p>In the light of the lantern I read, with a thrill of horror, <subq source="other">The sign of the
     four</subq>.</p>
 
   <p><q speaker="Watson">In God's name, what does it all mean?</q> I asked.</p>
@@ -1145,14 +1145,14 @@
    standing in the door-way, the very picture of terror, wringing his hands and moaning to himself.
    Suddenly, however, he broke out into a sharp, querulous cry.</p>
 
-  <p><q speaker="Sholto">The treasure is gone</q>! he said. <q speaker="Sholto">They have robbed him
+  <p><q speaker="Thaddeus">The treasure is gone</q>! he said. <q speaker="Thaddeus">They have robbed him
     of the treasure! There is the hole through which we lowered it. I helped him to do it! I was the
     last person who saw him! I left him here last night, and I heard him lock the door as I came
     down-stairs.</q></p>
 
   <p><q speaker="Sherlock">What time was that?</q></p>
 
-  <p><q speaker="Sholto">It was ten o'clock. And now he is dead, and the police will be called in,
+  <p><q speaker="Thaddeus">It was ten o'clock. And now he is dead, and the police will be called in,
     and I shall be suspected of having had a hand in it. Oh, yes, I am sure I shall. But you don't
     think so, gentlemen? Surely you don't think that it was I? Is it likely that I would have
     brought you here if it were I? Oh, dear! oh, dear! I know that I shall go mad</q>! He jerked his
@@ -1505,13 +1505,13 @@
    whole extraordinary sequence of events as I rattled on through the silent gas-lit streets. There
    was the original problem: that at least was pretty clear now. The death of Captain Morstan, the
    sending of the pearls, the advertisement, the letter,--we had had light upon all those events.
-   They had only led us, however, to a deeper and far more tragic mystery. The <desc target="obj">
-    <adj cat="prim" att="ambig">Indian</adj>
-    <n cat="none" att="pos">treasure,</n>
+   They had only led us, however, to a deeper and far more tragic mystery. The <desc target="obj" host="orient">
+    <adj type="prim" att="ambig">Indian</adj>
+    <n type="prim" att="pos">treasure,</n>
    </desc> the curious plan found among Morstan's baggage, the strange scene at Major Sholto's
    death, the rediscovery of the treasure immediately followed by the murder of the discoverer, the
-   very singular accompaniments to the crime, the footsteps, the <desc target="obj">
-    <adj cat="prim" att="ambig">remarkable</adj><n cat="none" att="ambig">weapons,</n></desc> the
+   very singular accompaniments to the crime, the footsteps, the <desc target="obj" host="orient" >
+    <adj type="prim" att="ambig">remarkable</adj><n type="prim" att="ambig">weapons,</n></desc> the
    words upon the card, corresponding with those upon Captain Morstan's chart,--here was indeed a
    labyrinth in which a man less singularly endowed than my fellow-lodger might well despair of ever
    finding the clue.</p>
@@ -1647,18 +1647,18 @@
    boots. <q speaker="Sherlock">Tiles were loosened the whole way along, and in his hurry he had
     dropped this. It confirms my diagnosis, as you doctors express it.</q></p>
 
-  <p>The object which he held up to me was a <desc target="obj"><adj cat="none" att="ambig"> small </adj>
-    <n cat="none" att="ambig"> pocket</n> or <n cat="none" att="ambig">pouch</n>
-    <v desc="orient" cat="other"> woven out of</v>
-    <adj cat="none" att="ambig">colored</adj>
-    <n cat="prim" att="ambig">grasses</n> and with a few <adj cat="prim" att="neg">tawdry</adj>
-    <n cat="prim" att="ambig">beads</n> strung round it. In shape and size it was not unlike a
-    cigarette-case. Inside were half a dozen <n cat="prim" att="ambig">spines of dark wood</n>, <adj
-     cat="none" att="ambig"> sharp at one end</adj> and <adj cat="none" att="ambig">rounded at the
+  <p>The object which he held up to me was a <desc target="obj" host="orient" ><adj type="prim" att="ambig"> small </adj>
+    <n type="prim" att="ambig"> pocket</n> or <n type="prim" att="ambig">pouch</n>
+    <vb type="prim" att="ambig"> woven out of</vb>
+    <adj type="prim" att="ambig">colored</adj>
+    <n type="prim" att="ambig">grasses</n> and with a few <adj type="prim" att="neg">tawdry</adj>
+    <n type="prim" att="ambig">beads</n> strung round it. In shape and size it was not unlike a
+    cigarette-case. Inside were half a dozen <n type="prim" att="ambig">spines of dark wood</n>, <adj
+     type="prim" att="ambig"> sharp at one end</adj> and <adj type="prim" att="ambig">rounded at the
      other,</adj></desc> like that which had struck Bartholomew Sholto.</p>
 
-  <p><q speaker="Sherlock">They are <desc target="obj"><adj cat="prim" att="neg">hellish</adj>
-     <n cat="none" att="ambig">things,</n></desc></q> said he. <q speaker="Sherlock">Look out that
+  <p><q speaker="Sherlock">They are <desc target="obj" host="orient" ><adj type="prim" att="neg">hellish</adj>
+     <n type="prim" att="ambig">things,</n></desc></q> said he. <q speaker="Sherlock">Look out that
     you don't prick yourself. I'm delighted to have them, for the chances are that they are all he
     has. There is the less fear of you or me finding one in our skin before long. I would sooner
     face a Martini bullet, myself. Are you game for a six-mile trudge, Watson?</q>"</p>
@@ -1740,8 +1740,8 @@
     their term of imprisonment was. It would not have been a surprise to him. What does he do then?
     He guards himself against a wooden-legged man,--a white man, mark you, for he mistakes a white
     tradesman for him, and actually fires a pistol at him. Now, only one white man's name is on the
-    chart. <desc target="pers"><n cat="prim" att="ambig">The others</n> are <n cat="prim"
-      att="ambig">Hindoos</n> or <n cat="prim" att="ambig">Mohammedans</n></desc>. There is no other
+    chart. <desc target="pers" host="orient"><n type="prim" att="ambig">The others</n> are <n type="prim"
+      att="ambig">Hindoos</n> or <n type="prim" att="ambig">Mohammedans</n></desc>. There is no other
     white man. Therefore we may say with confidence that the wooden-legged man is identical with
     Jonathan Small. Does the reasoning strike you as being faulty?</q></p>
 
@@ -1772,8 +1772,8 @@
     comes back at intervals. Then comes the discovery of the garret, and he is instantly informed of
     it. We again trace the presence of some confederate in the household. Jonathan, with his wooden
     leg, is utterly unable to reach the lofty room of Bartholomew Sholto. He takes with him,
-    however, a rather <desc target="pers">
-     <adj cat="prim" att="neg"> curious</adj><n cat="none" att="ambig">associate,</n></desc> who
+    however, a rather <desc target="pers" host="orient">
+     <adj type="prim" att="neg"> curious</adj><n type="prim" att="ambig">associate,</n></desc> who
     gets over this difficulty, but dips his naked foot into creasote, whence comes Toby, and a
     six-mile limp for a half-pay officer with a damaged tendo Achillis.</q></p>
 
@@ -1783,10 +1783,10 @@
   <p><q speaker="Sherlock">Quite so. And rather to Jonathan's disgust, to judge by the way he
     stamped about when he got into the room. He bore no grudge against Bartholomew Sholto, and would
     have preferred if he could have been simply bound and gagged. He did not wish to put his head in
-    a halter. There was no help for it, however: the <desc target="pers"><adj cat="prim" att="neg"
+    a halter. There was no help for it, however: the <desc target="pers" host="orient"><adj type="prim" att="neg"
       >savage</adj>
-     <n cat="prim" att="neg">instincts</n> of his <n cat="none" att="ambig">companion</n></desc> had
-    broken out, and the <desc target="obj"><n cat="prim" att="neg">poison</n></desc> had done its
+     <n type="prim" att="neg">instincts</n> of his <n type="prim" att="ambig">companion</n></desc> had
+    broken out, and the <desc target="obj" host="orient" ><n type="prim" att="neg">poison</n></desc> had done its
     work: so Jonathan Small left his record, lowered the treasure-box to the ground, and followed it
     himself. That was the train of events as far as I can decipher them. Of course as to his
     personal appearance he must be middle-aged, and must be sunburned after serving his time in such
@@ -1814,10 +1814,10 @@
   <p><q speaker="Watson">I have my stick.</q></p>
 
   <p><q speaker="Sherlock">It is just possible that we may need something of the sort if we get to
-    their lair. Jonathan I shall leave to you, but if <desc target="pers"><n cat="prim" att="att"
+    their lair. Jonathan I shall leave to you, but if <desc target="pers" host="orient"><n type="prim" att="neg"
       >the other</n>
-     <v desc="orient" cat="viol">turns</v>
-     <adj cat="prim" att="neg">nasty</adj></desc> I shall shoot him dead.</q> He took out his
+     <vb type="violent" att="neg">turns</vb>
+     <adj type="prim" att="neg">nasty</adj></desc> I shall shoot him dead.</q> He took out his
    revolver as he spoke, and, having loaded two of the chambers, he put it back into the right-hand
    pocket of his jacket.</p>
 
@@ -2242,11 +2242,11 @@
    all my omissions, however, there was enough to startle and amaze them.</p>
 
   <p><q speaker="Mrs. Forrester"> It is a romance!</q> cried Mrs. Forrester. <q
-    speaker="Mrs. Forrester">An injured lady, half a million in treasure, a <desc target="pers"><adj
-      cat="prim" att="neg">black</adj>
-     <n cat="prim" att="neg">cannibal,</n></desc> and a <desc target="pers"><adj cat="prim"
+    speaker="Mrs. Forrester">An injured lady, half a million in treasure, a <desc target="pers" host="orient"><adj
+      type="prim" att="neg">black</adj>
+     <n type="prim" att="neg">cannibal,</n></desc> and a <desc target="pers" host="orient"><adj type="prim"
       att="ambig">wooden-legged</adj>
-     <n cat="prim" att="neg">ruffian.</n></desc> They take the place of the conventional dragon or
+     <n type="prim" att="neg">ruffian.</n></desc> They take the place of the conventional dragon or
     wicked earl.</q></p>
 
   <p><q speaker="Mary">And two knight-errants to the rescue,</q> added Miss Morstan, with a bright
@@ -2281,7 +2281,7 @@
   <p><q speaker="Mrs. Hudson">Well, he's that strange, sir. After you was gone he walked and he
     walked, up and down, and up and down, until I was weary of the sound of his footstep. Then I
     heard him talking to himself and muttering, and every time the bell rang out he came on the
-    stairhead, with <subq type="other">What is that, Mrs. Hudson?</subq> And now he has slammed off
+    stairhead, with <subq id="Sherlock">What is that, Mrs. Hudson?</subq> And now he has slammed off
     to his room, but I can hear him walking away the same as ever. I hope he's not going to be ill,
     sir. I ventured to say something to him about cooling medicine, but he turned on me, sir, with
     such a look that I don't know how ever I got out of the room.</q></p>
@@ -2349,8 +2349,8 @@
     shall have news of some sort or other before I get back.</q></p>
 
   <p>I had heard nothing of him by breakfast-time. On opening the Standard, however, I found that
-   there was a fresh allusion to the business. <subq type="pub">With reference to the Upper Norwood
-    tragedy,</subq> it remarked, <subq type="pub">we have reason to believe that the matter promises
+   there was a fresh allusion to the business. <subq source="other">With reference to the Upper Norwood
+    tragedy,</subq> it remarked, <subq source="other">we have reason to believe that the matter promises
     to be even more complex and mysterious than was originally supposed. Fresh evidence has shown
     that it is quite impossible that Mr. Thaddeus Sholto could have been in any way concerned in the
     matter. He and the housekeeper, Mrs. Bernstone, were both released yesterday evening. It is
@@ -2365,7 +2365,7 @@
   <p>I tossed the paper down upon the table, but at that moment my eye caught an advertisement in
    the agony column. It ran in this way:</p>
 
-  <p><subq type="pub">Lost.--Whereas Mordecai Smith, boatman, and his son, Jim, left Smith's Wharf
+  <p><subq source="other">Lost.--Whereas Mordecai Smith, boatman, and his son, Jim, left Smith's Wharf
     at or about three o'clock last Tuesday morning in the steam launch Aurora, black with two red
     stripes, funnel black with a white band, the sum of five pounds will be paid to any one who can
     give information to Mrs. Smith, at Smith's Wharf, or at 221b Baker Street, as to the whereabouts
@@ -2377,9 +2377,9 @@
 
   <p>It was a long day. Every time that a knock came to the door, or a sharp step passed in the
    street, I imagined that it was either Holmes returning or an answer to his advertisement. I tried
-   to read, but my thoughts would wander off to our strange quest and to the <desc target="pers"
-     ><adj cat="prim" att="neg"> ill-assorted</adj> and<adj cat="prim"> villainous</adj>
-    <n cat="none" att="ambig">pair</n></desc> whom we were pursuing. Could there be, I wondered,
+   to read, but my thoughts would wander off to our strange quest and to the <desc target="pers" host="orient"
+     ><adj type="prim" att="neg"> ill-assorted</adj> and<adj type="prim" att="neg"> villainous</adj>
+    <n type="prim" att="ambig">pair</n></desc> whom we were pursuing. Could there be, I wondered,
    some radical flaw in my companion's reasoning. Might he be suffering from some huge
    self-deception? Was it not possible that his nimble and speculative mind had built up this wild
    theory upon faulty premises? I had never known him to be wrong; and yet the keenest reasoner may
@@ -2397,23 +2397,23 @@
    over the case so confidently at Upper Norwood. His expression was downcast, and his bearing meek
    and even apologetic.</p>
 
-  <p><q speaker="Athelney">Good-day, sir; good-day,</q> said he.<q speaker="Athelney">"Mr. Sherlock
+  <p><q speaker="Jones">Good-day, sir; good-day,</q> said he.<q speaker="Jones">"Mr. Sherlock
     Holmes is out, I understand.</q></p>
 
   <p><q speaker="Watson">Yes, and I cannot be sure when he will be back. But perhaps you would care
     to wait. Take that chair and try one of these cigars.</q></p>
 
-  <p><q speaker="Athelney">Thank you; I don't mind if I do,</q> said he, mopping his face with a red
+  <p><q speaker="Jones">Thank you; I don't mind if I do,</q> said he, mopping his face with a red
    bandanna handkerchief.</p>
 
   <p><q speaker="Watson">And a whiskey-and-soda?</q></p>
 
-  <p><q speaker="Athelney">Well, half a glass. It is very hot for the time of year; and I have had a
+  <p><q speaker="Jones">Well, half a glass. It is very hot for the time of year; and I have had a
     good deal to worry and try me. You know my theory about this Norwood case?</q></p>
 
   <p><q speaker="Watson">I remember that you expressed one.</q></p>
 
-  <p><q speaker="Athelney">Well, I have been obliged to reconsider it. I had my net drawn tightly
+  <p><q speaker="Jones">Well, I have been obliged to reconsider it. I had my net drawn tightly
     round Mr. Sholto, sir, when pop he went through a hole in the middle of it. He was able to prove
     an alibi which could not be shaken. From the time that he left his brother's room he was never
     out of sight of some one or other. So it could not be he who climbed over roofs and through
@@ -2422,8 +2422,8 @@
 
   <p><q speaker="Watson">We all need help sometimes,</q> said I.</p>
 
-  <p><q speaker="Athelney">Your friend Mr. Sherlock Holmes is a wonderful man, sir,</q> said he, in
-   a husky and confidential voice. <q speaker="Athelney">He's a man who is not to be beat. I have
+  <p><q speaker="Jones">Your friend Mr. Sherlock Holmes is a wonderful man, sir,</q> said he, in
+   a husky and confidential voice. <q speaker="Jones">He's a man who is not to be beat. I have
     known that young man go into a good many cases, but I never saw the case yet that he could not
     throw a light upon. He is irregular in his methods, and a little quick perhaps in jumping at
     theories, but, on the whole, I think he would have made a most promising officer, and I don't
@@ -2431,15 +2431,15 @@
     got some clue to this Sholto business. Here is the message.</q></p>
 
   <p>He took the telegram out of his pocket, and handed it to me. It was dated from Poplar at twelve
-   o'clock. <subq type="other">Go to Baker Street at once,</subq> it said. <subq type="other">If I
+   o'clock. <subq source="other">Go to Baker Street at once,</subq> it said. <subq source="other">If I
     have not returned, wait for me. I am close on the track of the Sholto gang. You can come with us
     to-night if you want to be in at the finish.</subq></p>
 
   <p><q speaker="Watson">This sounds well. He has evidently picked up the scent again,</q> said
    I.</p>
 
-  <p><q speaker="Athelney">Ah, then he has been at fault too,</q> exclaimed Jones, with evident
-   satisfaction. <q speaker="Athelney">Even the best of us are thrown off sometimes. Of course this
+  <p><q speaker="Jones">Ah, then he has been at fault too,</q> exclaimed Jones, with evident
+   satisfaction. <q speaker="Jones">Even the best of us are thrown off sometimes. Of course this
     may prove to be a false alarm; but it is my duty as an officer of the law to allow no chance to
     slip. But there is some one at the door. Perhaps this is he.</q></p>
 
@@ -2486,7 +2486,7 @@
 
   <p>He shuffled towards the door, but Athelney Jones got in front of him.</p>
 
-  <p><q speaker="Athelney">Wait a bit, my friend,</q> said he. <q speaker="Athelney">You have
+  <p><q speaker="Jones">Wait a bit, my friend,</q> said he. <q speaker="Jones">You have
     important information, and you must not walk off. We shall keep you, whether you like or not,
     until our friend returns.</q></p>
 
@@ -2512,11 +2512,11 @@
   <p><q speaker="Watson">Holmes!</q> I exclaimed. <q speaker="Watson">You here! But where is the old
     man?</q></p>
 
-  <p><q speaker="Sholto">Here is the old man,</q> said he, holding out a heap of white hair. <q
-    speaker="Sholto">Here he is,--wig, whiskers, eyebrows, and all. I thought my disguise was pretty
+  <p><q speaker="Thaddeus">Here is the old man,</q> said he, holding out a heap of white hair. <q
+    speaker="Thaddeus">Here he is,--wig, whiskers, eyebrows, and all. I thought my disguise was pretty
     good, but I hardly expected that it would stand that test.</q></p>
 
-  <p><q speaker="Athelney">Ah, You rogue!</q> cried Jones, highly delighted. <q speaker="Athelney"
+  <p><q speaker="Jones">Ah, You rogue!</q> cried Jones, highly delighted. <q speaker="Jones"
     >You would have made an actor, and a rare one. You had the proper workhouse cough, and those
     weak legs of yours are worth ten pound a week. I thought I knew the glint of your eye, though.
     You didn't get away from us so easily, You see.</q></p>
@@ -2526,23 +2526,23 @@
     me,--especially since our friend here took to publishing some of my cases: so I can only go on
     the war-path under some simple disguise like this. You got my wire?</q></p>
 
-  <p><q speaker="Athelney">Yes; that was what brought me here.</q></p>
+  <p><q speaker="Jones">Yes; that was what brought me here.</q></p>
 
   <p><q speaker="Sherlock">How has your case prospered?</q></p>
 
-  <p><q speaker="Athelney">It has all come to nothing. I have had to release two of my prisoners,
+  <p><q speaker="Jones">It has all come to nothing. I have had to release two of my prisoners,
     and there is no evidence against the other two.</q></p>
 
   <p><q speaker="Sherlock">Never mind. We shall give you two others in the place of them. But you
     must put yourself under my orders. You are welcome to all the official credit, but you must act
     on the line that I point out. Is that agreed?</q></p>
 
-  <p><q speaker="Athelney">Entirely, if you will help me to the men.</q></p>
+  <p><q speaker="Jones">Entirely, if you will help me to the men.</q></p>
 
   <p><q speaker="Sherlock">Well, then, in the first place I shall want a fast police-boat--a steam
     launch--to be at the Westminster Stairs at seven o'clock.</q></p>
 
-  <p><q speaker="Athelney">That is easily managed. There is always one about there; but I can step
+  <p><q speaker="Jones">That is easily managed. There is always one about there; but I can step
     across the road and telephone to make sure.</q></p>
 
   <p><q speaker="Sherlock">Then I shall want two stanch men, in case of resistance.</q></p>
@@ -2555,8 +2555,8 @@
 
   <p><q speaker="Watson">It would be a great pleasure to me.</q></p>
 
-  <p><q speaker="Athelney">Rather an irregular proceeding,</q> said Jones, shaking his head. <q
-    speaker="Athelney">However, the whole thing is irregular, and I suppose we must wink at it. The
+  <p><q speaker="Jones">Rather an irregular proceeding,</q> said Jones, shaking his head. <q
+    speaker="Jones">However, the whole thing is irregular, and I suppose we must wink at it. The
     treasure must afterwards be handed over to the authorities until after the official
     investigation.</q></p>
 
@@ -2565,13 +2565,13 @@
     work the detail of my cases out. There is no objection to my having an unofficial interview with
     him, either here in my rooms or elsewhere, as long as he is efficiently guarded?</q></p>
 
-  <p><q speaker="Athelney">Well, you are master of the situation. I have had no proof yet of the
+  <p><q speaker="Jones">Well, you are master of the situation. I have had no proof yet of the
     existence of this Jonathan Small. However, if you can catch him I don't see how I can refuse you
     an interview with him.</q></p>
 
   <p><q speaker="Sherlock">That is understood, then?</q></p>
 
-  <p><q speaker="Athelney">Perfectly. Is there anything else?</q></p>
+  <p><q speaker="Jones">Perfectly. Is there anything else?</q></p>
 
   <p><q speaker="Sherlock">Only that I insist upon your dining with us. It will be ready in half an
     hour. I have oysters and a brace of grouse, with something a little choice in white
