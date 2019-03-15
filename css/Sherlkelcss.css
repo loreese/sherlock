@@ -21,20 +21,23 @@
   .aside-1 { order: 1; }
   .main    { order: 2; }
   .aside-2 { order: 3; }
+.aside {
+    flex: 60px
+}
 ul {
     list-style: none;
 }
-.aside{
+.aside-1{
     list-style-type:none;
     border-style: solid;
     border-color: black; 
     
 } 
 body{
-    background-image: url('images/paperin.jpg');
+    background-image: url('../images/paperin.jpg');
     background-position: top left;
   background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: scroll;
   background-origin: padding-box;
   background-clip: content-box;
