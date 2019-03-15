@@ -18,7 +18,7 @@ type = attribute type {"prim" | "erot" | "violent" |"exotic" | "none" }
 att = attribute  att { "ambig" | "pos" | "neg" }
 q = element q { speaker, mixed { (subq | desc)* } }
 speaker = attribute speaker { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "servant" | "Jones" | "Mrs. Forrester" | "other" }
-subq = element subq {id*, source*, text }
+subq = element subq {(id | source), text }
 id = attribute id { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Sholto" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "Jones" | "other"  }
 source = attribute source {"Gazetter" | "other" }
 #as we come along any sources like the one listed above, add it to the @source list
