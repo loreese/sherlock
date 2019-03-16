@@ -18,9 +18,9 @@ type = attribute type {"prim" | "erot" | "violent" |"exotic" | "none" }
 att = attribute  att { "ambig" | "pos" | "neg" }
 q = element q { speaker, mixed { (subq | desc)* } }
 speaker = attribute speaker { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "servant" | "Jones" | "Mrs. Forrester" | "other" }
-subq = element subq {(id | source), text }
+subq = element subq {(id | source), desc*, text }
 id = attribute id { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Sholto" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "Jones" | "other"  }
-source = attribute source {"Gazetter" | "other" }
+source = attribute source {"Gazetter" | "brit newspaper" | "other" }
 #as we come along any sources like the one listed above, add it to the @source list
 #my logic with @source vs. @id is that an @source is a quoted publication, like the Gazetter, whereas the @id is for instances when someone references something someone else said.
 #this is more often than not signified by single quotation marks inside a direct quote, and is really only relevant if what someone else said pertains to our research inquiry. 
