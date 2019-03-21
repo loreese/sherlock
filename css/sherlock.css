@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-family: 'Staatliches', cursive;
-    font-size: 80px;
+    font-size: 70px;
     color: black;
     border-style: solid;
     border-color: #FFFAF0;
@@ -21,23 +21,26 @@ h2 {
     background-color: #FFFAF0;
 }
 
-
-
-
-nav {
+.title {
     text-align: center;
-    border-style: solid;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #FFA07A;
+    border-style: dotted;
     border-color: #FFFAF0;
+    border-width: 5px;
     background-color: #FFFAF0;
-    font-family: 'Jim Nightshade', serif;
-
 }
 
 
 
 
+nav {
+    text-align: left;
+  
+    font-family: 'Jim Nightshade', serif;
 
-
+}
 
 .a {
     text-align: left;
@@ -59,7 +62,40 @@ nav {
 
 }
 body {
-    background-color: #F0F8FF
+    background-color:#FFFAF0
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 12px 5px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #555;
+  color: 	#F0FFFF; 
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 50%; 
+  position: fixed; 
+  overflow: auto; 
+}
+
 
 
