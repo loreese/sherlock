@@ -1,11 +1,11 @@
 h1 {
     text-align: center;
     font-family: 'Staatliches', cursive;
-    font-size: 70px;
+    font-size: 72px;
     color: black;
     border-style: solid;
     border-color: #FFFAF0;
-    border-width: 5px;
+    border-width: 0px;
     background-image: url('https://totalwallcovering.com/images/product/mandarin-prose-toile-jjnq-l.jpg');
     /* download this image and put it in the repo */
 
@@ -37,7 +37,7 @@ h2 {
 
 nav {
     text-align: left;
-  
+
     font-family: 'Jim Nightshade', serif;
 
 }
@@ -62,39 +62,49 @@ nav {
 
 }
 body {
-    background-color:#FFFAF0
+    background-color: #FFFAF0
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 20%;
   background-color: #f1f1f1;
+  height: 100%; 
+  position: fixed; 
+  overflow: auto; 
 }
+
 
 li a {
   display: block;
   color: #000;
   padding: 12px 5px;
   text-decoration: none;
+  font-family: serif;
 }
 
 
 li a:hover {
   background-color: #555;
-  color: 	#F0FFFF; 
-  }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  height: 50%; 
-  position: fixed; 
-  overflow: auto; 
+  color: white;
+}
+div {
+    text-align: left;
+    margin-left: 22%;
+    padding: 10px;
+    border-style: solid;
+    border-color: #555;
+    border-width: 5px;
 }
 
 
