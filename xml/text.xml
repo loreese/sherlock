@@ -3242,15 +3242,15 @@
     <p>A very patient man was that inspector in the cab, for it was a weary time before I rejoined
       him. His face clouded over when I showed him the empty box.</p>
 
-    <p>"There goes the reward!" said he, gloomily. "Where there is no money there is no pay. This
+    <p><q speaker="inspector">There goes the reward!</q> said he, gloomily. <q speaker="inspector">Where there is no money there is no pay. This
       night's work would have been worth a tenner each to Sam Brown and me if the treasure had been
-      there."</p>
+      there.</q></p>
 
-    <p>"Mr. Thaddeus Sholto is a rich man," I said. "He will see that you are rewarded, treasure or
-      no."</p>
+    <p><q speaker="Watson">Mr. Thaddeus Sholto is a rich man,</q> I said. <q speaker="Watson">He will see that you are rewarded, treasure or
+      no.</q></p>
 
-    <p>The inspector shook his head despondently, however. "It's a bad job," he repeated; "and so
-      Mr. Athelney Jones will think."</p>
+    <p>The inspector shook his head despondently, however. <q speaker="inspector">It's a bad job,</q> he repeated; <q speaker="inspector">and so
+      Mr. Athelney Jones will think.</q></p>
 
     <p>His forecast proved to be correct, for the detective looked blank enough when I got to Baker
       Street and showed him the empty box. They had only just arrived, Holmes, the prisoner, and he,
@@ -3259,9 +3259,9 @@
       stolidly opposite to him with his wooden leg cocked over his sound one. As I exhibited the
       empty box he leaned back in his chair and laughed aloud.</p>
 
-    <p>"This is your doing, Small," said Athelney Jones, angrily.</p>
+    <p><q speaker="Jones">This is your doing, Small,</q> said Athelney Jones, angrily.</p>
 
-    <p>"Yes, I have put it away where you shall never lay hand upon it," he cried, exultantly. "It
+    <p><q speaker="Small">Yes, I have put it away where you shall never lay hand upon it,</q> he cried, exultantly. <q speaker="Small">It
       is my treasure; and if I can't have the loot I'll take darned good care that no one else does.
       I tell you that no living man has any right to it, unless it is three men who are in the
       Andaman convict-barracks and myself. I know now that I cannot have the use of it, and I know
@@ -3270,22 +3270,22 @@
       throw the treasure into the Thames rather than let it go to kith or kin of Sholto or of
       Morstan. It was not to make them rich that we did for Achmet. You'll find the treasure where
       the key is, and where little Tonga is. When I saw that your launch must catch us, I put the
-      loot away in a safe place. There are no rupees for you this journey."</p>
+      loot away in a safe place. There are no rupees for you this journey.</q></p>
 
-    <p>"You are deceiving us, Small," said Athelney Jones, sternly. "If you had wished to throw the
-      treasure into the Thames it would have been easier for you to have thrown box and all."</p>
+    <p><q speaker="Jones">You are deceiving us, Small,</q> said Athelney Jones, sternly. <q speaker="Jones">If you had wished to throw the
+      treasure into the Thames it would have been easier for you to have thrown box and all.</q></p>
 
-    <p>"Easier for me to throw, and easier for you to recover," he answered, with a shrewd, sidelong
-      look. "The man that was clever enough to hunt me down is clever enough to pick an iron box
+    <p><q speaker="Small">Easier for me to throw, and easier for you to recover,</q> he answered, with a shrewd, sidelong
+      look. <q speaker="Small">The man that was clever enough to hunt me down is clever enough to pick an iron box
       from the bottom of a river. Now that they are scattered over five miles or so, it may be a
       harder job. It went to my heart to do it, though. I was half mad when you came up with us.
       However, there's no good grieving over it. I've had ups in my life, and I've had downs, but
-      I've learned not to cry over spilled milk."</p>
+      I've learned not to cry over spilled milk.</q></p>
 
-    <p>"This is a very serious matter, Small," said the detective. "If you had helped justice,
-      instead of thwarting it in this way, you would have had a better chance at your trial."</p>
+    <p><q speaker="Jones">This is a very serious matter, Small,</q> said the detective. <q speaker="Jones">If you had helped justice,
+      instead of thwarting it in this way, you would have had a better chance at your trial.</q></p>
 
-    <p>"Justice!" snarled the ex-convict. "A pretty justice! Whose loot is this, if it is not ours?
+    <p><q speaker="Small">Justice!</q> snarled the ex-convict.<q speaker="Small">A pretty justice! Whose loot is this, if it is not ours?
       Where is the justice that I should give it up to those who have never earned it? Look how I
       have earned it! Twenty long years in that fever-ridden swamp, all day at work under the
       mangrove-tree, all night chained up in the filthy convict-huts, bitten by mosquitoes, racked
@@ -3298,27 +3298,27 @@
       eyes blazed, and the handcuffs clanked together with the impassioned movement of his hands. I
       could understand, as I saw the fury and the passion of the man, that it was no groundless or
       unnatural terror which had possessed Major Sholto when he first learned that the injured
-      convict was upon his track.</p>
+      convict was upon his track.</q></p>
 
-    <p>"You forget that we know nothing of all this," said Holmes quietly. "We have not heard your
-      story, and we cannot tell how far justice may originally have been on your side."</p>
+    <p><q speaker="Sherlock">You forget that we know nothing of all this,</q> said Holmes quietly. <q speaker="Sherlock">We have not heard your
+      story, and we cannot tell how far justice may originally have been on your side.</q></p>
 
-    <p>"Well, sir, you have been very fair-spoken to me, though I can see that I have you to thank
+    <p><q speaker="Small">Well, sir, you have been very fair-spoken to me, though I can see that I have you to thank
       that I have these bracelets upon my wrists. Still, I bear no grudge for that. It is all fair
       and above-board. If you want to hear my story I have no wish to hold it back. What I say to
       you is God's truth, every word of it. Thank you; you can put the glass beside me here, and
-      I'll put my lips to it if I am dry.</p>
+      I'll put my lips to it if I am dry.</q></p>
 
-    <p>"I am a Worcestershire man myself,--born near Pershore. I dare say you would find a heap of
+    <p><q speaker="Small">I am a Worcestershire man myself,--born near Pershore. I dare say you would find a heap of
       Smalls living there now if you were to look. I have often thought of taking a look round
       there, but the truth is that I was never much of a credit to the family, and I doubt if they
       would be so very glad to see me. They were all steady, chapel-going folk, small farmers, well
       known and respected over the country-side, while I was always a bit of a rover. At last,
       however, when I was about eighteen, I gave them no more trouble, for I got into a mess over a
       girl, and could only get out of it again by taking the queen's shilling and joining the 3d
-      Buffs, which was just starting for India.</p>
+      Buffs, which was just starting for India.</q></p>
 
-    <p>"I wasn't destined to do much soldiering, however. I had just got past the goose-step, and
+    <p>"<q speaker="Small">I wasn't destined to do much soldiering, however. I had just got past the goose-step, and
       learned to handle my musket, when I was fool enough to go swimming in the Ganges. Luckily for
       me, my company sergeant, John Holder, was in the water at the same time, and he was one of the
       finest swimmers in the service. A crocodile took me, just as I was half-way across, and nipped
@@ -3326,9 +3326,9 @@
       shock and the loss of blood, I fainted, and should have drowned if Holder had not caught hold
       of me and paddled for the bank. I was five months in hospital over it, and when at last I was
       able to limp out of it with this timber toe strapped to my stump I found myself invalided out
-      of the army and unfitted for any active occupation.</p>
+      of the army and unfitted for any active occupation.</q></p>
 
-    <p>"I was, as you can imagine, pretty down on my luck at this time, for I was a useless cripple
+    <p><q speaker="Small">I was, as you can imagine, pretty down on my luck at this time, for I was a useless cripple
       though not yet in my twentieth year. However, my misfortune soon proved to be a blessing in
       disguise. A man named Abelwhite, who had come out there as an indigo-planter, wanted an
       overseer to look after his coolies and keep them up to their work. He happened to be a friend
@@ -3339,9 +3339,9 @@
       they worked, and to report the idlers. The pay was fair, I had comfortable quarters, and
       altogether I was content to spend the remainder of my life in indigo-planting. Mr. Abelwhite
       was a kind man, and he would often drop into my little shanty and smoke a pipe with me, for
-      white folk out there feel their hearts warm to each other as they never do here at home.</p>
+      white folk out there feel their hearts warm to each other as they never do here at home.</q></p>
 
-    <p>"Well, I was never in luck's way long. Suddenly, without a note of warning, the great mutiny
+    <p><q speaker="Small">Well, I was never in luck's way long. Suddenly, without a note of warning, the great mutiny
       broke upon us. One month India lay as still and peaceful, to all appearance, as Surrey or
       Kent; the next there were two hundred thousand black devils let loose, and the country was a
       perfect hell. Of course you know all about it, gentlemen,--a deal more than I do, very like,
@@ -3365,9 +3365,9 @@
       away if I meddled in the matter. From where I stood I could see hundreds of the black fiends,
       with their red coats still on their backs, dancing and howling round the burning house. Some
       of them pointed at me, and a couple of bullets sang past my head; so I broke away across the
-      paddy-fields, and found myself late at night safe within the walls at Agra.</p>
+      paddy-fields, and found myself late at night safe within the walls at Agra.</q></p>
 
-    <p>"As it proved, however, there was no great safety there, either. The whole country was up
+    <p><q speaker="Small">As it proved, however, there was no great safety there, either. The whole country was up
       like a swarm of bees. Wherever the English could collect in little bands they held just the
       ground that their guns commanded. Everywhere else they were helpless fugitives. It was a fight
       of the millions against the hundreds; and the cruellest part of it was that these men that we
@@ -3380,9 +3380,9 @@
       from every side,--which is not to be wondered at, for if you look at the map you will see that
       we were right in the heart of it. Lucknow is rather better than a hundred miles to the east,
       and Cawnpore about as far to the south. From every point on the compass there was nothing but
-      torture and murder and outrage.</p>
+      torture and murder and outrage.</q></p>
 
-    <p>"The city of Agra is a great place, swarming with fanatics and fierce devil-worshippers of
+    <p><q speaker="Small">The city of Agra is a great place, swarming with fanatics and fierce devil-worshippers of
       all sorts. Our handful of men were lost among the narrow, winding streets. Our leader moved
       across the river, therefore, and took up his position in the old fort at Agra. I don't know if
       any of you gentlemen have ever read or heard anything of that old fort. It is a very queer
@@ -3393,9 +3393,9 @@
       where nobody goes, and which is given over to the scorpions and the centipedes. It is all full
       of great deserted halls, and winding passages, and long corridors twisting in and out, so that
       it is easy enough for folk to get lost in it. For this reason it was seldom that any one went
-      into it, though now and again a party with torches might go exploring.</p>
+      into it, though now and again a party with torches might go exploring.</q></p>
 
-    <p>"The river washes along the front of the old fort, and so protects it, but on the sides and
+    <p><q speaker="Small">The river washes along the front of the old fort, and so protects it, but on the sides and
       behind there are many doors, and these had to be guarded, of course, in the old quarter as
       well as in that which was actually held by our troops. We were short-handed, with hardly men
       enough to man the angles of the building and to serve the guns. It was impossible for us,
@@ -3407,9 +3407,9 @@
       musket, when I might rely upon help coming at once from the central guard. As the guard was a
       good two hundred paces away, however, and as the space between was cut up into a labyrinth of
       passages and corridors, I had great doubts as to whether they could arrive in time to be of
-      any use in case of an actual attack.</p>
+      any use in case of an actual attack.</q></p>
 
-    <p>"Well, I was pretty proud at having this small command given me, since I was a raw recruit,
+    <p><q speaker="Small">Well, I was pretty proud at having this small command given me, since I was a raw recruit,
       and a game-legged one at that. For two nights I kept the watch with my Punjaubees. They were
       tall, fierce-looking chaps, Mahomet Singh and Abdullah Khan by name, both old fighting-men who
       had borne arms against us at Chilian-wallah. They could talk English pretty well, but I could
@@ -3418,70 +3418,70 @@
       winding river and on the twinkling lights of the great city. The beating of drums, the rattle
       of tomtoms, and the yells and howls of the rebels, drunk with opium and with bang, were enough
       to remind us all night of our dangerous neighbors across the stream. Every two hours the
-      officer of the night used to come round to all the posts, to make sure that all was well.</p>
+      officer of the night used to come round to all the posts, to make sure that all was well.</q></p>
 
-    <p>"The third night of my watch was dark and dirty, with a small, driving rain. It was dreary
+    <p><q speaker="Small">The third night of my watch was dark and dirty, with a small, driving rain. It was dreary
       work standing in the gate-way hour after hour in such weather. I tried again and again to make
       my Sikhs talk, but without much success. At two in the morning the rounds passed, and broke
       for a moment the weariness of the night. Finding that my companions would not be led into
       conversation, I took out my pipe, and laid down my musket to strike the match. In an instant
       the two Sikhs were upon me. One of them snatched my firelock up and levelled it at my head,
       while the other held a great knife to my throat and swore between his teeth that he would
-      plunge it into me if I moved a step.</p>
+      plunge it into me if I moved a step.</q></p>
 
-    <p>"My first thought was that these fellows were in league with the rebels, and that this was
+    <p><q speaker="Small">My first thought was that these fellows were in league with the rebels, and that this was
       the beginning of an assault. If our door were in the hands of the Sepoys the place must fall,
       and the women and children be treated as they were in Cawnpore. Maybe you gentlemen think that
       I am just making out a case for myself, but I give you my word that when I thought of that,
       though I felt the point of the knife at my throat, I opened my mouth with the intention of
       giving a scream, if it was my last one, which might alarm the main guard. The man who held me
-      seemed to know my thoughts; for, even as I braced myself to it, he whispered, 'Don't make a
-      noise. The fort is safe enough. There are no rebel dogs on this side of the river.' There was
+      seemed to know my thoughts; for, even as I braced myself to it, he whispered, <subq id="Mahomet Singh">Don't make a
+      noise. The fort is safe enough. There are no rebel dogs on this side of the river.</subq> There was
       the ring of truth in what he said, and I knew that if I raised my voice I was a dead man. I
       could read it in the fellow's brown eyes. I waited, therefore, in silence, to see what it was
-      that they wanted from me.</p>
+      that they wanted from me.</q></p>
 
-    <p>"'Listen to me, Sahib,' said the taller and fiercer of the pair, the one whom they called
-      Abdullah Khan. 'You must either be with us now or you must be silenced forever. The thing is
+    <p>"<q speaker="Small"><subq id="Abdullah Khan">Listen to me, Sahib,</subq> said <desc target="pers" host="orient">the taller and <adj type="violent" att="ambig">fiercer</adj> of the pair,</desc> the one whom they called
+      Abdullah Khan. <subq id="Abdullah Khan">You must either be with us now or you must be silenced forever. The thing is
       too great a one for us to hesitate. Either you are heart and soul with us on your oath on the
       cross of the Christians, or your body this night shall be thrown into the ditch and we shall
       pass over to our brothers in the rebel army. There is no middle way. Which is it to be, death
       or life? We can only give you three minutes to decide, for the time is passing, and all must
-      be done before the rounds come again.'</p>
+      be done before the rounds come again.</subq></q></p>
 
-    <p>"'How can I decide?' said I. 'You have not told me what you want of me. But I tell you now
+    <p><q speaker="Small"><subq id="Small">How can I decide?</subq>said I. <subq id="Small">You have not told me what you want of me. But I tell you now
       that if it is anything against the safety of the fort I will have no truck with it, so you can
-      drive home your knife and welcome.'</p>
+      drive home your knife and welcome.</subq></q></p>
 
-    <p>"'It is nothing against the fort,' said he. 'We only ask you to do that which your countrymen
+    <p><q speaker="Small"><subq id="Abdullah Khan">It is nothing against the fort,</subq> said he. <subq id="Abdullah Khan">We only ask you to do that which your countrymen
       come to this land for. We ask you to be rich. If you will be one of us this night, we will
       swear to you upon the naked knife, and by the threefold oath which no Sikh was ever known to
       break, that you shall have your fair share of the loot. A quarter of the treasure shall be
-      yours. We can say no fairer.'</p>
+      yours. We can say no fairer.</subq></q></p>
 
-    <p>"'But what is the treasure, then?' I asked. 'I am as ready to be rich as you can be, if you
-      will but show me how it can be done.'</p>
+    <p><q speaker="Small"><subq id="Small">But what is the treasure, then?</subq> I asked. <subq id="Small">I am as ready to be rich as you can be, if you
+      will but show me how it can be done.</subq></q></p>
 
-    <p>"'You will swear, then,' said he, 'by the bones of your father, by the honor of your mother,
+    <p><q speaker="Small"><subq id="Abdullah Khan">You will swear, then,</subq> said he, <subq id="Abdullah Khan">by the bones of your father, by the honor of your mother,
       by the cross of your faith, to raise no hand and speak no word against us, either now or
-      afterwards?'</p>
+      afterwards?</subq></q></p>
 
-    <p>"'I will swear it,' I answered, 'provided that the fort is not endangered.'</p>
+    <p><q speaker="Small"><subq id="Small">I will swear it,</subq> I answered, <subq id="Small">provided that the fort is not endangered.</subq></q></p>
 
-    <p>"'Then my comrade and I will swear that you shall have a quarter of the treasure which shall
-      be equally divided among the four of us.'</p>
+    <p><q speaker="Small"><subq id="Abdullah Khan">Then my comrade and I will swear that you shall have a quarter of the treasure which shall
+      be equally divided among the four of us.</subq></q></p>
 
-    <p>"'There are but three,' said I.</p>
+    <p><q speaker="Small"><subq id="Small">There are but three,</subq> said I.</q></p>
 
-    <p>"'No; Dost Akbar must have his share. We can tell the tale to you while we await them. Do you
+    <p><q speaker="Small"><subq id="Abdullah Khan">No; Dost Akbar must have his share. We can tell the tale to you while we await them. Do you
       stand at the gate, Mahomet Singh, and give notice of their coming. The thing stands thus,
       Sahib, and I tell it to you because I know that an oath is binding upon a Feringhee, and that
       we may trust you. Had you been a lying Hindoo, though you had sworn by all the gods in their
       false temples, your blood would have been upon the knife, and your body in the water. But the
       Sikh knows the Englishman, and the Englishman knows the Sikh. Hearken, then, to what I have to
-      say.</p>
+      say.</subq></q></p>
 
-    <p>"'There is a rajah in the northern provinces who has much wealth, though his lands are small.
+    <p><q speaker="Small"><subq id="Abdullah Khan">There is a rajah in the northern provinces who has much wealth, though his lands are small.
       Much has come to him from his father, and more still he has set by himself, for he is of a low
       nature and hoards his gold rather than spend it. When the troubles broke out he would be
       friends both with the lion and the tiger,--with the Sepoy and with the Company's Raj. Soon,
@@ -3494,65 +3494,65 @@
       until the land is at peace. Thus, if the rebels won he would have his money, but if the
       Company conquered his jewels would be saved to him. Having thus divided his hoard, he threw
       himself into the cause of the Sepoys, since they were strong upon his borders. By doing this,
-      mark you, Sahib, his property becomes the due of those who have been true to their salt.</p>
+      mark you, Sahib, his property becomes the due of those who have been true to their salt.</subq></q></p>
 
-    <p>"'This pretended merchant, who travels under the name of Achmet, is now in the city of Agra,
+    <p><q speaker="Small"><subq id="Abdullah Khan">This pretended merchant, who travels under the name of Achmet, is now in the city of Agra,
       and desires to gain his way into the fort. He has with him as travelling-companion my
       foster-brother Dost Akbar, who knows his secret. Dost Akbar has promised this night to lead
       him to a side-postern of the fort, and has chosen this one for his purpose. Here he will come
       presently, and here he will find Mahomet Singh and myself awaiting him. The place is lonely,
       and none shall know of his coming. The world shall know of the merchant Achmet no more, but
-      the great treasure of the rajah shall be divided among us. What say you to it, Sahib?'</p>
+      the great treasure of the rajah shall be divided among us. What say you to it, Sahib?</subq></q></p>
 
-    <p>"In Worcestershire the life of a man seems a great and a sacred thing; but it is very
+    <p><q speaker="Small">In Worcestershire the life of a man seems a great and a sacred thing; but it is very
       different when there is fire and blood all round you and you have been used to meeting death
       at every turn. Whether Achmet the merchant lived or died was a thing as light as air to me,
       but at the talk about the treasure my heart turned to it, and I thought of what I might do in
       the old country with it, and how my folk would stare when they saw their ne'er-do-well coming
       back with his pockets full of gold moidores. I had, therefore, already made up my mind.
-      Abdullah Khan, however, thinking that I hesitated, pressed the matter more closely.</p>
+      Abdullah Khan, however, thinking that I hesitated, pressed the matter more closely.</q></p>
 
-    <p>"'Consider, Sahib,' said he, 'that if this man is taken by the commandant he will be hung or
+    <p><q speaker="Small"><subq id="Abdullah Khan">Consider, Sahib,</subq> said he, <subq id="Abdullah Khan">that if this man is taken by the commandant he will be hung or
       shot, and his jewels taken by the government, so that no man will be a rupee the better for
       them. Now, since we do the taking of him, why should we not do the rest as well? The jewels
       will be as well with us as in the Company's coffers. There will be enough to make every one of
       us rich men and great chiefs. No one can know about the matter, for here we are cut off from
       all men. What could be better for the purpose? Say again, then, Sahib, whether you are with
-      us, or if we must look upon you as an enemy.'</p>
+      us, or if we must look upon you as an enemy.</subq></q></p>
 
-    <p>"'I am with you heart and soul,' said I.</p>
+    <p><q speaker="Small"><subq id="Small">I am with you heart and soul, </subq>said I.</q></p>
 
-    <p>"'It is well,' he answered, handing me back my firelock. 'You see that we trust you, for your
+    <p><q speaker="Small"><subq id="Abdullah Khan">It is well,</subq> he answered, handing me back my firelock. <subq id="Abdullah Khan">You see that we trust you, for your
       word, like ours, is not to be broken. We have now only to wait for my brother and the
-      merchant.'</p>
+      merchant.</subq></q></p>
 
-    <p>"'Does your brother know, then, of what you will do?' I asked.</p>
+    <p><q speaker="Small"><subq id="Small">Does your brother know, then, of what you will do?</subq> I asked.</q></p>
 
-    <p>"'The plan is his. He has devised it. We will go to the gate and share the watch with Mahomet
-      Singh.'</p>
+    <p><q speaker="Small"><subq id="Abdullah Khan">The plan is his. He has devised it. We will go to the gate and share the watch with Mahomet
+      Singh.</subq></q></p>
 
-    <p>"The rain was still falling steadily, for it was just the beginning of the wet season. Brown,
+    <p><q speaker="Small">The rain was still falling steadily, for it was just the beginning of the wet season. Brown,
       heavy clouds were drifting across the sky, and it was hard to see more than a stone-cast. A
       deep moat lay in front of our door, but the water was in places nearly dried up, and it could
       easily be crossed. It was strange to me to be standing there with those two wild Punjaubees
-      waiting for the man who was coming to his death.</p>
+      waiting for the man who was coming to his death.</q></p>
 
-    <p>"Suddenly my eye caught the glint of a shaded lantern at the other side of the moat. It
-      vanished among the mound-heaps, and then appeared again coming slowly in our direction.</p>
+    <p><q speaker="Small">Suddenly my eye caught the glint of a shaded lantern at the other side of the moat. It
+      vanished among the mound-heaps, and then appeared again coming slowly in our direction.</q></p>
 
-    <p>"'Here they are!' I exclaimed.</p>
+    <p><q speaker="Small"><subq id="Small">Here they are!</subq> I exclaimed.</q></p>
 
-    <p>"'You will challenge him, Sahib, as usual,' whispered Abdullah. 'Give him no cause for fear.
+    <p><q speaker="Small"><subq id="Abdullah Khan">You will challenge him, Sahib, as usual,</subq> whispered Abdullah. <subq id="Abdullah Khan">Give him no cause for fear.
       Send us in with him, and we shall do the rest while you stay here on guard. Have the lantern
-      ready to uncover, that we may be sure that it is indeed the man.'</p>
+      ready to uncover, that we may be sure that it is indeed the man.</subq></q></p>
 
-    <p>"The light had flickered onwards, now stopping and now advancing, until I could see two dark
+    <p><q speaker="Small">The light had flickered onwards, now stopping and now advancing, until I could see two dark
       figures upon the other side of the moat. I let them scramble down the sloping bank, splash
-      through the mire, and climb half-way up to the gate, before I challenged them.</p>
+      through the mire, and climb half-way up to the gate, before I challenged them.</q></p>
 
-    <p>"'Who goes there?' said I, in a subdued voice.</p>
+    <p><q speaker="Small"><subq id="Small">Who goes there?</subq> said I, in a subdued voice.</q></p>
 
-    <p>"'Friends,' came the answer. I uncovered my lantern and threw a flood of light upon them. The
+    <p><q speaker="Small"><subq id="other">Friends,</subq> came the answer. I uncovered my lantern and threw a flood of light upon them. The
       first was an enormous Sikh, with a black beard which swept nearly down to his cummerbund.
       Outside of a show I have never seen so tall a man. The other was a little, fat, round fellow,
       with a great yellow turban, and a bundle in his hand, done up in a shawl. He seemed to be all
@@ -3560,28 +3560,28 @@
       to left and right with two bright little twinkling eyes, like a mouse when he ventures out
       from his hole. It gave me the chills to think of killing him, but I thought of the treasure,
       and my heart set as hard as a flint within me. When he saw my white face he gave a little
-      chirrup of joy and came running up towards me.</p>
+      chirrup of joy and came running up towards me.</q></p>
 
-    <p>"'Your protection, Sahib,' he panted,--'your protection for the unhappy merchant Achmet. I
+    <p><q speaker="Small"><subq id="other">Your protection, Sahib,</subq> he panted,--<subq id="other">your protection for the unhappy merchant Achmet. I
       have travelled across Rajpootana that I might seek the shelter of the fort at Agra. I have
       been robbed and beaten and abused because I have been the friend of the Company. It is a
-      blessed night this when I am once more in safety,--I and my poor possessions.'</p>
+      blessed night this when I am once more in safety,--I and my poor possessions.</subq></q></p>
 
-    <p>"'What have you in the bundle?' I asked.</p>
+    <p><q speaker="Small"><subq id="Small">What have you in the bundle?</subq> I asked.</q></p>
 
-    <p>"'An iron box,' he answered, 'which contains one or two little family matters which are of no
+    <p><q speaker="Small"><subq id="other">An iron box,</subq> he answered, <subq id="other">which contains one or two little family matters which are of no
       value to others, but which I should be sorry to lose. Yet I am not a beggar; and I shall
-      reward you, young Sahib, and your governor also, if he will give me the shelter I ask.'</p>
+      reward you, young Sahib, and your governor also, if he will give me the shelter I ask.</subq></q></p>
 
-    <p>"I could not trust myself to speak longer with the man. The more I looked at his fat,
+    <p><q speaker="Small">I could not trust myself to speak longer with the man. The more I looked at his fat,
       frightened face, the harder did it seem that we should slay him in cold blood. It was best to
-      get it over.</p>
+      get it over.</q></p>
 
-    <p>"'Take him to the main guard,' said I. The two Sikhs closed in upon him on each side, and the
+    <p><q speaker="Small"><subq id="Small">Take him to the main guard,</subq>said I. The two Sikhs closed in upon him on each side, and the
       giant walked behind, while they marched in through the dark gate-way. Never was a man so
-      compassed round with death. I remained at the gate-way with the lantern.</p>
+      compassed round with death. I remained at the gate-way with the lantern.</q></p>
 
-    <p>"I could hear the measured tramp of their footsteps sounding through the lonely corridors.
+    <p><q speaker="Small">I could hear the measured tramp of their footsteps sounding through the lonely corridors.
       Suddenly it ceased, and I heard voices, and a scuffle, with the sound of blows. A moment later
       there came, to my horror, a rush of footsteps coming in my direction, with the loud breathing
       of a running man. I turned my lantern down the long, straight passage, and there was the fat
@@ -3595,33 +3595,33 @@
       The man never uttered moan nor moved muscle, but lay were he had fallen. I think myself that
       he may have broken his neck with the fall. You see, gentlemen, that I am keeping my promise. I
       am telling you every work of the business just exactly as it happened, whether it is in my
-      favor or not."</p>
+      favor or not.</q></p>
 
-    <p>He stopped, and held out his manacled hands for the whiskey-and-water which Holmes had brewed
+    <p><narr v="Watson">He stopped, and held out his manacled hands for the whiskey-and-water which Holmes had brewed
       for him. For myself, I confess that I had now conceived the utmost horror of the man, not only
       for this cold-blooded business in which he had been concerned, but even more for the somewhat
       flippant and careless way in which he narrated it. Whatever punishment was in store for him, I
       felt that he might expect no sympathy from me. Sherlock Holmes and Jones sat with their hands
       upon their knees, deeply interested in the story, but with the same disgust written upon their
       faces. He may have observed it, for there was a touch of defiance in his voice and manner as
-      he proceeded.</p>
+      he proceeded.</narr></p>
 
-    <p>"It was all very bad, no doubt," said he. "I should like to know how many fellows in my shoes
+    <p><q speaker="Small">It was all very bad, no doubt,</q> said he. <q speaker="Small">I should like to know how many fellows in my shoes
       would have refused a share of this loot when they knew that they would have their throats cut
       for their pains. Besides, it was my life or his when once he was in the fort. If he had got
       out, the whole business would come to light, and I should have been court-martialled and shot
-      as likely as not; for people were not very lenient at a time like that."</p>
+      as likely as not; for people were not very lenient at a time like that.</q></p>
 
-    <p>"Go on with your story," said Holmes, shortly.</p>
+    <p><q speaker="Sherlock">Go on with your story,</q> said Holmes, shortly.</p>
 
-    <p>"Well, we carried him in, Abdullah, Akbar, and I. A fine weight he was, too, for all that he
+    <p><q speaker="Small">Well, we carried him in, Abdullah, Akbar, and I. A fine weight he was, too, for all that he
       was so short. Mahomet Singh was left to guard the door. We took him to a place which the Sikhs
       had already prepared. It was some distance off, where a winding passage leads to a great empty
       hall, the brick walls of which were all crumbling to pieces. The earth floor had sunk in at
       one place, making a natural grave, so we left Achmet the merchant there, having first covered
-      him over with loose bricks. This done, we all went back to the treasure.</p>
+      him over with loose bricks. This done, we all went back to the treasure.</q></p>
 
-    <p>"It lay where he had dropped it when he was first attacked. The box was the same which now
+    <p><q speaker="Small">It lay where he had dropped it when he was first attacked. The box was the same which now
       lies open upon your table. A key was hung by a silken cord to that carved handle upon the top.
       We opened it, and the light of the lantern gleamed upon a collection of gems such as I have
       read of and thought about when I was a little lad at Pershore. It was blinding to look upon
@@ -3634,9 +3634,9 @@
       very names of which I did not know at the time, though I have become more familiar with them
       since. Besides this, there were nearly three hundred very fine pearls, twelve of which were
       set in a gold coronet. By the way, these last had been taken out of the chest and were not
-      there when I recovered it.</p>
+      there when I recovered it.</q></p>
 
-    <p>"After we had counted our treasures we put them back into the chest and carried them to the
+    <p><q speaker="Small">After we had counted our treasures we put them back into the chest and carried them to the
       gate-way to show them to Mahomet Singh. Then we solemnly renewed our oath to stand by each
       other and be true to our secret. We agreed to conceal our loot in a safe place until the
       country should be at peace again, and then to divide it equally among ourselves. There was no
@@ -3647,17 +3647,17 @@
       careful note of the place, and next day I drew four plans, one for each of us, and put the
       sign of the four of us at the bottom, for we had sworn that we should each always act for all,
       so that none might take advantage. That is an oath that I can put my hand to my heart and
-      swear that I have never broken.</p>
+      swear that I have never broken.</q></p>
 
-    <p>"Well, there's no use my telling you gentlemen what came of the Indian mutiny. After Wilson
+    <p><q speaker="Small">Well, there's no use my telling you gentlemen what came of the Indian mutiny. After Wilson
       took Delhi and Sir Colin relieved Lucknow the back of the business was broken. Fresh troops
       came pouring in, and Nana Sahib made himself scarce over the frontier. A flying column under
       Colonel Greathed came round to Agra and cleared the Pandies away from it. Peace seemed to be
       settling upon the country, and we four were beginning to hope that the time was at hand when
       we might safely go off with our shares of the plunder. In a moment, however, our hopes were
-      shattered by our being arrested as the murderers of Achmet.</p>
+      shattered by our being arrested as the murderers of Achmet</q>.</p>
 
-    <p>"It came about in this way. When the rajah put his jewels into the hands of Achmet he did it
+    <p><q speaker="Small">It came about in this way. When the rajah put his jewels into the hands of Achmet he did it
       because he knew that he was a trusty man. They are suspicious folk in the East, however: so
       what does this rajah do but take a second even more trusty servant and set him to play the spy
       upon the first? This second man was ordered never to let Achmet out of his sight, and he
@@ -3673,17 +3673,17 @@
       particular interest in them. The murder, however, was clearly made out, and it was certain
       that we must all have been concerned in it. The three Sikhs got penal servitude for life, and
       I was condemned to death, though my sentence was afterwards commuted into the same as the
-      others.</p>
+      others.</q></p>
 
-    <p>"It was rather a queer position that we found ourselves in then. There we were all four tied
+    <p><q speaker="Small">It was rather a queer position that we found ourselves in then. There we were all four tied
       by the leg and with precious little chance of ever getting out again, while we each held a
       secret which might have put each of us in a palace if we could only have made use of it. It
       was enough to make a man eat his heart out to have to stand the kick and the cuff of every
       petty jack-in-office, to have rice to eat and water to drink, when that gorgeous fortune was
       ready for him outside, just waiting to be picked up. It might have driven me mad; but I was
-      always a pretty stubborn one, so I just held on and bided my time.</p>
+      always a pretty stubborn one, so I just held on and bided my time.</q></p>
 
-    <p>"At last it seemed to me to have come. I was changed from Agra to Madras, and from there to
+    <p><q speaker="Small">At last it seemed to me to have come. I was changed from Agra to Madras, and from there to
       Blair Island in the Andamans. There are very few white convicts at this settlement, and, as I
       had behaved well from the first, I soon found myself a sort of privileged person. I was given
       a hut in Hope Town, which is a small place on the slopes of Mount Harriet, and I was left
@@ -3694,9 +3694,9 @@
       little time to ourselves. Among other things, I learned to dispense drugs for the surgeon, and
       picked up a smattering of his knowledge. All the time I was on the lookout for a chance of
       escape; but it is hundreds of miles from any other land, and there is little or no wind in
-      those seas: so it was a terribly difficult job to get away.</p>
+      those seas: so it was a terribly difficult job to get away.</q></p>
 
-    <p>"The surgeon, Dr. Somerton, was a fast, sporting young chap, and the other young officers
+    <p><q speaker="Small">The surgeon, Dr. Somerton, was a fast, sporting young chap, and the other young officers
       would meet in his rooms of an evening and play cards. The surgery, where I used to make up my
       drugs, was next to his sitting-room, with a small window between us. Often, if I felt
       lonesome, I used to turn out the lamp in the surgery, and then, standing there, I could hear
@@ -3704,9 +3704,9 @@
       good as having one to watch the others. There was Major Sholto, Captain Morstan, and
       Lieutenant Bromley Brown, who were in command of the native troops, and there was the surgeon
       himself, and two or three prison-officials, crafty old hands who played a nice sly safe game.
-      A very snug little party they used to make.</p>
+      A very snug little party they used to make.</q></p>
 
-    <p>"Well, there was one thing which very soon struck me, and that was that the soldiers used
+    <p><q speaker="Small">Well, there was one thing which very soon struck me, and that was that the soldiers used
       always to lose and the civilians to win. Mind, I don't say that there was anything unfair, but
       so it was. These prison-chaps had done little else than play cards ever since they had been at
       the Andamans, and they knew each other's game to a point, while the others just played to pass
@@ -3715,31 +3715,31 @@
       used to pay in notes and gold at first, but soon it came to notes of hand and for big sums. He
       sometimes would win for a few deals, just to give him heart, and then the luck would set in
       against him worse than ever. All day he would wander about as black as thunder, and he took to
-      drinking a deal more than was good for him.</p>
+      drinking a deal more than was good for him.</q></p>
 
-    <p>"One night he lost even more heavily than usual. I was sitting in my hut when he and Captain
+    <p><q speaker="Small">One night he lost even more heavily than usual. I was sitting in my hut when he and Captain
       Morstan came stumbling along on the way to their quarters. They were bosom friends, those two,
-      and never far apart. The major was raving about his losses.</p>
+      and never far apart. The major was raving about his losses.</q></p>
 
-    <p>"'It's all up, Morstan,' he was saying, as they passed my hut. 'I shall have to send in my
-      papers. I am a ruined man.'</p>
+    <p><q speaker="Small"><subq id="Sholto">It's all up, Morstan,</subq> he was saying, as they passed my hut. <subq id="Sholto">I shall have to send in my
+      papers. I am a ruined man.</subq></q></p>
 
-    <p>"'Nonsense, old chap!' said the other, slapping him upon the shoulder. 'I've had a nasty
-      facer myself, but--' That was all I could hear, but it was enough to set me thinking.</p>
+    <p><q speaker="Small">'<subq id="Morstan">Nonsense, old chap!</subq> said the other, slapping him upon the shoulder. <subq id="Morstan">I've had a nasty
+      facer myself, but--</subq> That was all I could hear, but it was enough to set me thinking.</q></p>
 
-    <p>"A couple of days later Major Sholto was strolling on the beach: so I took the chance of
-      speaking to him.</p>
+    <p><q speaker="Small">A couple of days later Major Sholto was strolling on the beach: so I took the chance of
+      speaking to him.</q></p>
 
-    <p>"'I wish to have your advice, major,' said I.</p>
+    <p><q speaker="Small"><subq id="Small">I wish to have your advice, major,</subq> said I.</q></p>
 
-    <p>"'Well, Small, what is it?' he asked, taking his cheroot from his lips.</p>
+    <p><q speaker="Small"><subq id="Sholto">Well, Small, what is it?</subq> he asked, taking his cheroot from his lips.</q></p>
 
-    <p>"'I wanted to ask you, sir,' said I, 'who is the proper person to whom hidden treasure should
+    <p><q speaker="Small"><subq id="Small">I wanted to ask you, sir,</subq> said I, <subq id="Small">who is the proper person to whom hidden treasure should
       be handed over. I know where half a million worth lies, and, as I cannot use it myself, I
       thought perhaps the best thing that I could do would be to hand it over to the proper
-      authorities, and then perhaps they would get my sentence shortened for me.'</p>
+      authorities, and then perhaps they would get my sentence shortened for me.</subq></q></p>
 
-    <p>"'Half a million, Small?' he gasped, looking hard at me to see if I was in earnest.</p>
+    <p><q speaker="Small"><subq id="Sholto">Half a million, Small?</subq> he gasped, looking hard at me to see if I was in earnest.</q></p>
 
     <p>"'Quite that, sir,--in jewels and pearls. It lies there ready for any one. And the queer
       thing about it is that the real owner is outlawed and cannot hold property, so that it belongs
