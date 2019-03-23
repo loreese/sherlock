@@ -1,8 +1,9 @@
 start = body-text
-body-text = element text {metadata, ch+}
+body-text = element text {head, ch+}
+head = element head {metadata}
 metadata = element metadata {titleText, author}
-titleText = element titleText {text}
-author = element author {text}
+titleText = attribute titleText {text}
+author = attribute author {text}
 ch = element ch {no, title, p+}
 no = attribute no {text}
 title = element title {text}
