@@ -21,7 +21,7 @@ narr = element narr {v, mixed { (subq | desc | q)* } }
 speaker = attribute speaker { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "servant" | "Jones" | "Mrs. Forrester" | "inspector" | "other" }
 v = attribute v { "Watson" }
 subq = element subq {(id | source), desc*, text }
-id = attribute id { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Sholto" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "servant" | "Jones" | "Mrs. Forrester" | "inspector" | "Mahomet Singh" | "Abdullah Khan" | "Morstan" | "other" }
+id = attribute id { "Sherlock" | "Watson" | "Mary" | "Thaddeus" | "Bartholomew" | "Sholto" | "Small" | "Mrs. Hudson" | "McMurdo" | "Mrs. Bernstone" | "Mr. Sherman" | "servant" | "Jones" | "Mrs. Forrester" | "inspector" | "Mahomet Singh" | "Abdullah Khan" | "Morstan" | "Goethe" | "other" }
 source = attribute source {"Gazetter" | "brit newspaper" | "other" }
 #as we come along any sources like the one listed above, add it to the @source list
 #my logic with @source vs. @id is that an @source is a quoted publication, like the Gazetter, whereas the @id is for instances when someone references something someone else said.

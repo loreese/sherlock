@@ -3,66 +3,42 @@ h1 {
     font-family: 'Staatliches', cursive;
     font-size: 72px;
     color: black;
-    border-style: solid;
-    border-color: #FFFAF0;
-    border-width: 0px;
-    background-image: url('https://totalwallcovering.com/images/product/mandarin-prose-toile-jjnq-l.jpg');
+    Background-color: #f1f1f1;
+    box-shadow: 7px 7px 5px #637282;
+    opacity: 0.7;
+
+
     /* download this image and put it in the repo */
 
 }
-h2 {
-    text-align: center;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 40px;
-    color: #FFA07A;
-    border-style: dotted;
-    border-color: #FFFAF0;
-    border-width: 5px;
-    background-color: #FFFAF0;
-}
+
+
 
 .title {
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     font-size: 30px;
-    color: #FFA07A;
-    border-style: dotted;
-    border-color: #FFFAF0;
-    border-width: 5px;
+box-shadow: 7px 7px 5px #637282;
     background-color: #FFFAF0;
 }
 
 
 
-
 nav {
     text-align: left;
-
     font-family: 'Jim Nightshade', serif;
 
 }
 
-.a {
-    text-align: left;
-    font-family: 'Vidaloka', serif;
-    color: black;
-    font-size: 20px;
 
 
 
 
-}
-
-.b {
-    text-align: left;
-    font-family: serif;
-    color: black;
-    font-size: 20px;
-
-
-}
 body {
-    background-color: #FFFAF0
+    background-image: url('../images/orientalWall.jpg');
+    opacity: 0.7;
+    
+
 }
 
 ul {
@@ -71,41 +47,48 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    box-shadow: 7px 7px 5px #637282;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  background-color: #f1f1f1;
-  height: 100%; 
-  position: fixed; 
-  overflow: auto; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
 }
 
 
 li a {
-  display: block;
-  color: #000;
-  padding: 12px 5px;
-  text-decoration: none;
-  font-family: serif;
+    display: block;
+    color: #000;
+    padding: 12px 5px;
+    text-decoration: none;
+    font-family: serif;
 }
 
 
 li a:hover {
-  background-color: #555;
-  color: white;
+    background-color: #555;
+    color: white;
 }
 div {
     text-align: left;
     margin-left: 22%;
     padding: 10px;
-    border-style: solid;
-    border-color: #555;
-    border-width: 5px;
+    
+
 }
 
+nav {
+    opacity: 0.7;
+}
 
-
+.main {
+    Background-color: #f1f1f1;
+    opacity: 0.7;
+    box-shadow: 7px 7px 5px #637282;
+}
