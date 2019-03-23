@@ -2,16 +2,18 @@
 <?xml-model href="../schema/schema_sherlock.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../css/booktxt.css"?>
 <text>
-  <metadata>
-    <titleText>The Sign of the Four</titleText>
+  <head>
+   
+  <metadata titleText="The Sign of the Four" author="Sir Arthur Conan Doyle" date="1890" publisher="Lippincott's Monthly Magazine"></metadata>
+    <title>The Sign of the Four</title>
 
-    <author>Sir Arthur Conan Doyle</author>
-  </metadata>
+  </head>
 
   <ch no="I">
-    <title>The Science of Deduction</title>
+         <title>The Science of Deduction</title>
+    
 
-    <p>Sherlock Holmes took his bottle from the corner of the mantel-piece and his hypodermic
+    <p>Sherlock hisHolmes took  bottle from the corner of the mantel-piece and his hypodermic
       syringe from its neat morocco case. With his long, white, nervous fingers he adjusted the
       delicate needle, and rolled back his left shirt-cuff. For some little time his eyes rested
       thoughtfully upon the sinewy forearm and wrist all dotted and scarred with innumerable
@@ -3997,6 +3999,7 @@
 
     <p><q speaker="Sherlock">For me,</q> said Sherlock Holmes, <q speaker="Sherlock">there still remains the cocaine-bottle.</q> And he stretched
       his long white hand up for it.</p>
+ 
   </ch>
 
 </text>
