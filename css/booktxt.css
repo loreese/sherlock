@@ -1,18 +1,33 @@
 body{
     background-image: url('../images/orientalWall.jpg');
-    opacity: .1;
 }
-h1 {
-    text-align:center;   
-}
-h2 {
+span.book {
+    font-size: 40px;
+    font-weight: bold; 
     text-align: center;
-    
 }
-a {
-    color:darkkhaki;
+span.tocHead {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 ul {
-    list-style-type: none;
+    list-style: none;
+    text-align: center;
+}
+a {
+    color: rgb(255,127,80);
+    opacity: 1;
+    font-size: 20px;
+     
+}
+
+div{
+    background-image: url('../images/parchbk.jpg');
+    width: 700px;
+    height: auto;
+    margin: 25px;
+    padding: 25px;
+    display: none;
    
 }
