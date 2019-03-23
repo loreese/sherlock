@@ -1,6 +1,6 @@
 start = body-text
 body-text = element text {head, ch+}
-head = element head {metadata}
+head = element head {metadata, title}
 metadata = element metadata {titleText, author}
 titleText = attribute titleText {text}
 author = attribute author {text}
