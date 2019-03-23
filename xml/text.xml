@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/schema_sherlock.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../css/booktxt.css"?>
 <text>
   <metadata>
     <titleText>The Sign of the Four</titleText>
