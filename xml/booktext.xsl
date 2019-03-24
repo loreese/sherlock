@@ -7,37 +7,36 @@
     <xsl:template match="/">
         <html>
             <head>
-               <body>
                 <title>
                     The Sign of the Four
                     <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
                 </title>
-               </body>
             </head>
-        </html>
-            
-               <h1>The Sign of the Four</h1>
-               <h2>Contents</h2>
+            <body>              
+                <div>
+                    <h2>Contents</h2>
                 <ul>
                     <xsl:apply-templates select="//ch" mode="toc"/>
                 </ul>
-                <hr/>
+                </div>
+                 <hr/>
                 <xsl:apply-templates/>
-            
-        
+            </body>
+        </html>
     </xsl:template>
     <xsl:template match="ch" mode="toc">
+        
         <li>
             <a href="#{@no}">  <xsl:apply-templates select="@no"/>
             <xsl:text>. </xsl:text>                        
             <xsl:apply-templates select="title" mode="toc"/>
             </a>
         </li>
-    
+       
     </xsl:template>
     <xsl:template match="ch">
         <div>
-            <xsl:apply-templates/>
+        <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="p">
@@ -45,5 +44,4 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
-</xsl:stylesheet>
+    </xsl:stylesheet>
