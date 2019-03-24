@@ -1,30 +1,43 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px; 
+   }
+   h2{
+       text-align: center;
+    font-weight: bold;
+    font-size: 20px; 
+    color: rgb(139, 69, 19);
+   }
 body{
     background-image: url('../images/orientalWall.jpg');
 }
-span.book {
-    font-size: 40px;
-    font-weight: bold; 
-    text-align: center;
-}
-span.tocHead {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
+
 ul {
-    list-style: none;
+    list-style-type: none;
     text-align: center;
+    width: 300px;   
+}
+li {
+    list-style: none;
+}
+div {
+    background-image: url('../images/parchbk.jpg');
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    margin: 25px;
+    display: none;
 }
 a {
-    color: rgb(255,127,80);
+    color: rgb(139, 69, 19);
     opacity: 1;
-    font-size: 20px;
-     
+    font-size: 15px;   
 }
 
-div{
+div {
     background-image: url('../images/parchbk.jpg');
-    width: 700px;
+    width: auto;
     height: auto;
     margin: 25px;
     padding: 25px;
