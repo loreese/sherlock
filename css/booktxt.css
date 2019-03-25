@@ -1,12 +1,8 @@
-h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px; 
+   h1{
+       text-align: center;
    }
    h2{
-       text-align: center;
-    font-weight: bold;
-    font-size: 20px; 
+    text-align: center;
     color: rgb(139, 69, 19);
    }
 body{
@@ -34,13 +30,6 @@ a {
     opacity: 1;
     font-size: 15px;   
 }
-
-div {
-    background-image: url('../images/parchbk.jpg');
-    width: auto;
-    height: auto;
-    margin: 25px;
-    padding: 25px;
-    display: none;
-   
+p {
+    quotes:initial;
 }
