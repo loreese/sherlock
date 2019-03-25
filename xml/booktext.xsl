@@ -95,24 +95,11 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="/q">
+    <xsl:template match="q">
         <q><xsl:apply-templates/></q>
     </xsl:template>
-    <!-- zme: You set your template match here on "/q", when, just like with the
-    rest of your elements, you want to simply write the tag name. Everything
-    else here is correct. When <q> tags are inserted into an HTML document,
-    they're automatically rendered as quotation marks. You can use CSS properties
-    on the HTML <q> tags to render "smart quotes" (read: curly quotation marks).
-    
-    
-    With subquotes, you'll
-    want to use single quotes, instead of doubles (since that's how nested quotes
-    are always treated). I recommend for now writing this when you apply templates
-    on your <subq> elements:
-    
-    <xsl:text>&apos;</xsl:text><xsl:apply-templates/><xsl:text>&apos;</xsl:text>
-    -->
+  
     <xsl:template match="/subq">
-        <apos><xsl:apply-templates/></apos>
+        <xsl:text>&apos;</xsl:text><xsl:apply-templates/><xsl:text>&apos;</xsl:text>
     </xsl:template>
     </xsl:stylesheet>
