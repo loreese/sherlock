@@ -29,7 +29,7 @@
             <body>  
                 <h1>Sherlock Holmes: The Sign of the Four</h1>
                   <div>
-                                           
+                      <!--#include virtual="../ssi/navbar.xhtml" -->                     
                 <h2>Contents</h2>
                 <ul>
                     <xsl:apply-templates select="//ch" mode="toc"/>
