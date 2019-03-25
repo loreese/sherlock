@@ -15,7 +15,8 @@
     namespace declarations that have anything other than http://www.w3.org/1999/xhtml
     -->
     
-    <xsl:output indent="yes" method="xml" doctype-system="about:legacy-compact"/>
+    <!--<xsl:output indent="yes" method="xml" doctype-system="about:legacy-compact"/>-->
+    <xsl:output indent="yes" method="xml" doctype-system="about:legacy-compat"/>
     <xsl:template match="/">
         <html>
             <head>
@@ -24,6 +25,11 @@
                    The Sign of the Four
                     <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/> 
                 </title>
+                <!-- zme: the <link> element can't occur inside a <title> element and should
+                    be moved directly below the <head> element. These sorts of HTML errors won't
+                    be flagged in XSLT, since XSLT doesn't validate HTML code. You'll need to open
+                    your HTML file in <oXygen/> to catch these sorts of errors.
+                -->
             </head>
             
             <body>  
