@@ -20,9 +20,9 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
                 <title>
                    The Sign of the Four 
+                    <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
                 </title>
                 <!-- zme: the <link> element can't occur inside a <title> element and should
                     be moved directly below the <head> element. These sorts of HTML errors won't
@@ -105,6 +105,6 @@
     </xsl:template>
   
     <xsl:template match="subq">
-        <span class="subq">&apos;<xsl:apply-templates/>&apos;</span>
+        <span class="subq {@id}">&apos;<xsl:apply-templates/>&apos;</span>
     </xsl:template>
     </xsl:stylesheet>
