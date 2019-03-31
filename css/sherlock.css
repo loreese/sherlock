@@ -6,13 +6,7 @@ h1 {
     Background-color: #f1f1f1;
     box-shadow: 7px 7px 5px #637282;
     opacity: 0.7;
-
-
-    /* download this image and put it in the repo */
-
 }
-
-
 
 .title {
     text-align: center;
@@ -36,11 +30,36 @@ nav {
 
 body {
     background-image: url('../images/orientalWall.jpg');
-    opacity: 0.7;
+    opacity: 0.7;}
+/* zme: If you want to set opacity/transparency on the background image,
+ * erase your property on line 38 and try messing around with this style property on the body:
+ * background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/orientalWall.jpg') 
+ * The linear-gradient properties have 4 values: the first three are RGB (red, blue, green), which
+ * you can set to 0 to render the actual background image. The last one is what you want, the
+ * opacity property. If the values are different between these two parentheticals, there
+ * will be a gradient from one end of the image to the other. If they're the same (as above,
+ * both set to 0.1), there won't be a gradient and the opacity will be the same across
+ * the span of the image. */
+ 
+ /* zme: The opacity property you listed above is inherited to all the children
+  * elements of your body, which right now are divs. If you don't want the divs
+  * to have any transparency and were just trying to style the background, remove
+  * that. If you like having translucent divs, then it's working just fine. */
     
+  /* zme: When I fill the background image so that it doesn't repeat, I also
+   * like to fix it in a single position, so that it doesn't blow up monumentally.
+   * Here's styling properties that you'll apply on the body to do that:
+   * 
+   *background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed
+   * 
+   * 
+   * What this is saying is, your background image will be justified to the
+   * very center of the window; the size of the background image will fit to
+   * 100% of the width and height; the background itself will be "fixed" in place,
+   * so that as the user scrolls it stays in the same exact position. */
     
-
-}
 
 ul {
     list-style-type: none;
@@ -92,4 +111,10 @@ nav {
     Background-color: #f1f1f1;
     opacity: 0.7;
     box-shadow: 7px 7px 5px #637282;
+}
+img {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
