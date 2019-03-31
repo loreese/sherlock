@@ -552,11 +552,11 @@
     <p><q speaker="Sherlock">It is paper of native Indian manufacture,</q> he remarked. <q
         speaker="Sherlock">It has at some time been pinned to a board. The diagram upon it appears
         to be a plan of part of a large building with numerous halls, corridors, and passages. At
-        one point is a small cross done in red ink, and above it is <subq source="other">3.37 from
-          left</subq>, in faded pencil-writing. In the left-hand corner is a curious hieroglyphic
+        one point is a small cross done in red ink, and above it is 3.37 from
+          left, in faded pencil-writing. In the left-hand corner is a curious hieroglyphic
         like four crosses in a line with their arms touching. Beside it is written, in very rough
-        and coarse characters, <subq source="other"> The sign of the four,--Jonathan Small, Mahomet
-          Singh, Abdullah Khan, Dost Akbar</subq>. No, I confess that I do not see how this bears
+        and coarse characters, The sign of the four,--Jonathan Small, Mahomet
+          Singh, Abdullah Khan, Dost Akbar. No, I confess that I do not see how this bears
         upon the matter. Yet it is evidently a document of importance. It has been kept carefully in
         a pocket-book; for the one side is as clean as the other .</q></p>
 
@@ -640,10 +640,10 @@
       giant city was throwing out into the country. At last the cab drew up at the third house in a
       new terrace. None of the other houses were inhabited, and that at which we stopped was as dark
       as its neighbors, save for a single glimmer in the kitchen window. On our knocking, however,
-      the door was instantly thrown open by a Hindoo servant clad in a yellow turban, white
-      loose-fitting clothes, and a yellow sash. There was something strangely incongruous in this
+      the door was instantly thrown open by <desc host="orient" target="pers">a Hindoo servant clad in a yellow turban, white
+      loose-fitting clothes, and a yellow sash. here was something strangely <adj type="exotic" att="pos">incongruous</adj> in this
       Oriental figure framed in the commonplace door-way of a third-rate suburban
-      dwelling-house.</p>
+      dwelling-house.</desc></p>
 
     <p><q speaker="servant">The Sahib awaits you,</q> said he, and even as he spoke there came a
       high piping voice from some inner room. <q speaker="Thaddeus">Show them in to me,
