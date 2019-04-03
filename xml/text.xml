@@ -2389,9 +2389,8 @@
     <p><q speaker="Mrs. Forrester"> It is a romance!</q> cried Mrs. Forrester. <q
         speaker="Mrs. Forrester">An injured lady, half a million in treasure, a <desc target="pers"
           host="orient"><adj type="prim" att="neg">black</adj>
-          <n type="prim" att="neg">cannibal,</n></desc> and a <desc target="pers" host="orient"><adj
-            type="prim" att="ambig">wooden-legged</adj>
-          <n type="prim" att="neg">ruffian.</n></desc> They take the place of the conventional
+          <n type="prim" att="neg">cannibal,</n></desc> and a <desc target="pers" host="orient">
+          wooden-legged ruffian.</desc> They take the place of the conventional
         dragon or wicked earl.</q></p>
 
     <p><q speaker="Mary">And two knight-errants to the rescue,</q> added Miss Morstan, with a bright
@@ -2527,9 +2526,8 @@
     <p>It was a long day. Every time that a knock came to the door, or a sharp step passed in the
       street, I imagined that it was either Holmes returning or an answer to his advertisement. I
       tried to read, but my thoughts would wander off to our strange quest and to the <desc
-        target="pers" host="orient"><adj type="prim" att="neg"> ill-assorted</adj> and<adj
-          type="prim" att="neg"> villainous</adj>
-        <n type="prim" att="ambig">pair</n></desc> whom we were pursuing. Could there be, I
+        target="pers" host="orient"><adj type="none" att="neg"> ill-assorted</adj> and<adj
+          type="none" att="neg"> villainous</adj> pair</desc> whom we were pursuing. Could there be, I
       wondered, some radical flaw in my companion's reasoning. Might he be suffering from some huge
       self-deception? Was it not possible that his nimble and speculative mind had built up this
       wild theory upon faulty premises? I had never known him to be wrong; and yet the keenest
@@ -2611,6 +2609,7 @@
     <p><q speaker="Sherlock">Is Mr. Sherlock Holmes here?</q> said he.</p>
     <!-- This is Sherlock in disguise, 
    should we mark it? I did just in case  -->
+      <!-- lo: yes, i think attributing him as the speaker is fine here-->
 
     <p><q speaker="Watson">No; but I am acting for him. You can tell me any message you have for
         him.</q></p>
@@ -2955,9 +2954,9 @@
       turning which they took there could no longer be any question about it. At Greenwich we were
       about three hundred paces behind them. At Blackwall we could not have been more than two
       hundred and fifty. <desc host="occident" target="pers">I have coursed many <n att="neg"
-          type="prim">creatures </n>in many countries during my checkered career,</desc> but never
-      did sport give me such a wild thrill as this mad, flying man-hunt down the Thames. Steadily we
-      drew in upon them, yard by yard. In the silence of the night we could hear the panting and
+          type="prim">creatures </n>in many countries during my checkered career, but never
+          did sport give me such a wild thrill as this mad, flying man-hunt down the Thames.</desc> 
+        Steadily we drew in upon them, yard by yard. In the silence of the night we could hear the panting and
       clanking of their machinery. The man in the stern still crouched upon the deck, and his arms
       were moving as though he were busy, while every now and then he would look up and measure with
       a glance the distance which still separated us. Nearer we came and nearer. Jones yelled to
@@ -2968,18 +2967,18 @@
       He was a good-sized, powerful man, and as he stood poising himself with legs astride I could
       see that from the thigh downwards there was but a wooden stump upon the right side. At the
       sound of his strident, angry cries there was movement in the huddled bundle upon the
-        deck.<narr v="Watson"><desc target="pers" host="orient"> It straightened itself into a
+        deck.<desc target="pers" host="orient"> It straightened itself into a
           little black man--the smallest I have ever seen--with a great, <adj type="prim" att="neg"
             >misshapen</adj> head and a shock of tangled, dishevelled hair. Holmes had already drawn
           his revolver, and I whipped out mine at the sight of this <adj type="prim" att="neg"
-            >savage</adj>, <adj att="neg" type="prim">distorted</adj>
-          <n type="prim" att="neg">creature</n>.</desc></narr> He was wrapped in some sort of dark
+            >savage</adj>, <adj att="neg" type="none">distorted</adj>
+          <n type="prim" att="neg">creature</n>.</desc> He was wrapped in some sort of dark
       ulster or blanket, which left only his face exposed; but that face was enough to give a man a
-      sleepless night. <narr v="Watson"><desc host="orient" target="pers">Never have I seen features
+      sleepless night.<desc host="orient" target="pers">Never have I seen features
           so deeply marked with all <n att="neg" type="prim">bestiality</n> and <n type="violent"
             att="neg">cruelty</n>. His small eyes glowed and burned with a sombre light, and his
           thick lips were writhed back from his teeth, which grinned and chattered at us with a half
-          animal fury.</desc></narr></p>
+          animal fury.</desc></p>
 
     <p><q speaker="Sherlock">Fire if he raises his hand,</q> said Holmes, quietly. We were within a
       boat's-length by this time, and almost within touch of our quarry. I can see the two of them
@@ -3013,8 +3012,8 @@
           be no question, was the same that had contained the ill-omened treasure of the
           Sholtos.</desc> There was no key, but it was of considerable weight, so we transferred it
         carefully to our own little cabin. As we steamed slowly up-stream again, we flashed our
-        search-light in every direction, but <desc host="orient" target="pers">there was no sign of
-          the <n type="prim" att="ambig">Islander</n>. Somewhere in the dark ooze at the bottom of
+        search-light in every direction, <desc host="orient" target="pers"> but there was no sign of
+          the <n type="prim" att="neg">Islander</n>. Somewhere in the dark ooze at the bottom of
           the Thames lie the bones of that <adj att="neg" type="none">strange</adj> visitor to our
           shores. </desc><q speaker="Sherlock">See here,</q> said Holmes, pointing to the wooden
         hatchway. <q speaker="Sherlock">We were hardly quick enough with our pistols.</q> There,
@@ -3044,16 +3043,12 @@
 
     <p><q speaker="Small">And so am I, sir,</q> he answered, frankly. <q speaker="Small">I don't
         believe that I can swing over the job. I give you my word on the book that I never raised
-        hand against Mr. Sholto. It was that <desc target="pers" host="orient"><adj type="prim"
-            att="neg">little</adj>
-          <n type="violent" att="neg">hell-hound Tonga</n></desc> who shot one of his <desc
-          target="pers" host="orient">
+        hand against Mr. Sholto. <desc target="pers" host="orient">It was that little
+            <n type="none" att="neg">hell-hound</n> Tonga who shot one of his 
           <adj type="exotic" att="neg">cursed</adj><n type="prim" att="neg"> darts</n></desc> into
         him. I had no part in it, sir. I was as grieved as if it had been my blood-relation. I <desc
-          target="pers" host="occident">
-          <vb type="violent" att="neg">welted</vb> the <adj type="prim" att="neg">little</adj>
-          <n type="violent" att="neg"> devil</n></desc> with the slack end of the rope for it, but
-        it was done, and I could not undo it again.</q></p>
+          target="pers" host="orient"> welted the little <n type="none" att="neg">devil</n></desc> with 
+        the slack end of the rope for it, but it was done, and I could not undo it again.</q></p>
 
     <p><q speaker="Sherlock">Have a cigar,</q> said Holmes; <q speaker="Sherlock">and you had best
         take a pull out of my flask, for you are very wet. How could you expect so small and weak a
@@ -3064,19 +3059,19 @@
         that I hoped to find the room clear. I knew the habits of the house pretty well, and it was
         the time when Mr. Sholto usually went down to his supper. I shall make no secret of the
         business. The best defence that I can make is just the simple truth. Now, if it had been the
-        old major I <desc target="pers" host="occident">
-          <vb type="violent" att="neg">would have swung for him</vb></desc> with a light heart. I
+        old major I would have swung for him with a light heart. I
         would have thought no more of knifing him than of smoking this cigar. But it's cursed hard
         that I should be lagged over this young Sholto, with whom I had no quarrel whatever.</q></p>
 
     <p><q speaker="Sherlock">You are under the charge of Mr. Athelney Jones, of Scotland Yard. He is
         going to bring you up to my rooms, and I shall ask you for a true account of the matter. You
         must make a clean breast of it, for if you do I hope that I may be of use to you. I think I
-        can prove that the <desc target="obj" host="orient">
-          <n type="exotic" att="neg">poison</n><vb type="violent" att="neg">acts</vb>
-          <adv type="violent" att="neg">so quickly</adv></desc> that the man was dead before ever
+        can prove that <desc target="obj" host="orient">the
+          <n type="exotic" att="neg"> poison</n>acts
+         so quickly</desc> that the man was dead before ever
         you reached the room.</q></p>
-
+<!--end edits 4/3-->
+      
     <p><q speaker="Small">That he was, sir. I never got such a turn in my life as when I saw him
         grinning at me with his head on his shoulder as <desc target="pers" host="occident"><n
             type="none" att="ambig">I</n>
@@ -3538,7 +3533,7 @@
         brown eyes. I waited, therefore, in silence, to see what it was that they wanted from
         me.</q></p>
 
-    <p>"<q speaker="Small"><subq id="Abdullah Khan">Listen to me, Sahib,</subq> said <desc
+    <p><q speaker="Small"><subq id="Abdullah Khan">Listen to me, Sahib,</subq> said <desc
           target="pers" host="orient">the taller and <adj type="violent" att="ambig">fiercer</adj>
           of the pair,</desc> the one whom they called Abdullah Khan. <subq id="Abdullah Khan">You
           must either be with us now or you must be silenced forever. The thing is too great a one
