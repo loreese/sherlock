@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
 h1 {
     text-align: center;
-    font-family: 'Staatliches', cursive;
+    font-family: 'IM Fell DW Pica SC', serif;
     font-size: 72px;
     color: black;
     Background-color: #f1f1f1;
@@ -10,7 +13,7 @@ h1 {
 
 .title {
     text-align: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'IM Fell English SC', serif;
     font-size: 30px;
 box-shadow: 7px 7px 5px #637282;
     background-color: #FFFAF0;
@@ -23,14 +26,11 @@ nav {
     font-family: 'Jim Nightshade', serif;
 
 }
-
-
-
-
-
 body {
     background-image: url('../images/orientalWall.jpg');
-    opacity: 0.7;}
+    opacity: 0.7;
+     background-repeat: no-repeat;
+  background-attachment: fixed;}
 /* zme: If you want to set opacity/transparency on the background image,
  * erase your property on line 38 and try messing around with this style property on the body:
  * background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/orientalWall.jpg') 
@@ -99,8 +99,6 @@ div {
     text-align: left;
     margin-left: 22%;
     padding: 10px;
-    
-
 }
 
 nav {
