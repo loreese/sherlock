@@ -10,15 +10,19 @@
             <head>
                 <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
                 <title>
-                   The Sign of the Four 
-                    
+                   The Sign of the Four Text   
                 </title>
               </head>
             <body>
+                    <header>
+                        <h1>Detecting Orientalism in Sherlock Holmes</h1>
+                    </header>
+                <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment> 
                 <section>
                     <div id="head">
                         <h2 class="title"> Orientalism in the Victorian Imagination</h2>
                     </div>
+                    <br/>
                 </section>
                 <section>
                     <div id="booktitle">
