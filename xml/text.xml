@@ -3,15 +3,14 @@
 <?xml-stylesheet type="text/css" href="../css/booktxt.css"?>
 <text>
   <head>
-
     <metadata titleText="The Sign of the Four" author="Sir Arthur Conan Doyle" date="1890"
       publisher="Lippincott's Monthly Magazine"/>
-    <title/>
-
+   <title>The Sign of The Four</title>
+      
   </head>
 
   <ch no="I">
-    <title>The Science of Deduction</title>
+    <chTitle>The Science of Deduction</chTitle>
 
 
     <p>Sherlock Holmes took his bottle from the corner of the mantel-piece and his hypodermic
@@ -299,7 +298,7 @@
 
 
   <ch no="II">
-    <title>The Statement of the Case</title>
+    <chTitle>The Statement of the Case</chTitle>
 
     <p>Miss Morstan entered the room with a firm step and an outward composure of manner. She was a
       blonde young lady, small, dainty, well gloved, and dressed in the most perfect taste. There
@@ -492,7 +491,7 @@
   </ch>
 
   <ch no="III">
-    <title>In Quest of a Solution</title>
+    <chTitle>In Quest of a Solution</chTitle>
 
     <p>It was half-past five before Holmes returned. He was bright, eager, and in excellent
       spirits,--a mood which in his case alternated with fits of the blackest depression.</p>
@@ -652,7 +651,7 @@
   </ch>
 
   <ch no="IV">
-    <title>The Story of the Bald-Headed Man</title>
+    <chTitle>The Story of the Bald-Headed Man</chTitle>
 
     <p>We followed the Indian down a sordid and common passage, ill lit and worse furnished, until
       he came to a door upon the right, which he threw open. A blaze of yellow light streamed out
@@ -967,7 +966,7 @@
   </ch>
 
   <ch no="V">
-    <title>The Tragedy of Pondicherry Lodge</title>
+    <chTitle>The Tragedy of Pondicherry Lodge</chTitle>
 
     <p>It was nearly eleven o'clock when we reached this final stage of our night's adventures. We
       had left the damp fog of the great city behind us, and the night was fairly fine. A warm wind
@@ -1226,7 +1225,7 @@
   </ch>
 
   <ch no="VI">
-    <title>Sherlock Holmes Gives a Demonstration</title>
+    <chTitle>Sherlock Holmes Gives a Demonstration</chTitle>
 
     <p><q speaker="Sherlock">Now, Watson,</q>said Holmes, rubbing his hands, <q speaker="Sherlock"
         >we have half an hour to ourselves. Let us make good use of it. My case is, as I have told
@@ -1560,7 +1559,7 @@
   </ch>
 
   <ch no="VII">
-    <title>The Episode of the Barrel</title>
+    <chTitle>The Episode of the Barrel</chTitle>
 
     <p>The police had brought a cab with them, and in this I escorted Miss Morstan back to her home.
       After the angelic fashion of women, she had borne trouble with a calm face as long as there
@@ -1966,7 +1965,7 @@
   </ch>
 
   <ch no="VIII">
-    <title>The Baker Street Irregulars</title>
+    <chTitle>The Baker Street Irregulars</chTitle>
 
     <p><q speaker="Watson">What now?</q> I asked. <q speaker="Watson">Toby has lost his character
         for infallibility.</q></p>
@@ -2335,7 +2334,7 @@
   </ch>
 
   <ch no="IX">
-    <title>A Break in the Chain</title>
+    <chTitle>A Break in the Chain</chTitle>
 
     <p>It was late in the afternoon before I woke, strengthened and refreshed. Sherlock Holmes still
       sat exactly as I had left him, save that he had laid aside his violin and was deep in a book.
@@ -2729,7 +2728,7 @@
   </ch>
 
   <ch no="X">
-    <title>The End of the Islander</title>
+    <chTitle>The End of the Islander</chTitle>
 
     <p>Our meal was a merry one. Holmes could talk exceedingly well when he chose, and that night he
       did choose. He appeared to be in a state of nervous exaltation. I have never known him so
@@ -3024,7 +3023,7 @@
   </ch>
 
   <ch no="XI">
-    <title>The Great Agra Treasure</title>
+    <chTitle>The Great Agra Treasure</chTitle>
 
     <p>Our captive sat in the cabin opposite to the iron box which he had done so much and waited so
       long to gain. He was a sunburned, reckless-eyed fellow, with a net-work of lines and wrinkles
@@ -3316,7 +3315,7 @@
   </ch>
 
   <ch no="XII">
-    <title>The Strange Story of Jonathan Small</title>
+    <chTitle>The Strange Story of Jonathan Small</chTitle>
 
     <p>A very patient man was that inspector in the cab, for it was a weary time before I rejoined
       him. His face clouded over when I showed him the empty box.</p>

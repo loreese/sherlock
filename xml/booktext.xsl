@@ -22,18 +22,16 @@
                     <div id="head">
                         <h2 class="title"> Orientalism in the Victorian Imagination</h2>
                     </div>
-                    <br />
-                </section>
-                <section>
-                    <div id="booktitle">
+                 <div id="booktitle">
                 <h1 class="title">The Sign of the Four</h1>
                     </div>
                 <div class="toc">
-                <h2 id="tblcon">Table of contents</h2>
+                <h2>Table of contents</h2>
                 <ul>
                     <xsl:apply-templates select="/ch" mode="toc"/>
+                    <xsl:apply-templates select="/chTitle" mode="toc"/>
                 </ul>
-                <hr/>
+               
                 <h2 id="chapters">Chapters</h2>
                 <xsl:apply-templates/>
                 </div>
