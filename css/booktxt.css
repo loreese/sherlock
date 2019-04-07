@@ -8,19 +8,13 @@ div.head {
     padding: 25px;
     margin: 25px;
 } 
- h1.title {
-       text-align: center;
-       font-family: 'IM Fell DW Pica SC', serif;
-   }
-h2.tblcon{
+.tblcon{
     text-align: center;
     color: rgb(139, 69, 19);
     font-family: 'IM Fell DW Pica SC';
    }
-body{
-    background-image: url('../images/orientalWall.jpg');
-}
-div.toc {
+
+.toc {
      background-image: url('../images/parchbk.jpg');
     width: 35%;
     height: auto;
