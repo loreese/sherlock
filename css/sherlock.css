@@ -19,16 +19,13 @@ box-shadow: 7px 7px 5px #637282;
     background-color: #FFFAF0;
 }
 
-nav {
-    text-align: left;
-    font-family: 'Jim Nightshade', serif;
-
-}
 body {
-    background-image: url('../images/orientalWall.jpg');
-    opacity: 0.7;
-     background-repeat: no-repeat;
-  background-attachment: fixed;}
+    background-image:
+    linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/orientalWall.jpg');
+       background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center;
+  }
 /* zme: If you want to set opacity/transparency on the background image,
  * erase your property on line 38 and try messing around with this style property on the body:
  * background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/orientalWall.jpg') 
@@ -57,8 +54,10 @@ body {
    * very center of the window; the size of the background image will fit to
    * 100% of the width and height; the background itself will be "fixed" in place,
    * so that as the user scrolls it stays in the same exact position. */
-    
-
+#navbar {
+    overflow:hidden;
+    background-color: white;  
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -66,41 +65,36 @@ ul {
     overflow: hidden;
     background-color: #333;
     box-shadow: 7px 7px 5px #637282;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 20%;
-    background-color: #f1f1f1;
-    height: 100%;
     position: fixed;
-    overflow: auto;
+    height: auto;
+    width:20%;
 }
 
-
-li a {
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 25%;
+}
+#navbar a {
+    float:left;
     display: block;
+    font-family: 'IM Fell English SC', serif;
     color: #000;
     padding: 12px 5px;
     text-decoration: none;
-    font-family: serif;
+    text-align: center; 
 }
-
 
 li a:hover {
     background-color: #555;
     color: white;
 }
+
 div {
     text-align: left;
     margin-left: 22%;
-    padding: 10px;
-}
-
-nav {
-    opacity: 0.7;
+    padding: 25px;
+    width:75%;
 }
 
 .main {

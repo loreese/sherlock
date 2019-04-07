@@ -8,25 +8,25 @@
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
+                <link rel="stylesheet" type="text/css" href="../css/sherlock.css"/>
                 <title>
                    The Sign of the Four Text   
                 </title>
               </head>
             <body>
-                    <header>
-                        <h1>Detecting Orientalism in Sherlock Holmes</h1>
-                    </header>
+                <header>
+                    <h1>Detecting Orientalism in Sherlock Holmes</h1>
+                </header>
                 <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment> 
                 <section>
                     <div id="head">
                         <h2 class="title"> Orientalism in the Victorian Imagination</h2>
                     </div>
-                    <br/>
+                    <br />
                 </section>
                 <section>
                     <div id="booktitle">
-                <h1 id="title">The Sign of the Four</h1>
+                <h1 class="title">The Sign of the Four</h1>
                     </div>
                 <div class="toc">
                 <h2 id="tblcon">Table of contents</h2>
