@@ -4,20 +4,18 @@
 h1 {
     text-align: center;
     font-family: 'IM Fell DW Pica SC', serif;
-    font-size: 72px;
-    color: black;
+    font-size: 65px;
+    color: rgb(139, 69, 19);
     Background-color: #f1f1f1;
     box-shadow: 7px 7px 5px #637282;
     opacity: 0.7;
+    padding: 10px;
 }
 h2 {
-     text-align: center;
-    font-family: 'IM Fell DW Pica SC', serif;
-    font-size: 72px;
-    color: black;
-    Background-color: #f1f1f1;
-    box-shadow: 7px 7px 5px #637282;
-    opacity: 0.7;
+    text-align: center;
+   font-family: 'IM Fell DW Pica SC', serif;
+   font-size: 40px; 
+   color: rgb(139, 69, 19);
 }
 
 .title {
@@ -26,6 +24,7 @@ h2 {
     font-size: 30px;
 box-shadow: 7px 7px 5px #637282;
     background-color: #FFFAF0;
+    color: rgb(139, 69, 19);
 }
 
 body {
@@ -100,17 +99,34 @@ li a:hover {
 }
 
 div {
-    text-align: left;
+    text-align: center;
     margin-left: 22%;
     padding: 25px;
     width:75%;
 }
 .booktitle {
     text-align: center;
+    font-size: 50px;
 }
 .chapters {
     text-align: center;
     color: black;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+ul.tbl {
+    list-style-type: none;
+    text-align: center;
+    width: 300px; 
+    font-family: 'IM Fell DW English SC';
+     display: none;
+}
+li.tblc {
+    list-style: none;
+}
+
+a {
+    color: rgb(139, 69, 19);
+    font-size: 15px;   
 }
 .book {
  background-image: url('../images/parchbk.jpg');
@@ -118,6 +134,8 @@ div {
     height: auto;
     padding: 25px;
     margin: 25px;
+    color: black;
+    font-family: 'IM Fell English SC', serif;
 }
 .main {
     Background-color: #f1f1f1;
@@ -126,7 +144,6 @@ div {
 }
 
 .toc {
-    float: right;
     background-image: url('../images/parchbk.jpg');
     width: 35%;
     height: auto;
@@ -135,6 +152,10 @@ div {
     color: rgb(139, 69, 19);
     font-family: 'IM Fell DW Pica SC';
 }
+.center {
+    margin: auto;
+}
+
 img {
      display: block;
   margin-left: auto;

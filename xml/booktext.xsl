@@ -18,38 +18,31 @@
                     <h1>Detecting Orientalism in Sherlock Holmes</h1>
                 </header>
                 <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment> 
-                <section>
-                    <div id="head">
                         <h2 class="title"> Orientalism in the Victorian Imagination</h2>
-                    </div>
-                 <div id="booktitle">
-                <h1 class="title">The Sign of the Four</h1>
-                    </div>
-                <div class="toc">
+                <h1 id="booktitle">The Sign of the Four</h1>  
+                <div id="toc" class="center">
                 <h2>Table of contents</h2>
-                <ul>
-                    <xsl:apply-templates select="/ch" mode="toc"/>
-                    <xsl:apply-templates select="/chTitle" mode="toc"/>
+                <ul id="tbl">
+                    <xsl:apply-templates select="//ch" mode="toc"/>
                 </ul>
-               
-                <h2 id="chapters">Chapters</h2>
-                <xsl:apply-templates/>
-                </div>
-                </section>
+               <hr/>
+                    <xsl:apply-templates/>
+                </div>    
             </body>
         </html>
     </xsl:template>
     <xsl:template match="ch" mode="toc">
-        <li>
-            <a href="#ch {@no}">
-                <xsl:apply-templates select="title" mode="toc"/>
+        <li id="tblc">
+            <a href="#ch{@no}">
+                <xsl:apply-templates select="@no"/>
                 <xsl:text>. </xsl:text>
-               
+                <xsl:apply-templates select="chTitle" mode="toc"/>
             </a>         
         </li>
     </xsl:template>
-    <xsl:template match="title" mode="toc">
-        <xsl:apply-templates/>
+    <xsl:template match="chTitle">
+      <h3><xsl:apply-templates select="@no"/></h3>
+          <xsl:apply-templates/>
     </xsl:template>
     <!-- End modal XSLT -->
     
