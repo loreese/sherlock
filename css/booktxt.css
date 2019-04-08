@@ -10,17 +10,7 @@ h1 {
     box-shadow: 7px 7px 5px #637282;
     opacity: 0.7;
 }
-h2.subtitle{
-   font-family: 'IM Fell English SC', serif;
-     text-align: center;
-     color: rgb(139, 69, 19); 
-     Background-color: #f1f1f1;
-    box-shadow: 7px 7px 5px #637282;
-    opacity: 0.7;
-    width: 600px;
-    margin: auto;
-    border: 0px;
-}
+
 h2 {
 font-family: 'IM Fell English SC', serif;
      text-align: center;
@@ -55,7 +45,7 @@ ul {
     background-image: url('../images/parchbk.jpg');
     list-style-type: none;
     text-align: center;
-    width: 300px; 
+    width: 450px; 
     margin: auto;
     padding: 20px;
     border: 2px;
@@ -68,7 +58,7 @@ li {
 
 a {
     color: rgb(139, 69, 19);
-    font-size: 15px;   
+    font-size: 25px;   
     font-family: 'IM Fell English SC', serif;
 }
 section{

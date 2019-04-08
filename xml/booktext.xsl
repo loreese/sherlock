@@ -15,7 +15,7 @@
               </head>
             <body>
                 <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment> 
-                        <h2 class="subtitle"> Orientalism in the Victorian Imagination</h2>
+                        <h1>Detecting Orientalism in Sherlock Holmes</h1>
                 <h1>The Sign of the Four</h1>  
                 <div id="toc">
                     <h2>Table of contents</h2>
@@ -29,21 +29,26 @@
     </xsl:template>
         <xsl:template match="ch" mode="toc">
         <li>
-            <a href="#ch-{@no}">
-                <xsl:apply-templates select="@no"/>
+            <a href="#ch {@no}">
+                <xsl:apply-templates select="@no" mode="toc"/>
                 <xsl:text>. </xsl:text>
                 <xsl:apply-templates select="chTitle" mode="toc"/>
             </a>         
         </li>
     </xsl:template>
-    <xsl:template match="ch">
-      <h3><xsl:apply-templates select="@no"/></h3>
+    <xsl:template match="chTitle" mode="toc">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="book">
+      <h2 id="ch {@no}">
+          <xsl:apply-templates select="@no"/></h2>
+    </xsl:template>
         <xsl:template match="chTitle">
             <h3><xsl:apply-templates select="chTitle"/></h3>
     </xsl:template>
     
     <!-- End modal XSLT -->
-    <xsl:template match="book">    
+    <xsl:template match="book">
     <section><xsl:apply-templates/></section>
     </xsl:template>
     <xsl:template match="ch">
@@ -62,4 +67,4 @@
     <xsl:template match="subq">
         <span class="subq {@id}"><xsl:text>&apos;</xsl:text><xsl:apply-templates/><xsl:text>&apos;</xsl:text></span>
     </xsl:template>
-    </xsl:stylesheet>
+       </xsl:stylesheet>
