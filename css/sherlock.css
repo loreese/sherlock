@@ -22,8 +22,8 @@ box-shadow: 7px 7px 5px #637282;
 nav {
     text-align: left;
     font-family: 'IM Fell DW Pics SC', serif;
-
-}
+    opacity: 0.7;
+    }
 body {
      background-image:
     linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/orientalWall.jpg');
@@ -93,9 +93,6 @@ div {
     padding: 10px;
 }
 
-nav {
-    opacity: 0.7;
-}
 
 .main {
     Background-color: #f1f1f1;

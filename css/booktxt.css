@@ -34,7 +34,7 @@ font-family: 'IM Fell English SC', serif;
 h3 {
     font-family: 'IM Fell DW Pica SC', serif;
      text-align: center;
-     color: rgb(139, 69, 19);
+     color: black;
 }
 body {
     background-image:
@@ -70,12 +70,4 @@ a {
     font-size: 15px;   
     font-family: 'IM Fell English SC', serif;
 }
-div.book {
-    background-image: url('../images/parchbk.jpg');
-    width: 75%;
-    height: auto;
-    padding: 25px;
-    margin: 25px;
-    font-family: 'IM Fell DW Pica', serif;  
-    color: black;
-}
+

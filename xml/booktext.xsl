@@ -40,7 +40,7 @@
             </a>         
         </li>
     </xsl:template>
-    <xsl:template match="ch">
+    <xsl:template match="chTitle">
       <h3><xsl:apply-templates select="@no"/></h3>
           <xsl:apply-templates/>
         <h3><xsl:apply-templates select="chTitle"/></h3>
@@ -52,7 +52,7 @@
        <a href="#ch-{@no}">[Back to top]</a>
             <xsl:apply-templates/>   
     </xsl:template>
-    <div id="book"> 
+   
     <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
@@ -64,5 +64,5 @@
     <xsl:template match="subq">
         <span class="subq {@id}"><xsl:text>&apos;</xsl:text><xsl:apply-templates/><xsl:text>&apos;</xsl:text></span>
     </xsl:template>
-    </div>
+    
     </xsl:stylesheet>
