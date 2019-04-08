@@ -1,41 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
-div.head {
-    background-image: url('../images/parchbk.jpg');
-    width: 75%;
-    height: auto;
-    padding: 25px;
-    margin: 25px;
-} 
-.tblcon{
-    text-align: center;
-    color: rgb(139, 69, 19);
-    font-family: 'IM Fell DW Pica SC';
-   }
-
-.toc {
-     background-image: url('../images/parchbk.jpg');
+h1 {
+   font-family: 'IM Fell English SC', serif;
+     text-align: center;
+     color: rgb(139, 69, 19); 
+     font-size: 50px;
+    Background-color: #f1f1f1;
+    box-shadow: 7px 7px 5px #637282;
+    opacity: 0.7;
+}
+h2.subtitle{
+   font-family: 'IM Fell English SC', serif;
+     text-align: center;
+     color: rgb(139, 69, 19); 
+     Background-color: #f1f1f1;
+    box-shadow: 7px 7px 5px #637282;
+    opacity: 0.7;
+    width: 600px;
+    margin: auto;
+    border: 0px;
+}
+h2 {
+font-family: 'IM Fell English SC', serif;
+     text-align: center;
+     color: rgb(139, 69, 19); 
+     Background-color: #f1f1f1;
+    box-shadow: 7px 7px 5px #637282;
+    opacity: 0.7;
+    width: 300px;
+    margin: auto;
+}
+h3 {
+    font-family: 'IM Fell DW Pica SC', serif;
+     text-align: center;
+     color: rgb(139, 69, 19);
+}
+body {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/orientalWall.jpg');
+       background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center;
+}
+div.toc {
+   background-image: url('../images/parchbk.jpg');  
     width: 35%;
     height: auto;
     padding: 25px;
-    margin: 25px;
+    margin: auto;
 }
 
 ul {
+    background-image: url('../images/parchbk.jpg');
     list-style-type: none;
     text-align: center;
     width: 300px; 
-    font-family: 'IM Fell DW English SC';
-     display: none;
+    margin: auto;
+    padding: 20px;
+    border: 2px;
 }
 li {
     list-style: none;
+    font-family: 'IM Fell English SC', serif;
 }
 
 a {
     color: rgb(139, 69, 19);
     font-size: 15px;   
+    font-family: 'IM Fell English SC', serif;
 }
 div.book {
     background-image: url('../images/parchbk.jpg');
@@ -43,7 +76,6 @@ div.book {
     height: auto;
     padding: 25px;
     margin: 25px;
-}
-p {
-    quotes:initial;
+    font-family: 'IM Fell DW Pica', serif;  
+    color: black;
 }

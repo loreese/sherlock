@@ -8,7 +8,7 @@
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                <link rel="stylesheet" type="text/css" href="../css/sherlock.css"/>
+                <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
                 <title>
                    The Sign of the Four Text   
                 </title>
@@ -18,21 +18,21 @@
                     <h1>Detecting Orientalism in Sherlock Holmes</h1>
                 </header>
                 <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment> 
-                        <h2 class="title"> Orientalism in the Victorian Imagination</h2>
-                <h1 id="booktitle">The Sign of the Four</h1>  
-                <div id="toc" class="center">
-                <h2>Table of contents</h2>
-                <ul id="tbl">
+                        <h2 class="subtitle"> Orientalism in the Victorian Imagination</h2>
+                <h1>The Sign of the Four</h1>  
+                <div id="toc">
+                    <h2>Table of contents</h2>
+                <ul>
                     <xsl:apply-templates select="//ch" mode="toc"/>
                 </ul>
-               <hr/>
-                    <xsl:apply-templates/>
+                 <xsl:apply-templates/>
                 </div>    
             </body>
         </html>
     </xsl:template>
+    
     <xsl:template match="ch" mode="toc">
-        <li id="tblc">
+        <li>
             <a href="#ch{@no}">
                 <xsl:apply-templates select="@no"/>
                 <xsl:text>. </xsl:text>
@@ -40,18 +40,19 @@
             </a>         
         </li>
     </xsl:template>
-    <xsl:template match="chTitle">
+    <xsl:template match="ch">
       <h3><xsl:apply-templates select="@no"/></h3>
           <xsl:apply-templates/>
+        <h3><xsl:apply-templates select="chTitle"/></h3>
     </xsl:template>
     <!-- End modal XSLT -->
-    
+   
     <xsl:template match="ch">
-        <h3 id="ch-{@no}"><xsl:value-of select="@no"/></h3>
-       <a href="#title">[Back to top]</a>
+        <h3><xsl:value-of select="@no"/></h3>
+       <a href="#ch-{@no}">[Back to top]</a>
             <xsl:apply-templates/>   
     </xsl:template>
-   <div class="book">
+    <div id="book"> 
     <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
@@ -60,9 +61,8 @@
     <xsl:template match="q">
         <q><xsl:apply-templates/></q>
     </xsl:template>
-  
     <xsl:template match="subq">
         <span class="subq {@id}"><xsl:text>&apos;</xsl:text><xsl:apply-templates/><xsl:text>&apos;</xsl:text></span>
     </xsl:template>
-        </div>
+    </div>
     </xsl:stylesheet>
