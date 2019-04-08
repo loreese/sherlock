@@ -1,5 +1,5 @@
 start = body-text
-body-text = element text {head, ch+}
+body-text = element text {head, book}
 head = element head {metadata, title}
 title = element title {text}
 metadata = element metadata {titleText, author, date, publisher}
@@ -7,6 +7,7 @@ titleText = attribute titleText {text}
 author = attribute author {text}
 date = attribute date {xsd:int}
 publisher = attribute publisher {text}
+book = element book {ch+}
 ch = element ch {no, chTitle, p+}
 no = attribute no {text}
 chTitle = element chTitle {text}

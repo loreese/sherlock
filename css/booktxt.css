@@ -63,11 +63,20 @@ ul {
 li {
     list-style: none;
     font-family: 'IM Fell English SC', serif;
+    font-size: 25px;
 }
 
 a {
     color: rgb(139, 69, 19);
     font-size: 15px;   
     font-family: 'IM Fell English SC', serif;
+}
+section{
+     background-image: url('../images/parchbk.jpg');
+  width: 75%;
+  border: none;
+  padding: 25px;
+  margin: auto;
+  color: black; 
 }
 

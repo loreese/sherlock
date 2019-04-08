@@ -7,7 +7,7 @@
             publisher="Lippincott's Monthly Magazine"/>
 <title>The Sign of the Four</title>        
     </head>
-
+<book>
     <ch no="I">
         <chTitle>The Science of Deduction</chTitle>
 
@@ -4310,7 +4310,7 @@
 
         <p><q speaker="Sherlock">For me,</q> said Sherlock Holmes, <q speaker="Sherlock">there still
                 remains the cocaine-bottle.</q> And he stretched his long white hand up for it.</p>
-
+    
     </ch>
-
+</book>
 </text>
