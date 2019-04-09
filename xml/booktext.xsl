@@ -1,70 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
-    xmlns="http://www.w3.org/1999/xhtml"
-    version="3.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs"
+    xmlns="http://www.w3.org/1999/xhtml" version="3.0">
     <xsl:output indent="yes" method="xml" doctype-system="about:legacy-compat"/>
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
-                <title>
-                   The Sign of the Four Text   
-                </title>
-              </head>
+                <title> The Sign of the Four Text </title>
+            </head>
             <body>
-                <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment> 
-                        <h1>Detecting Orientalism in Sherlock Holmes</h1>
-                <h1>The Sign of the Four</h1>  
+                <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
+                <h1>Detecting Orientalism in Sherlock Holmes</h1>
+                <h1>The Sign of the Four</h1>
                 <div id="toc">
                     <h2>Table of contents</h2>
-                <ul>
-                    <xsl:apply-templates select="//ch" mode="toc"/>
-                </ul>
-                 <xsl:apply-templates/>
+                    <ul>
+                        <xsl:apply-templates select="//ch" mode="toc"/>
+                    </ul>
+                    <xsl:apply-templates/>
                 </div>
             </body>
         </html>
     </xsl:template>
-        <xsl:template match="ch" mode="toc">
+    <xsl:template match="ch" mode="toc">
         <li>
-            <a href="#ch {@no}">
+            <!-- zme: removing the whitespace character from the @href value -->
+            
+            <a href="#ch{@no}">
                 <xsl:apply-templates select="@no" mode="toc"/>
                 <xsl:text>. </xsl:text>
                 <xsl:apply-templates select="chTitle" mode="toc"/>
-            </a>         
+            </a>
         </li>
     </xsl:template>
     <xsl:template match="chTitle" mode="toc">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="book">
+
+    <!-- zme: commenting out this seemingly redundant book template (see
+    line 58-62 for template still in use) -->
+
+    <!--    <xsl:template match="book">
       <h2 id="ch {@no}">
           <xsl:apply-templates select="@no"/></h2>
-    </xsl:template>
-        <xsl:template match="chTitle">
-            <h3><xsl:apply-templates select="chTitle"/></h3>
-    </xsl:template>
-    
+    </xsl:template> 
+-->
+
+    <!-- zme: commenting out this chTitle template to put it in each chapter
+    header on line 74 to replicate its design in the table of contents-->
+
+    <!--<xsl:template match="chTitle">
+            <h3><xsl:apply-templates/></h3>
+    </xsl:template>-->
+
     <!-- End modal XSLT -->
     <xsl:template match="book">
-    <section><xsl:apply-templates/></section>
+        <section>
+            <xsl:apply-templates/>
+        </section>
     </xsl:template>
+
     <xsl:template match="ch">
-        <h3><xsl:value-of select="@no"/></h3>
-       <a href="#ch-{@no}">[Back to top]</a>
-            <xsl:apply-templates/>   
+        
+        <!-- zme: adding an @id value for the table of content @href attributes to link to
+        for each chapter (see line 30) -->
+        <!-- zme: adding plain text and the chapter title to precede each chapter's text, like
+    it's formatted in the toc-->
+        <h3 id="ch{@no}">
+            <xsl:value-of select="@no"/>
+            <xsl:text>. </xsl:text>
+            <xsl:value-of select="chTitle"/>
+        </h3>
+        
+        <!-- zme: changing the @href value to back link it to <div id="toc"> at the top
+        of the page-->
+        
+        <a href="#top">[Back to top]</a>
+        <xsl:apply-templates/>
     </xsl:template>
+    
+    <!-- zme: adding an empty chTitle template to remove its duplicated rendering before
+    each chapter (see line 73 for its rendering on the web page) -->
+    
+    <xsl:template match="chTitle"/>
     <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
     <xsl:template match="q">
-        <q><xsl:apply-templates/></q>
+        <q>
+            <xsl:apply-templates/>
+        </q>
     </xsl:template>
     <xsl:template match="subq">
-        <span class="subq {@id}"><xsl:text>&apos;</xsl:text><xsl:apply-templates/><xsl:text>&apos;</xsl:text></span>
+        <span class="subq {@id}">
+            <xsl:text>&apos;</xsl:text>
+            <xsl:apply-templates/>
+            <xsl:text>&apos;</xsl:text>
+        </span>
     </xsl:template>
-       </xsl:stylesheet>
+</xsl:stylesheet>
