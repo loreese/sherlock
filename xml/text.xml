@@ -3470,23 +3470,24 @@
                 speaker="Jones">If you had helped justice, instead of thwarting it in this way, you
                 would have had a better chance at your trial.</q></p>
 
-        <p><q speaker="Small">Justice!</q> snarled the ex-convict.<q speaker="Small">A pretty
+            <p><narr v="Watson"><q speaker="Small">Justice!</q> <desc host="occident" target="pers"><vb att="neg" type="violent">snarled</vb> the ex-convict.</desc>
+                <q speaker="Small">A pretty
                 justice! Whose loot is this, if it is not ours? Where is the justice that I should
                 give it up to those who have never earned it? Look how I have earned it! Twenty long
                 years in that fever-ridden swamp, all day at work under the mangrove-tree, all night
                 chained up in the filthy convict-huts, bitten by mosquitoes, racked with ague,
-                bullied by every cursed black-faced policeman who loved to take it out of a white
-                man. That was how I earned the Agra treasure; and you talk to me of justice because
+                <desc target="pers" host="orient">bullied by every <adj type="none" att="neg">cursed</adj> black-faced policeman who loved to take it out of a white
+                man.</desc> That was how I earned the Agra treasure; and you talk to me of justice because
                 I cannot bear to feel that I have paid this price only that another may enjoy it! I
-                would rather swing a score of times, or have one of Tonga's darts in my hide, than
+                would rather swing a score of times, <desc host="orient" target="obj">or have one of Tonga's <n att="neg" type="prim">darts</n> in my hide,</desc> than
                 live in a convict's cell and feel that another man is at his ease in a palace with
-                the money that should be mine." Small had dropped his mask of stoicism, and all this
+                the money that should be mine.</q> Small had dropped his mask of stoicism, and all this
                 came out in a wild whirl of words, while his eyes blazed, and the handcuffs clanked
                 together with the impassioned movement of his hands. I could understand, as I saw
                 the fury and the passion of the man, that it was no groundless or unnatural terror
                 which had possessed Major Sholto when he first learned that the injured convict was
-                upon his track.</q></p>
-
+                upon his track.</narr></p>
+            
         <p><q speaker="Sherlock">You forget that we know nothing of all this,</q> said Holmes
             quietly. <q speaker="Sherlock">We have not heard your story, and we cannot tell how far
                 justice may originally have been on your side.</q></p>
@@ -3534,10 +3535,10 @@
                 little shanty and smoke a pipe with me, for white folk out there feel their hearts
                 warm to each other as they never do here at home.</q></p>
 
-        <p><q speaker="Small">Well, I was never in luck's way long. Suddenly, without a note of
-                warning, the great mutiny broke upon us. One month India lay as still and peaceful,
-                to all appearance, as Surrey or Kent; the next there were two hundred thousand black
-                devils let loose, and the country was a perfect hell. Of course you know all about
+        <p><q speaker="Small">Well, I was never in luck's way long. <desc target="pers" host="orient">Suddenly, without a note of
+                warning, the great <n type="violent" att="neg">mutiny</n> broke upon us.</desc> One month India lay as still and peaceful,
+                to all appearance, as Surrey or Kent; the next <desc host="orient" target="pers">there were two hundred thousand black
+              <n type="exotic" att="neg">devils </n>let loose, and the country was a perfect hell.</desc> Of course you know all about
                 it, gentlemen,--a deal more than I do, very like, since reading is not in my line. I
                 only know what I saw with my own eyes. Our plantation was at a place called Muttra,
                 near the border of the Northwest Provinces. Night after night the whole sky was
@@ -3558,12 +3559,12 @@
                 wondering which way I should turn, but at that moment I saw thick smoke curling up
                 from Abelwhite's bungalow and the flames beginning to burst through the roof. I knew
                 then that I could do my employer no good, but would only throw my own life away if I
-                meddled in the matter. From where I stood I could see hundreds of the black fiends,
-                with their red coats still on their backs, dancing and howling round the burning
-                house. Some of them pointed at me, and a couple of bullets sang past my head; so I
+                meddled in the matter. <desc target="pers" host="orient">From where I stood I could see hundreds of the black <n att="neg" type="prim">fiends,</n>
+                with their red coats still on their backs, dancing and howling round the burning 
+                house.</desc> Some of them pointed at me, and a couple of bullets sang past my head; so I
                 broke away across the paddy-fields, and found myself late at night safe within the
                 walls at Agra.</q></p>
-
+<!--end edits 4/10-->
         <p><q speaker="Small">As it proved, however, there was no great safety there, either. The
                 whole country was up like a swarm of bees. Wherever the English could collect in
                 little bands they held just the ground that their guns commanded. Everywhere else
