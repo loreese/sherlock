@@ -18,7 +18,12 @@
                     <ul>
                         <xsl:apply-templates select="//ch" mode="toc"/>
                     </ul>
-                    <div class="text"><xsl:apply-templates select="//book"/></div>
+                </div>
+                <div class="flexbox">
+                    <div class="text">
+                        <xsl:apply-templates select="//book"/>
+                    </div>
+                    <div class="text-menu">Lorem ipsum.</div>
                 </div>
             </body>
         </html>
@@ -26,7 +31,7 @@
     <xsl:template match="ch" mode="toc">
         <li>
             <!-- zme: removing the whitespace character from the @href value -->
-            
+
             <a href="#ch{@no}">
                 <xsl:apply-templates select="@no" mode="toc"/>
                 <xsl:text>. </xsl:text>
@@ -57,7 +62,7 @@
     <!-- End modal XSLT -->
 
     <xsl:template match="ch">
-        
+
         <!-- zme: adding an @id value for the table of content @href attributes to link to
         for each chapter (see line 30) -->
         <!-- zme: adding plain text and the chapter title to precede each chapter's text, like
@@ -67,17 +72,19 @@
             <xsl:text>. </xsl:text>
             <xsl:value-of select="chTitle"/>
         </h3>
-        
+
         <!-- zme: changing the @href value to back link it to <div id="toc"> at the top
         of the page-->
-        
-        <h3><a href="#top">[Back to top]</a></h3>
+
+        <h3>
+            <a href="#top">[Back to top]</a>
+        </h3>
         <xsl:apply-templates/>
     </xsl:template>
-    
+
     <!-- zme: adding an empty chTitle template to remove its duplicated rendering before
     each chapter (see line 73 for its rendering on the web page) -->
-    
+
     <xsl:template match="chTitle"/>
     <xsl:template match="p">
         <p>
