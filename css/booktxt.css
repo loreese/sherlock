@@ -25,6 +25,8 @@ h3 {
     font-family: 'IM Fell DW Pica SC', serif;
      text-align: center;
      color: black;
+     font-size: 30px;
+     margin: auto;
 }
 body {
     background-image:
@@ -53,7 +55,7 @@ ul {
 li {
     list-style: none;
     font-family: 'IM Fell English SC', serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 a {
@@ -63,10 +65,14 @@ a {
 }
 section{
      background-image: url('../images/parchbk.jpg');
-  width: 75%;
+     font-family: 'IM Fell DW Pica', serif;
+  width: 65%;
   border: none;
   padding: 25px;
-  margin: auto;
+    margin: auto;
   color: black; 
+}
+q{
+    quotes: "\201C" "\201D" ;
 }
 

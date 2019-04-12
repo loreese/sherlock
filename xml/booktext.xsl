@@ -76,7 +76,7 @@
         <!-- zme: changing the @href value to back link it to <div id="toc"> at the top
         of the page-->
         
-        <a href="#top">[Back to top]</a>
+        <h3><a href="#top">[Back to top]</a></h3>
         <xsl:apply-templates/>
     </xsl:template>
     
@@ -96,9 +96,9 @@
     </xsl:template>
     <xsl:template match="subq">
         <span class="subq {@id}">
-            <xsl:text>&apos;</xsl:text>
+            <xsl:text>&lsquo;</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>&apos;</xsl:text>
+            <xsl:text>&rsquo;</xsl:text>
         </span>
     </xsl:template>
 </xsl:stylesheet>
