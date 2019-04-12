@@ -96,9 +96,9 @@
     </xsl:template>
     <xsl:template match="subq">
         <span class="subq {@id}">
-            <xsl:text>&lsquo;</xsl:text>
+            <xsl:text>'</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>&rsquo;</xsl:text>
+            <xsl:text>'</xsl:text>
         </span>
     </xsl:template>
 </xsl:stylesheet>
