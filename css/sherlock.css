@@ -19,9 +19,8 @@ box-shadow: 7px 7px 5px #637282;
     background-color: #FFFAF0;
 }
 
-nav {
+div.navbar {
     text-align: left;
-    font-family: 'IM Fell DW Pics SC', serif;
     opacity: 0.7;
     }
 body {
@@ -32,6 +31,7 @@ body {
   background-position: center;
   text-align: left;
   font-family: 'IM Fell English SC', serif;
+  
   }
 /* zme: If you want to set opacity/transparency on the background image,
  * erase your property on line 38 and try messing around with this style property on the body:
@@ -70,7 +70,7 @@ ul {
     overflow: hidden;
     background-color: #f1f1f1;
     box-shadow: 7px 7px 5px #637282;
-    width: 20%;
+    width: 25%;
     height: auto;
 }
 
@@ -79,29 +79,37 @@ li a {
     color: #000;
     padding: 12px 5px;
     text-decoration: none;
-    font-family: serif;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 20px;
 }
-
 
 li a:hover {
     background-color: #555;
     color: white;
 }
-div {
-    text-align: left;
-    margin-left: 22%;
-    padding: 10px;
+img.pics{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
 }
 
-
-.main {
+div.main {
     Background-color: #f1f1f1;
     opacity: 0.7;
     box-shadow: 7px 7px 5px #637282;
+    margin: 15px;
 }
 img {
      display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+ul.minutes {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    font-family: 'IM Fell DW Pica SC', serif;
 }
