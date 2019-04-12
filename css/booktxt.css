@@ -10,7 +10,17 @@ h1 {
     box-shadow: 7px 7px 5px #637282;
     opacity: 0.7;
 }
-
+h1.subhead {
+     font-family: 'IM Fell English SC', serif;
+     text-align: center;
+     color: rgb(139, 69, 19); 
+     font-size: 50px;
+    Background-color: #f1f1f1;
+    box-shadow: 7px 7px 5px #637282;
+    opacity: 0.7;
+    width: 700px;
+    text-align: center;
+}
 h2 {
 font-family: 'IM Fell English SC', serif;
      text-align: center;
@@ -63,16 +73,20 @@ a {
     font-size: 25px;   
     font-family: 'IM Fell English SC', serif;
 }
-section{
+div.text{
      background-image: url('../images/parchbk.jpg');
      font-family: 'IM Fell DW Pica', serif;
   width: 65%;
   border: none;
   padding: 25px;
-    margin: auto;
+    margin-top: 25px ;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
   color: black; 
-}
+  }
 q{
     quotes: "\201C" "\201D" ;
 }
-
+p {
+    text-indent: 50px;
+}

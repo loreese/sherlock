@@ -12,13 +12,13 @@
             <body>
                 <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
                 <h1>Detecting Orientalism in Sherlock Holmes</h1>
-                <h1>The Sign of the Four</h1>
+                <h1 class="subhead">The Sign of the Four</h1>
                 <div id="toc">
                     <h2>Table of contents</h2>
                     <ul>
                         <xsl:apply-templates select="//ch" mode="toc"/>
                     </ul>
-                    <xsl:apply-templates/>
+                    <div class="text"><xsl:apply-templates select="//book"/></div>
                 </div>
             </body>
         </html>
@@ -55,11 +55,6 @@
     </xsl:template>-->
 
     <!-- End modal XSLT -->
-    <xsl:template match="book">
-        <section>
-            <xsl:apply-templates/>
-        </section>
-    </xsl:template>
 
     <xsl:template match="ch">
         
