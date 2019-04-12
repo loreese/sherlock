@@ -3582,8 +3582,8 @@
                                 to the south. From every point on the compass there was nothing but torture and
                                 murder and outrage.</q></p>
                 
-                        <p><q speaker="Small">The city of Agra is a great place, swarming with fanatics and fierce
-                                devil-worshippers of all sorts. Our handful of men were lost among the narrow,
+                        <p><q speaker="Small"><desc host="orient" target="pers">The city of Agra is a great place, swarming with fanatics and <adj att="neg" type="violent">fierce</adj>
+                               <n type="prim" att="neg"> devil-worshippers</n> of all sorts. </desc>Our handful of men were lost among the narrow,
                                 winding streets. Our leader moved across the river, therefore, and took up his
                                 position in the old fort at Agra. I don't know if any of you gentlemen have ever
                                 read or heard anything of that old fort. It is a very queer place,--the queerest
@@ -3606,24 +3606,24 @@
                                 guard-house in the middle of the fort, and to leave each gate under the charge of
                                 one white man and two or three natives. I was selected to take charge during certain
                                 hours of the night of a small isolated door upon the southwest side of the building.
-                                Two Sikh troopers were placed under my command, and I was instructed if anything
-                                went wrong to fire my musket, when I might rely upon help coming at once from the
+                                Two Sikh troopers were placed under my command, <desc target="obj" host="occident">and I was instructed if anything
+                                went wrong to <vb att="pos" type="violent">fire</vb> my musket,</desc> when I might rely upon help coming at once from the
                                 central guard. As the guard was a good two hundred paces away, however, and as the
                                 space between was cut up into a labyrinth of passages and corridors, I had great
                                 doubts as to whether they could arrive in time to be of any use in case of an actual
                                 attack.</q></p>
                 
                         <p><q speaker="Small">Well, I was pretty proud at having this small command given me, since
-                                I was a raw recruit, and a game-legged one at that. For two nights I kept the watch
-                                with my Punjaubees. They were tall, fierce-looking chaps, Mahomet Singh and Abdullah
-                                Khan by name, both old fighting-men who had borne arms against us at Chilian-wallah.
-                                They could talk English pretty well, but I could get little out of them. They
-                                preferred to stand together and jabber all night in their queer Sikh lingo. For
+                                I was a raw recruit, and a game-legged one at that. <desc host="orient" target="pers">For two nights I kept the watch
+                                with my Punjaubees. They were tall, <adj type="violent" att="ambig">fierce-looking</adj> chaps, Mahomet Singh and Abdullah
+                                Khan by name, </desc>both old fighting-men who had borne arms against us at Chilian-wallah.
+                              <desc target="pers" host="orient">  They could talk English pretty well, but I could get little out of them. They
+                                preferred to stand together and jabber all night in their <adj att="neg" type="exotic">queer</adj> Sikh lingo.</desc> For
                                 myself, I used to stand outside the gate-way, looking down on the broad, winding
-                                river and on the twinkling lights of the great city. The beating of drums, the
-                                rattle of tomtoms, and the yells and howls of the rebels, drunk with opium and with
+                                river and on the twinkling lights of the great city. <desc host="orient" target="obj">The beating of drums, the
+                                rattle of tomtoms, and the <n type="violent" att="neg">yells</n> and <n att="neg" type="prim">howls</n> of the<n att="neg" type="violent"> rebels</n>, drunk with opium and with
                                 bang, were enough to remind us all night of our dangerous neighbors across the
-                                stream. Every two hours the officer of the night used to come round to all the
+                                stream.</desc> Every two hours the officer of the night used to come round to all the
                                 posts, to make sure that all was well.</q></p>
                 
                         <p><q speaker="Small">The third night of my watch was dark and dirty, with a small, driving
@@ -3631,13 +3631,13 @@
                                 tried again and again to make my Sikhs talk, but without much success. At two in the
                                 morning the rounds passed, and broke for a moment the weariness of the night.
                                 Finding that my companions would not be led into conversation, I took out my pipe,
-                                and laid down my musket to strike the match. In an instant the two Sikhs were upon
-                                me. One of them snatched my firelock up and levelled it at my head, while the other
-                                held a great knife to my throat and swore between his teeth that he would plunge it
-                                into me if I moved a step.</q></p>
+                                and laid down my musket to strike the match. <desc target="pers" host="orient">In an instant the two Sikhs were upon
+                                me. One of them <vb type="violent" att="neg">snatched</vb> my firelock up and levelled it at my head, while the other
+                               <vb att="neg" type="violent"> held</vb> a great knife to my throat and swore between his teeth that he would plunge it
+                                into me if I moved a step.</desc></q></p>
                 
-                        <p><q speaker="Small">My first thought was that these fellows were in league with the
-                                rebels, and that this was the beginning of an assault. If our door were in the hands
+                        <p><q speaker="Small"><desc host="orient" target="pers">My first thought was that these fellows were in league with the
+                                <n att="neg" type="violent">rebels</n>, and that this was the beginning of an <vb type="violent" att="neg">assault. </vb></desc>If our door were in the hands
                                 of the Sepoys the place must fall, and the women and children be treated as they
                                 were in Cawnpore. Maybe you gentlemen think that I am just making out a case for
                                 myself, but I give you my word that when I thought of that, though I felt the point
@@ -3699,23 +3699,23 @@
                                     in their false temples, your blood would have been upon the knife, and your body
                                     in the water. But the Sikh knows the Englishman, and the Englishman knows the
                                     Sikh. Hearken, then, to what I have to say.</subq></q></p>
-                
+                <!--lo: subquote issue line 3715; desc tag isnt allowed unless i end the first subquote-->
                         <p><q speaker="Small"><subq id="Abdullah Khan">There is a rajah in the northern provinces
                                     who has much wealth, though his lands are small. Much has come to him from his
                                     father, and more still he has set by himself, for he is of a low nature and
                                     hoards his gold rather than spend it. When the troubles broke out he would be
                                     friends both with the lion and the tiger,--with the Sepoy and with the Company's
-                                    Raj. Soon, however, it seemed to him that the white men's day was come, for
+                                    Raj.Soon, however, it seemed to him that the white men's day was come, for
                                     through all the land he could hear of nothing but of their death and their
                                     overthrow. Yet, being a careful man, he made such plans that, come what might,
                                     half at least of his treasure should be left to him. That which was in gold and
                                     silver he kept by him in the vaults of his palace, but the most precious stones
                                     and the choicest pearls that he had he put in an iron box, and sent it by a
                                     trusty servant who, under the guise of a merchant, should take it to the fort at
-                                    Agra, there to lie until the land is at peace. Thus, if the rebels won he would
+                                    Agra, there to lie until the land is at peace.</subq><subq id="Abdullah Khan"><desc target="pers" host="orient"> Thus, if the <n att="neg" type="violent">rebels</n> won he would
                                     have his money, but if the Company conquered his jewels would be saved to him.
-                                    Having thus divided his hoard, he threw himself into the cause of the Sepoys,
-                                    since they were strong upon his borders. By doing this, mark you, Sahib, his
+                                    Having thus divided his hoard, he threw himself into the cause of the <n type="exotic" att="ambig">Sepoys,</n>
+                                    since they were strong upon his borders. </desc>By doing this, mark you, Sahib, his
                                     property becomes the due of those who have been true to their
                             salt.</subq></q></p>
                 
