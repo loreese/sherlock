@@ -1,18 +1,21 @@
 <div id="navbar">   
 <nav>
+    <!-- zme: removing the `../ssi/` from all but the index @href values, since these files are all located within the same directory. Since we write the filepaths relative to the actual, full HTML
+    files in which the SSI is ultimately rendered - in this case, the xhtml folder - and not where the SSI file itself is, we can link directly to each of the different web pages, since they are all
+    within the same directory.-->
         <ul>
             <li>
                 <a href="../index.xhtml"><img src="../images/shersill.png">Home</img></a></li>
             <li>
-                <a href="../ssi/background.xhtml"><img src="../images/britindia.jpg">Background</img></a></li>
+                <a href="background.xhtml"><img src="../images/britindia.jpg">Background</img></a></li>
             <li>
-                <a href="../ssi/methodology.xhtml"><img src="../images/1stedbook.jpg">Methodology</img></a></li>
+                <a href="methodology.xhtml"><img src="../images/1stedbook.jpg">Methodology</img></a></li>
             <li>
-                <a href="../ssi/analysis.xhtml"><img src="../images/magglass.jpg">Analysis</img></a></li>
+                <a href="analysis.xhtml"><img src="../images/magglass.jpg">Analysis</img></a></li>
             <li>
-                <a href="../ssi/text.xhtml"><img src="../images/lippincott.jpg"> The Sign of the Four</img></a></li>
+                <a href="text.xhtml"><img src="../images/lippincott.jpg"> The Sign of the Four</img></a></li>
             <li>
-                <a href="../ssi/conclusion.xhtml"><img src="../images/bristobs.jpg">Conclusions</img></a></li>
+                <a href="conclusion.xhtml"><img src="../images/bristobs.jpg">Conclusions</img></a></li>
         </ul>
     </nav>
 </div>
