@@ -3699,7 +3699,7 @@
                                     in their false temples, your blood would have been upon the knife, and your body
                                     in the water. But the Sikh knows the Englishman, and the Englishman knows the
                                     Sikh. Hearken, then, to what I have to say.</subq></q></p>
-                <!--lo: subquote issue line 3715; desc tag isnt allowed unless i end the first subquote-->
+                
                         <p><q speaker="Small"><subq id="Abdullah Khan">There is a rajah in the northern provinces
                                     who has much wealth, though his lands are small. Much has come to him from his
                                     father, and more still he has set by himself, for he is of a low nature and
@@ -3712,10 +3712,10 @@
                                     silver he kept by him in the vaults of his palace, but the most precious stones
                                     and the choicest pearls that he had he put in an iron box, and sent it by a
                                     trusty servant who, under the guise of a merchant, should take it to the fort at
-                                    Agra, there to lie until the land is at peace.</subq><subq id="Abdullah Khan"><desc target="pers" host="orient"> Thus, if the <n att="neg" type="violent">rebels</n> won he would
+                                    Agra, there to lie until the land is at peace.Thus, if the rebels won he would
                                     have his money, but if the Company conquered his jewels would be saved to him.
-                                    Having thus divided his hoard, he threw himself into the cause of the <n type="exotic" att="ambig">Sepoys,</n>
-                                    since they were strong upon his borders. </desc>By doing this, mark you, Sahib, his
+                                    Having thus divided his hoard, he threw himself into the cause of the Sepoys,
+                                    since they were strong upon his borders. By doing this, mark you, Sahib, his
                                     property becomes the due of those who have been true to their
                             salt.</subq></q></p>
                 
@@ -3764,9 +3764,9 @@
                         <p><q speaker="Small">The rain was still falling steadily, for it was just the beginning of
                                 the wet season. Brown, heavy clouds were drifting across the sky, and it was hard to
                                 see more than a stone-cast. A deep moat lay in front of our door, but the water was
-                                in places nearly dried up, and it could easily be crossed. It was strange to me to
-                                be standing there with those two wild Punjaubees waiting for the man who was coming
-                                to his death.</q></p>
+                                in places nearly dried up, and it could easily be crossed. <desc host="orient" target="pers">It was strange to me to
+                                be standing there with those two <adj att="neg" type="prim">wild</adj> <n type="exotic" att="ambig">Punjaubees</n> waiting for the man who was coming
+                                to his <n type="violent" att="neg">death.</n></desc></q></p>
                 
                         <p><q speaker="Small">Suddenly my eye caught the glint of a shaded lantern at the other side
                                 of the moat. It vanished among the mound-heaps, and then appeared again coming
@@ -3789,21 +3789,21 @@
                                 voice.</q></p>
                 
                         <p><q speaker="Small"><subq id="other">Friends,</subq> came the answer. I uncovered my
-                                lantern and threw a flood of light upon them. The first was an enormous Sikh, with a
-                                black beard which swept nearly down to his cummerbund. Outside of a show I have
+                                lantern and threw a flood of light upon them. <desc host="orient" target="pers">The first was an <adj att="ambig" type="none">enormous</adj> <n type="exotic" att="ambig">Sikh,</n> with a
+                                        black beard which swept nearly down to his cummerbund. </desc>Outside of a show I have
                                 never seen so tall a man. The other was a little, fat, round fellow, with a great
                                 yellow turban, and a bundle in his hand, done up in a shawl. He seemed to be all in
                                 a quiver with fear, for his hands twitched as if he had the ague, and his head kept
                                 turning to left and right with two bright little twinkling eyes, like a mouse when
-                                he ventures out from his hole. It gave me the chills to think of killing him, but I
-                                thought of the treasure, and my heart set as hard as a flint within me. When he saw
+                                he ventures out from his hole. <desc target="pers" host="occident">It gave me the chills to think of <vb att="neg" type="violent">killing</vb> him, but I
+                                thought of the treasure, and my heart set as hard as a flint within me. </desc>When he saw
                                 my white face he gave a little chirrup of joy and came running up towards
                             me.</q></p>
                 
                         <p><q speaker="Small"><subq id="other">Your protection, Sahib,</subq> he panted,--<subq
                                     id="other">your protection for the unhappy merchant Achmet. I have travelled
-                                    across Rajpootana that I might seek the shelter of the fort at Agra. I have been
-                                    robbed and beaten and abused because I have been the friend of the Company. It
+                                    across Rajpootana that I might seek the shelter of the fort at Agra. <desc host="orient" target="pers">I have been
+                                   <vb type="violent" att="neg"> robbed </vb>and <vb att="neg" type="violent">beaten</vb> and <vb type="violent" att="neg">abused </vb>because I have been the friend of the Company. </desc>It
                                     is a blessed night this when I am once more in safety,--I and my poor
                                     possessions.</subq></q></p>
                 
@@ -3815,9 +3815,9 @@
                                     reward you, young Sahib, and your governor also, if he will give me the shelter
                                     I ask.</subq></q></p>
                 
-                        <p><q speaker="Small">I could not trust myself to speak longer with the man. The more I
-                                looked at his fat, frightened face, the harder did it seem that we should slay him
-                                in cold blood. It was best to get it over.</q></p>
+                        <p><q speaker="Small">I could not trust myself to speak longer with the man.<desc target="pers" host="occident"> The more I
+                                looked at his fat, frightened face, the harder did it seem that we should <adj att="neg" type="violent">slay</adj> him
+                                in cold blood.</desc> It was best to get it over.</q></p>
                 
                         <p><q speaker="Small"><subq id="Small">Take him to the main guard,</subq>said I. The two
                                 Sikhs closed in upon him on each side, and the giant walked behind, while they
@@ -3834,19 +3834,19 @@
                                 seen a man run so fast as that little merchant. He was gaining on the Sikh, and I
                                 could see that if he once passed me and got to the open air he would save himself
                                 yet. My heart softened to him, but again the thought of his treasure turned me hard
-                                and bitter. I cast my firelock between his legs as he raced past, and he rolled
-                                twice over like a shot rabbit. Ere he could stagger to his feet the Sikh was upon
-                                him, and buried his knife twice in his side. The man never uttered moan nor moved
+                                and bitter. <desc target="pers" host="occident">I <vb type="none" att="ambig">cast</vb> my <n att="ambig" type="violent">firelock</n> between his legs as he raced past, and he rolled
+                                twice over like a shot rabbit. </desc><desc host="orient" target="pers">Ere he could stagger to his feet the Sikh was upon
+                                him, and <vb type="violent" att="neg">buried </vb>his knife twice in his side.</desc> The man never uttered moan nor moved
                                 muscle, but lay were he had fallen. I think myself that he may have broken his neck
                                 with the fall. You see, gentlemen, that I am keeping my promise. I am telling you
                                 every work of the business just exactly as it happened, whether it is in my favor or
                                 not.</q></p>
                 
                         <p><narr v="Watson">He stopped, and held out his manacled hands for the whiskey-and-water
-                                which Holmes had brewed for him. For myself, I confess that I had now conceived the
-                                utmost horror of the man, not only for this cold-blooded business in which he had
+                                which Holmes had brewed for him. For myself, <desc host="occident" target="pers">I confess that I had now conceived the
+                                utmost <n att="neg" type="violent">horror</n> of the man, not only for this cold-blooded business in which he had
                                 been concerned, but even more for the somewhat flippant and careless way in which he
-                                narrated it. Whatever punishment was in store for him, I felt that he might expect
+                                narrated it.</desc> Whatever punishment was in store for him, I felt that he might expect
                                 no sympathy from me. Sherlock Holmes and Jones sat with their hands upon their
                                 knees, deeply interested in the story, but with the same disgust written upon their
                                 faces. He may have observed it, for there was a touch of defiance in his voice and
@@ -3910,8 +3910,8 @@
                                 by our being arrested as the murderers of Achmet</q>.</p>
                 
                         <p><q speaker="Small">It came about in this way. When the rajah put his jewels into the
-                                hands of Achmet he did it because he knew that he was a trusty man. They are
-                                suspicious folk in the East, however: so what does this rajah do but take a second
+                                hands of Achmet he did it because he knew that he was a trusty man. <desc target="pers" host="orient">They are
+                                <adj type="prim" att="neg">suspicious</adj> folk in the East,</desc> however: so what does this rajah do but take a second
                                 even more trusty servant and set him to play the spy upon the first? This second man
                                 was ordered never to let Achmet out of his sight, and he followed him like his
                                 shadow. He went after him that night and saw him pass through the doorway. Of course
@@ -3937,7 +3937,7 @@
                                 eat and water to drink, when that gorgeous fortune was ready for him outside, just
                                 waiting to be picked up. It might have driven me mad; but I was always a pretty
                                 stubborn one, so I just held on and bided my time.</q></p>
-                
+                <!--end edits 4/14-->
                         <p><q speaker="Small">At last it seemed to me to have come. I was changed from Agra to
                                 Madras, and from there to Blair Island in the Andamans. There are very few white
                                 convicts at this settlement, and, as I had behaved well from the first, I soon found
