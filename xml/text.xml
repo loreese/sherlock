@@ -3802,7 +3802,7 @@
                 
                         <p><q speaker="Small"><subq id="other">Your protection, Sahib,</subq> he panted,--<subq
                                     id="other">your protection for the unhappy merchant Achmet. I have travelled
-                                    across Rajpootana that I might seek the shelter of the fort at Agra. <desc host="orient" target="pers">I have been
+                                    across Rajpootana that I might seek the shelter of the fort at Agra.</subq><subq id="other"><desc host="orient" target="pers">I have been
                                    <vb type="violent" att="neg"> robbed </vb>and <vb att="neg" type="violent">beaten</vb> and <vb type="violent" att="neg">abused </vb>because I have been the friend of the Company. </desc>It
                                     is a blessed night this when I am once more in safety,--I and my poor
                                     possessions.</subq></q></p>
@@ -3937,15 +3937,15 @@
                                 eat and water to drink, when that gorgeous fortune was ready for him outside, just
                                 waiting to be picked up. It might have driven me mad; but I was always a pretty
                                 stubborn one, so I just held on and bided my time.</q></p>
-                <!--end edits 4/14-->
+                
                         <p><q speaker="Small">At last it seemed to me to have come. I was changed from Agra to
                                 Madras, and from there to Blair Island in the Andamans. There are very few white
                                 convicts at this settlement, and, as I had behaved well from the first, I soon found
                                 myself a sort of privileged person. I was given a hut in Hope Town, which is a small
-                                place on the slopes of Mount Harriet, and I was left pretty much to myself. It is a
+                                place on the slopes of Mount Harriet, and I was left pretty much to myself. <desc host="orient" target="pers">It is a
                                 dreary, fever-stricken place, and all beyond our little clearings was infested with
-                                wild cannibal natives, who were ready enough to blow a poisoned dart at us if they
-                                saw a chance. There was digging, and ditching, and yam-planting, and a dozen other
+                              <adj att="neg" type="prim">wild </adj><n type="prim" att="neg">cannibal </n>natives,</desc> <desc target="obj" host="orient">who were ready enough to blow a <n att="neg" type="prim">poisoned dart</n> at us if they
+                                saw a chance.</desc> There was digging, and ditching, and yam-planting, and a dozen other
                                 things to be done, so we were busy enough all day; though in the evening we had a
                                 little time to ourselves. Among other things, I learned to dispense drugs for the
                                 surgeon, and picked up a smattering of his knowledge. All the time I was on the
@@ -4125,13 +4125,13 @@
                 
                         <p><q speaker="Small">Well, gentlemen, I weary you with my long story, and I know that my
                                 friend Mr. Jones is impatient to get me safely stowed in chokey. I'll make it as
-                                short as I can. The villain Sholto went off to India, but he never came back again.
+                                short as I can.<desc host="occident" target="pers"> The<n type="none" att="neg">illain</n>Sholto went off to India, </desc>but he never came back again.
                                 Captain Morstan showed me his name among a list of passengers in one of the
                                 mail-boats very shortly afterwards. His uncle had died, leaving him a fortune, and
                                 he had left the army, yet he could stoop to treat five men as he had treated us.
                                 Morstan went over to Agra shortly afterwards, and found, as we expected, that the
-                                treasure was indeed gone. The scoundrel had stolen it all, without carrying out one
-                                of the conditions on which we had sold him the secret. From that day I lived only
+                                treasure was indeed gone. <desc target="pers" host="occident">The <n att="neg" type="none">scoundrel</n> had <vb type="none" att="neg">stolen</vb> it all, without carrying out one
+                                of the conditions on which we had sold him the secret.</desc> From that day I lived only
                                 for vengeance. I thought of it by day and I nursed it by night. It became an
                                 overpowering, absorbing passion with me. I cared nothing for the law,--nothing for
                                 the gallows. To escape, to track down Sholto, to have my hand upon his throat,--that
@@ -4141,9 +4141,9 @@
                         <p><q speaker="Small">Well, I have set my mind on many things in this life, and never one
                                 which I did not carry out. But it was weary years before my time came. I have told
                                 you that I had picked up something of medicine. One day when Dr. Somerton was down
-                                with a fever a little Andaman Islander was picked up by a convict-gang in the woods.
+                                with a fever <desc host="orient" target="pers">a little Andaman Islander was picked up by a convict-gang in the woods.
                                 He was sick to death, and had gone to a lonely place to die. I took him in hand,
-                                though he was as venomous as a young snake, and after a couple of months I got him
+                                though he was as <adj att="neg" type="none">venomous</adj> as a young snake,</desc> and after a couple of months I got him
                                 all right and able to walk. He took a kind of fancy to me then, and would hardly go
                                 back to his woods, but was always hanging about my hut. I learned a little of his
                                 lingo from him, and this made him all the fonder of me.</q></p>
@@ -4157,20 +4157,20 @@
                 
                         <p><q speaker="Small">He was stanch and true, was little Tonga. No man ever had a more
                                 faithful mate. At the night named he had his boat at the wharf. As it chanced,
-                                however, there was one of the convict-guard down there,--a vile Pathan who had never
-                                missed a chance of insulting and injuring me. I had always vowed vengeance, and now
+                                however, there was one of the convict-guard down there,--<desc target="pers" host="orient">a <adj type="violent" att="neg">vile</adj> Pathan who had never
+                                missed a chance of insulting and injuring me.</desc> I had always vowed vengeance, and now
                                 I had my chance. It was as if fate had placed him in my way that I might pay my debt
                                 before I left the island. He stood on the bank with his back to me, and his carbine
-                                on his shoulder. I looked about for a stone to beat out his brains with, but none
-                                could I see. Then a queer thought came into my head and showed me where I could lay
+                                on his shoulder. <desc host="occident" target="pers">I looked about for a stone to<vb att="neg" type="violent"> beat</vb> out his brains with, but none
+                                could I see.</desc> Then a queer thought came into my head and showed me where I could lay
                                 my hand on a weapon. I sat down in the darkness and unstrapped my wooden leg. With
                                 three long hops I was on him. He put his carbine to his shoulder, but I struck him
                                 full, and knocked the whole front of his skull in. You can see the split in the wood
                                 now where I hit him. We both went down together, for I could not keep my balance,
                                 but when I got up I found him still lying quiet enough. I made for the boat, and in
                                 an hour we were well out at sea. Tonga had brought all his earthly possessions with
-                                him, his arms and his gods. Among other things, he had a long bamboo spear, and some
-                                Andaman cocoa-nut matting, with which I made a sort of sail. For ten days we were
+                                him, his arms and his gods. <desc target="obj" host="orient">Among other things, he had a long bamboo <n type="prim" att="ambig">spear</n>, and some
+                                Andaman cocoa-nut matting, with which I made a sort of sail.</desc> For ten days we were
                                 beating about, trusting to luck, and on the eleventh we were picked up by a trader
                                 which was going from Singapore to Jiddah with a cargo of Malay pilgrims. They were a
                                 rum crowd, and Tonga and I soon managed to settle down among them. They had one very
@@ -4196,14 +4196,14 @@
                                 looked at him his jaw dropped, and I knew that he was gone. I got into his room that
                                 same night, though, and I searched his papers to see if there was any record of
                                 where he had hidden our jewels. There was not a line, however: so I came away,
-                                bitter and savage as a man could be. Before I left I bethought me that if I ever met
-                                my Sikh friends again it would be a satisfaction to know that I had left some mark
-                                of our hatred: so I scrawled down the sign of the four of us, as it had been on the
+                                bitter and savage as a man could be. <desc host="orient" target="pers">Before I left I bethought me that if I ever met
+                                my Sikh <n att="pos" type="none">friends</n>again it would be a satisfaction to know that I had left some mark
+                                of our hatred:</desc> so I scrawled down the sign of the four of us, as it had been on the
                                 chart, and I pinned it on his bosom. It was too much that he should be taken to the
                                 grave without some token from the men whom he had robbed and befooled.</q></p>
                 
-                        <p><q speaker="Small">We earned a living at this time by my exhibiting poor Tonga at fairs
-                                and other such places as the black cannibal. He would eat raw meat and dance his
+                        <p><q speaker="Small"><desc target="pers" host="orient">We earned a living at this time by my exhibiting poor Tonga at fairs
+                                and other such places as the black <n type="prim" att="neg">cannibal.</n></desc> He would eat raw meat and dance his
                                 war-dance: so we always had a hatful of pennies after a day's work. I still heard
                                 all the news from Pondicherry Lodge, and for some years there was no news to hear,
                                 except that they were hunting for the treasure. At last, however, came what we had
@@ -4214,10 +4214,10 @@
                                 supper-hour. It seemed to me that I could manage the thing easily through Tonga. I
                                 brought him out with me with a long rope wound round his waist. He could climb like
                                 a cat, and he soon made his way through the roof, but, as ill luck would have it,
-                                Bartholomew Sholto was still in the room, to his cost. Tonga thought he had done
-                                something very clever in killing him, for when I came up by the rope I found him
+                                Bartholomew Sholto was still in the room, to his cost. <desc host="orient" target="pers">Tonga thought he had done
+                                something very clever in <vb att="neg" type="violent">killing</vb> him, for when I came up by the rope I found him
                                 strutting about as proud as a peacock. Very much surprised was he when I made at him
-                                with the rope's end and cursed him for a little blood-thirsty imp. I took the
+                                with the rope's end and cursed him for a little <adj type="violent" att="neg">blood-thirsty</adj> imp.</desc> I took the
                                 treasure-box and let it down, and then slid down myself, having first left the sign
                                 of the four upon the table, to show that the jewels had come back at last to those
                                 who had most right to them. Tonga then pulled up the rope, closed the window, and
@@ -4236,8 +4236,8 @@
                         <p><q speaker="Sherlock">A very remarkable account,</q> said Sherlock Holmes. <q
                                 speaker="Sherlock">A fitting wind-up to an extremely interesting case. There is
                                 nothing at all new to me in the latter part of your narrative, except that you
-                                brought your own rope. That I did not know. By the way, I had hoped that Tonga had
-                                lost all his darts; yet he managed to shoot one at us in the boat.</q></p>
+                                brought your own rope. That I did not know. <desc target="obj" host="orient">By the way, I had hoped that Tonga had
+                                lost all his <n att="neg" type="prim">darts</n>; yet he managed to shoot one at us in the boat.</desc></q></p>
                 
                         <p><q speaker="Small">He had lost them all, sir, except the one which was in his blow-pipe
                                 at the time.</q></p>
