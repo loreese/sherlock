@@ -77,7 +77,7 @@
         of the page-->
 
         <h3>
-            <a href="#top">[Back to top]</a>
+            <a href="#toc">[Back to top]</a>
         </h3>
         <xsl:apply-templates/>
     </xsl:template>
