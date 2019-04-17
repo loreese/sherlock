@@ -50,11 +50,11 @@
             select="count(descendant::*[@type = 'violent' and @att = 'ambig' and ancestor::q[@speaker = 'Sherlock']])"/>
         <xsl:variable name="sh-vio-neg" as="xs:integer"
             select="count(descendant::*[@type = 'violent' and @att = 'neg' and ancestor::q[@speaker = 'Sherlock']])"/>
-        <rect x="250" y="-{$yscale  + 25 *  sum(($sh-vio-pos, $sh-vio-ambig, $sh-vio-neg))}"
-            height="{$yscale * sum(($sh-vio-pos, $sh-vio-ambig, $sh-vio-neg))}" width="20"
+        <rect x="250" y="-{$yscale  + 25 *  $sh-vio-pos}"
+            height="{$yscale * $sh-vio-pos}" width="20"
             fill="green" stroke="black" stroke-width=".5"/>
-        <rect x="250" y="-{$yscale + 16 * sum(($sh-vio-neg, $sh-vio-ambig))}"
-            height="{$yscale * sum(($sh-vio-neg, $sh-vio-ambig))}" width="20" fill="yellow" stroke="black" stroke-width=".5"/> 
+        <rect x="250" y="-{$yscale + 16 * $sh-vio-ambig}"
+            height="{$yscale * $sh-vio-ambig}" width="20" fill="yellow" stroke="black" stroke-width=".5"/> 
         <rect x="250" y="-{$yscale   * $sh-vio-neg}" height="{$yscale * $sh-vio-neg}" width="20"
             fill="blue" stroke="black" stroke-width=".5"/>
         <!-- Watson's violent values -->
@@ -64,11 +64,11 @@
             select="count(descendant::*[@type = 'violent' and @att = 'ambig'][ancestor::q[@speaker = 'Watson'] or not(ancestor::q)])"/>
         <xsl:variable name="wat-vio-neg" as="xs:integer"
             select="count(descendant::*[@type = 'violent' and @att = 'neg'][ancestor::q[@speaker = 'Watson'] or not(ancestor::q)])"/>
-        <rect x="300" y="-{$yscale  + 24 *  sum(($wat-vio-pos, $wat-vio-ambig, $wat-vio-neg))}"
-            height="{$yscale * sum(($wat-vio-pos, $wat-vio-ambig, $wat-vio-neg))}" width="20"
+        <rect x="300" y="-{$yscale  + 24 *  $wat-vio-pos}"
+            height="{$yscale * $wat-vio-pos}" width="20"
             fill="green" stroke="black" stroke-width=".5"/>
-        <rect x="300" y="-{$yscale + 16 * sum(($wat-vio-neg, $wat-vio-ambig))}"
-            height="{$yscale * sum(($sh-vio-neg, $sh-vio-ambig))}" width="20" fill="yellow" stroke="black" stroke-width=".5"/> 
+        <rect x="300" y="-{$yscale + 16 * $wat-vio-ambig}"
+            height="{$yscale *  $sh-vio-ambig}" width="20" fill="yellow" stroke="black" stroke-width=".5"/> 
         <rect x="300" y="-{$yscale   * $wat-vio-neg}" height="{$yscale * $wat-vio-neg}" width="20"
             fill="blue" stroke="black" stroke-width=".5"/>
         <!-- Sherlock's exotic values -->
