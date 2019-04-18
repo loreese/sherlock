@@ -128,10 +128,30 @@
         <rect x="600" y="-{$yscale   * $wat-none-neg}" height="{$yscale * $wat-none-neg}" width="20"
             fill="blue" stroke="black" stroke-width=".5"/>
         
-        <text x="60" y="60" text-anchor="start">
+       <!-- <text x="80" y="80" text-anchor="start">
             blue=neg
             yellow=ambigious
             green=pos
+        </text> -->
+        <text x="135" y="50" text-anchor="middle">
+            Primitive
         </text>
+        <text x="280" y="50" text-anchor="middle">
+            Violent
+        </text>
+        <text x="435" y="50" text-anchor="middle">
+            Exotic
+        </text>
+        <text x="590" y="50" text-anchor="middle">
+            Undetermined
+        </text>
+        <text x="110" y="30" text-anchor="middle">S</text>
+        <text x="160" y="30" text-anchor="middle">W</text>
+        <text x="260" y="30" text-anchor="middle">S</text>
+        <text x="310" y="30" text-anchor="middle">W</text>
+        <text x="410" y="30" text-anchor="middle">S</text>
+        <text x="460" y="30" text-anchor="middle">W</text>
+        <text x="560" y="30" text-anchor="middle">S</text>
+        <text x="610" y="30" text-anchor="middle">W</text>
     </xsl:template>
 </xsl:stylesheet>
