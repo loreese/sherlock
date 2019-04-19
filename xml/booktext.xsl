@@ -23,7 +23,16 @@
                     <div class="text">
                         <xsl:apply-templates select="//book"/>
                     </div>
-                    <div class="text-menu">Lorem ipsum.</div>
+                    <!--<div class="text-menu">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
+                            pretium dolor in porta. Aenean auctor nibh ac tellus porta, hendrerit
+                            dapibus sem egestas. Vestibulum eget sollicitudin erat, non rutrum
+                            libero. Quisque quis velit eget enim convallis maximus. Donec lacinia
+                            eros massa, sit amet pharetra purus porta sed. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            Duis rutrum placerat tempus. Vivamus vel nunc nulla. Curabitur posuere
+                            iaculis quam non bibendum.</p>
+                    </div>-->
                 </div>
             </body>
         </html>
