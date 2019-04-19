@@ -108,6 +108,8 @@ img.pics{
     width: 30px;
     height: 30px;
     margin-right: 3px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 div.main {
     Background-color: #f1f1f1;
