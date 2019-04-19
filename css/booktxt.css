@@ -43,7 +43,7 @@ h3 {
      font-size: 25px;
      margin: auto;
 }
-div.navbar {
+div#navbar {
     text-align: left;
     opacity: 0.7;
     }

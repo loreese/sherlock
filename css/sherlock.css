@@ -35,7 +35,7 @@ box-shadow: 7px 7px 5px #637282;
     
 }
 
-div.navbar {
+div#navbar {
     text-align: left;
     opacity: 0.7;
     }
@@ -86,7 +86,7 @@ ul.nav {
     overflow: hidden;
     background-color: #f1f1f1;
     box-shadow: 7px 7px 5px #637282;
-    width: 18%;
+    width: 25%;
     height: auto;
 }
 
