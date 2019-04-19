@@ -80,6 +80,20 @@ a {
     font-size: 25px;   
     font-family: 'IM Fell English SC', serif;
 }
+div.flexbox {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;   
+}
+div.text-menu {
+    align-self: flex-end;
+    width: 20%;
+    height: auto;
+    margin: auto;
+    
+    
+}
 div.text{
      background-image: url('../images/parchbk.jpg');
      font-family: 'IM Fell DW Pica', serif;
