@@ -13,7 +13,7 @@
                 <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
                 <h1>Detecting Orientalism in Sherlock Holmes</h1>
                 <h1 class="subhead">The Sign of the Four</h1>
-                <div id="toc">
+                <div class="toc">
                     <h2>Table of contents</h2>
                     <ul>
                         <xsl:apply-templates select="//ch" mode="toc"/>
