@@ -10,31 +10,11 @@
                 <title> The Sign of the Four Text </title>
             </head>
             <body>
-                <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
+
                 
                 <h1>Detecting Orientalism in Sherlock Holmes</h1>
                 <h1 class="subhead">The Sign of the Four</h1>
-                <div id="navbar">   
-                    <nav>
-                        <!-- zme: removing the `../ssi/` from all but the index @href values, since these files are all located within the same directory. Since we write the filepaths relative to the actual, full HTML
-    files in which the SSI is ultimately rendered - in this case, the xhtml folder - and not where the SSI file itself is, we can link directly to each of the different web pages, since they are all
-    within the same directory.-->
-                        <ul>
-                            <li>
-                                <a href="../index.xhtml"><img src="../images/shersill.png" class="pics"></img>Home</a></li>
-                            <li>
-                                <a href="background.xhtml"><img src="../images/britind.jpg" class="pics"></img>Background</a></li>
-                            <li>
-                                <a href="methodology.xhtml"><img src="../images/1stedbook.jpg" class="pics"></img>Methodology</a></li>
-                            <li>
-                                <a href="analysis.xhtml"><img src="../images/magglass.jpg" class="pics"></img>Analysis</a></li>
-                            <li>
-                                <a href="text.xhtml"><img src="../images/lippincott.jpg" class="pics"></img>The Sign of the Four</a></li>
-                            <li>
-                                <a href="conclusion.xhtml"><img src="../images/bristobs.jpg" class="pics"></img>Conclusions</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
                 <div class="toc">
                     <h2>Table of contents</h2>
                     <ul>
@@ -135,7 +115,7 @@
         </p>
     </xsl:template>
     <xsl:template match="q">
-        <q>
+        <q class="{@speaker}">
             <xsl:apply-templates/>
         </q>
     </xsl:template>
