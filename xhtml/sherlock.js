@@ -15,7 +15,7 @@ function checkbox_toggle() {
                 wordsQuotes[i].style.backgroundColor = 'green';
                 wordsQuotes[i].style.color = 'black';
             } else {
-                wordsQuotes[i].style.backgroundColor = 'none';
+                wordsQuotes[i].style.backgroundColor = 'transparent';
                 wordsQuotes[i].style.color = 'black';
             }
         }

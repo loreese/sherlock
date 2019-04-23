@@ -39,9 +39,9 @@
                         
                         <hr />
                         <p>Select a part of speech to see which were labeled:</p>
-                        <input type="checkbox" id="nounCheck" name="pos" value="noun" />
+                        <input type="checkbox" id="nounCheck" name="pos" value="n" />
                         <label for="nounCheck">Nouns</label><br/>
-                        <input type="checkbox" id="verbCheck" name="pos" value="verb" />
+                        <input type="checkbox" id="verbCheck" name="pos" value="vb" />
                         <label for="verbCheck">Verbs</label><br/>
                         <input type="checkbox" id="adjCheck" name="pos" value="adj" />
                         <label for="adjCheck">Adjectives</label><br/>
