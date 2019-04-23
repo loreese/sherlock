@@ -6,14 +6,17 @@
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
+                <script type="text/javascript" src="sherlock.js">/**/</script>
                 <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
                 <title> The Sign of the Four Text </title>
             </head>
             <body>
-                <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
+
+                
                 <h1>Detecting Orientalism in Sherlock Holmes</h1>
                 <h1 class="subhead">The Sign of the Four</h1>
-                <div id="toc">
+                <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
+                <div class="toc">
                     <h2>Table of contents</h2>
                     <ul>
                         <xsl:apply-templates select="//ch" mode="toc"/>
@@ -23,16 +26,28 @@
                     <div class="text">
                         <xsl:apply-templates select="//book"/>
                     </div>
-                    <!--<div class="text-menu">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
-                            pretium dolor in porta. Aenean auctor nibh ac tellus porta, hendrerit
-                            dapibus sem egestas. Vestibulum eget sollicitudin erat, non rutrum
-                            libero. Quisque quis velit eget enim convallis maximus. Donec lacinia
-                            eros massa, sit amet pharetra purus porta sed. Class aptent taciti
-                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                            Duis rutrum placerat tempus. Vivamus vel nunc nulla. Curabitur posuere
-                            iaculis quam non bibendum.</p>
-                    </div>-->
+                    <div id="textMenu">
+                        <p>Select a character to see their descriptions from the text:</p>
+                        <input type="checkbox" id="SherlockCheck" name="charDesc" value="Sherlock" />
+                        <label for="SherlockCheck">Sherlock</label>
+                        <br />
+                        <input type="checkbox" id="WatsonCheck" name="charDesc" value="Watson" />
+                        <label for="WatsonCheck">Watson</label>
+                        <br />
+                        <input type="checkbox" id="SmallCheck" name="charDesc" value="Small" />
+                        <label for="SmallCheck">Small</label>
+                        
+                        <hr />
+                        <p>Select a part of speech to see which were labeled:</p>
+                        <input type="checkbox" id="nounCheck" name="pos" value="n" />
+                        <label for="nounCheck">Nouns</label><br/>
+                        <input type="checkbox" id="verbCheck" name="pos" value="vb" />
+                        <label for="verbCheck">Verbs</label><br/>
+                        <input type="checkbox" id="adjCheck" name="pos" value="adj" />
+                        <label for="adjCheck">Adjectives</label><br/>
+                        <input type="checkbox" id="advCheck" name="pos" value="adv" />
+                        <label for="advCheck">Adverbs</label>
+                    </div>
                 </div>
             </body>
         </html>
@@ -101,7 +116,7 @@
         </p>
     </xsl:template>
     <xsl:template match="q">
-        <q>
+        <q class="{@speaker}">
             <xsl:apply-templates/>
         </q>
     </xsl:template>
@@ -111,5 +126,8 @@
             <xsl:apply-templates/>
             <xsl:text>'</xsl:text>
         </span>
+    </xsl:template>
+    <xsl:template match="n | vb | adj | adv">
+        <span class="{name(.)}"><xsl:apply-templates/></span>
     </xsl:template>
 </xsl:stylesheet>
