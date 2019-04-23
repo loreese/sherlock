@@ -19,10 +19,15 @@ function checkbox_toggle() {
                 wordsQuotes[i].style.color = 'black';
             }
         }
-    } else {
-        for (var i = 0, length = wordsQutoes.length; i < length; i++) {
-            wordsQuotes[i].style.backgroundColor = 'pink';
-            wordsQuotes[i].style.color = 'black';
+    }     if (this.name == 'pos') {
+        for (var i = 0, length = wordsQuotes.length; i < length; i++) {
+            if (this.checked == true) {
+                wordsQuotes[i].style.backgroundColor = 'blue';
+                wordsQuotes[i].style.color = 'white';
+            } else {
+                wordsQuotes[i].style.backgroundColor = 'transparent';
+                wordsQuotes[i].style.color = 'black';
+            }
         }
     }
 }

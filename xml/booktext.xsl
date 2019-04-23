@@ -127,4 +127,7 @@
             <xsl:text>'</xsl:text>
         </span>
     </xsl:template>
+    <xsl:template match="n | vb | adj | adv">
+        <span class="{name(.)}"><xsl:apply-templates/></span>
+    </xsl:template>
 </xsl:stylesheet>
