@@ -5,31 +5,41 @@
    <head>
       <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
       <title> The Sign of the Four Text </title>
-          
    </head>
-        
-   <body>
+   <body><!--#include virtual="../ssi/navbar.xhtml" -->
       <h1>Detecting Orientalism in Sherlock Holmes</h1>
-           <!--#include virtual="../ssi/navbar.xhtml" -->
       <h1 class="subhead">The Sign of the Four</h1>
-           <h3>Interact with the text </h3>
-           
-           <!--form action="/action_page.php"-->
-                   <input type="checkbox" name="Sherlock" value="character">Sherlock<br>
-                           <input type="checkbox" name="Watson" value="character">Watson<br>
-                            <input type="checkbox" name="Small" value="character">Small<br><br>
-                             <input type="checkbox" name="objects" value="obj">Objects<br>
-                            <input type="checkbox" name="people" value="pers">People<br><br>
-                             <input type="checkbox" name="description" value="desc">Descriptions<br>
-                             <input type="checkbox" name="nouns" value="n">Nouns<br>
-                             <input type="checkbox" name="verbs" value="vb">Verbs<br>
-                             <input type="checkbox" name="adjectives" value="adj">Adjectives<br>
-                             <input type="checkbox" name="adverbs" value="adv">Adverbs<br><br>
-                             <input type="submit" value="Submit">
-                            <!-- The example doesn't use closing tags, but obviously I am getting an error. Wasn't sure
-                            where to put the end tags.-->
-           </form>
-      <div id="toc">
+      <div id="navbar">
+         <nav>
+            <ul>
+               <li>
+                  <a href="../index.xhtml">
+                     <img src="../images/shersill.png" class="pics"/>Home</a>
+               </li>
+               <li>
+                  <a href="background.xhtml">
+                     <img src="../images/britind.jpg" class="pics"/>Background</a>
+               </li>
+               <li>
+                  <a href="methodology.xhtml">
+                     <img src="../images/1stedbook.jpg" class="pics"/>Methodology</a>
+               </li>
+               <li>
+                  <a href="analysis.xhtml">
+                     <img src="../images/magglass.jpg" class="pics"/>Analysis</a>
+               </li>
+               <li>
+                  <a href="text.xhtml">
+                     <img src="../images/lippincott.jpg" class="pics"/>The Sign of the Four</a>
+               </li>
+               <li>
+                  <a href="conclusion.xhtml">
+                     <img src="../images/bristobs.jpg" class="pics"/>Conclusions</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <div class="toc">
          <h2>Table of contents</h2>
          <ul>
             <li>
@@ -6604,6 +6614,33 @@
 
                 
         </div>
+         <div id="textMenu">
+            <p>Select a character to see their descriptions from the text:</p>
+            <input type="checkbox"
+                   id="SherlockCheck"
+                   name="charDesc"
+                   value="Sherlock"/>
+            <label for="SherlockCheck">Sherlock</label>
+            <br/>
+            <input type="checkbox" id="WatsonCheck" name="charDesc" value="Watson"/>
+            <label for="WatsonCheck">Watson</label>
+            <br/>
+            <input type="checkbox" id="SmallCheck" name="charDesc" value="Small"/>
+            <label for="SmallCheck">Small</label>
+            <hr/>
+            <p>Select a part of speech to see which were labeled:</p>
+            <input type="checkbox" id="nounCheck" name="pos" value="noun"/>
+            <label for="nounCheck">Nouns</label>
+            <br/>
+            <input type="checkbox" id="verbCheck" name="pos" value="verb"/>
+            <label for="verbCheck">Verbs</label>
+            <br/>
+            <input type="checkbox" id="adjCheck" name="pos" value="adj"/>
+            <label for="adjCheck">Adjectives</label>
+            <br/>
+            <input type="checkbox" id="advCheck" name="pos" value="adv"/>
+            <label for="advCheck">Adverbs</label>
+         </div>
       </div>
    </body>
 </html>

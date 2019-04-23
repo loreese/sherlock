@@ -2,33 +2,33 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
 h1 {
-   font-family: 'IM Fell English SC', serif;
-     text-align: center;
-     color: rgb(139, 69, 19); 
-     font-size: 60px;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+    color: rgb(139, 69, 19);
+    font-size: 60px;
     Background-color: #f1f1f1;
     box-shadow: 7px 7px 5px #637282;
     opacity: 0.7;
 }
 h1.subhead {
-     font-family: 'IM Fell English SC', serif;
-     text-align: center;
-     color: rgb(139, 69, 19); 
-     font-size: 50px;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+    color: rgb(139, 69, 19);
+    font-size: 50px;
     Background-color: #f1f1f1;
     box-shadow: 7px 7px 5px #637282;
     opacity: 0.7;
     width: 600px;
     text-align: center;
-    margin-right:auto;
-    margin-left:auto;
-    margin-top:20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
 }
 h2 {
-font-family: 'IM Fell English SC', serif;
-     text-align: center;
-     color: rgb(139, 69, 19); 
-     Background-color: #f1f1f1;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+    color: rgb(139, 69, 19);
+    Background-color: #f1f1f1;
     box-shadow: 7px 7px 5px #637282;
     opacity: 0.7;
     width: 300px;
@@ -38,16 +38,18 @@ font-family: 'IM Fell English SC', serif;
 
 h3 {
     font-family: 'IM Fell DW Pica SC', serif;
-     text-align: center;
-     color: rgb(139, 69, 19);
-     font-size: 25px;
-     margin: auto;
+    text-align: center;
+    color: rgb(139, 69, 19);
+    font-size: 25px;
+    margin: auto;
 }
 div#navbar {
+    float: left;
+    width: 25%;
+    position: fixed;
     text-align: left;
     opacity: 0.7;
-    flex-basis: auto;
-    }
+}
 ul.nav {
     list-style-type: none;
     margin: 10px;
@@ -62,17 +64,18 @@ ul.nav {
 li a {
     display: block;
     color: #000;
-    padding: 12px 5px;
+    padding: 6px 0;
     text-decoration: none;
     font-family: 'IM Fell DW Pica SC', serif;
     font-size: 20px;
+    text-align: left;
 }
 
 li a:hover {
     background-color: #555;
     color: white;
 }
-img.pics{
+img.pics {
     float: left;
     width: 30px;
     height: 30px;
@@ -80,14 +83,14 @@ img.pics{
 }
 
 body {
-    background-image:
-    linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/orientalWall.jpg');
-       background-attachment: fixed;
-  background-size: 100% 100%;
-  background-position: center;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/orientalWall.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
-div.toc { 
+div.toc {
     width: 35%;
     height: auto;
     padding: 25px;
@@ -102,54 +105,57 @@ ul {
     background-image: url('../images/parchbk.jpg');
     list-style-type: none;
     text-align: center;
-    width: 450px; 
     margin: auto;
     padding: 20px;
     border: 2px;
-    
+
 }
 li {
     list-style: none;
     font-family: 'IM Fell English SC', serif;
-     font-size: 20px;
+    font-size: 20px;
 }
 
 a {
     color: rgb(139, 69, 19);
-    font-size: 25px;   
+    font-size: 25px;
     font-family: 'IM Fell English SC', serif;
 }
 div.flexbox {
-    display:flex;
+    width: 75%;
+    float: right;
+    height: 80vh;
+    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;   
-    align-content: space-between;
-    
+
 }
 div.text-menu {
     align-self: flex-end;
     width: 20%;
     height: auto;
-    margin: auto; 
+    margin: auto;
     order: 3;
     flex-grow: 1;
     flex-basis: auto;
     flex-shrink: 1;
 }
-div.text{
-     background-image: url('../images/parchbk.jpg');
-     font-family: 'IM Fell DW Pica', serif;
-  width: 65%;
-  border: none;
-  padding: 25px;
-    margin-top: 25px ;
-    margin-right:auto;
-   margin-left:auto;
-  color: black; 
-  }
-q{
-    quotes: "\201C" "\201D" ;
+div.text {
+    background-image: url('../images/parchbk.jpg');
+    font-family: 'IM Fell DW Pica', serif;
+    flex: 0 1 75%;
+    border: none;
+    padding: 25px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    overflow-y: scroll;
+}
+div#textMenu{
+    flex: 0 1 20%;
+}
+q {
+    quotes: "\201C" "\201D";
 }
 p {
     text-indent: 50px;

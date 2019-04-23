@@ -11,8 +11,30 @@
             </head>
             <body>
                 <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
+                
                 <h1>Detecting Orientalism in Sherlock Holmes</h1>
                 <h1 class="subhead">The Sign of the Four</h1>
+                <div id="navbar">   
+                    <nav>
+                        <!-- zme: removing the `../ssi/` from all but the index @href values, since these files are all located within the same directory. Since we write the filepaths relative to the actual, full HTML
+    files in which the SSI is ultimately rendered - in this case, the xhtml folder - and not where the SSI file itself is, we can link directly to each of the different web pages, since they are all
+    within the same directory.-->
+                        <ul>
+                            <li>
+                                <a href="../index.xhtml"><img src="../images/shersill.png" class="pics"></img>Home</a></li>
+                            <li>
+                                <a href="background.xhtml"><img src="../images/britind.jpg" class="pics"></img>Background</a></li>
+                            <li>
+                                <a href="methodology.xhtml"><img src="../images/1stedbook.jpg" class="pics"></img>Methodology</a></li>
+                            <li>
+                                <a href="analysis.xhtml"><img src="../images/magglass.jpg" class="pics"></img>Analysis</a></li>
+                            <li>
+                                <a href="text.xhtml"><img src="../images/lippincott.jpg" class="pics"></img>The Sign of the Four</a></li>
+                            <li>
+                                <a href="conclusion.xhtml"><img src="../images/bristobs.jpg" class="pics"></img>Conclusions</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="toc">
                     <h2>Table of contents</h2>
                     <ul>
@@ -23,16 +45,28 @@
                     <div class="text">
                         <xsl:apply-templates select="//book"/>
                     </div>
-                    <!--<div class="text-menu">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
-                            pretium dolor in porta. Aenean auctor nibh ac tellus porta, hendrerit
-                            dapibus sem egestas. Vestibulum eget sollicitudin erat, non rutrum
-                            libero. Quisque quis velit eget enim convallis maximus. Donec lacinia
-                            eros massa, sit amet pharetra purus porta sed. Class aptent taciti
-                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                            Duis rutrum placerat tempus. Vivamus vel nunc nulla. Curabitur posuere
-                            iaculis quam non bibendum.</p>
-                    </div>-->
+                    <div id="textMenu">
+                        <p>Select a character to see their descriptions from the text:</p>
+                        <input type="checkbox" id="SherlockCheck" name="charDesc" value="Sherlock" />
+                        <label for="SherlockCheck">Sherlock</label>
+                        <br />
+                        <input type="checkbox" id="WatsonCheck" name="charDesc" value="Watson" />
+                        <label for="WatsonCheck">Watson</label>
+                        <br />
+                        <input type="checkbox" id="SmallCheck" name="charDesc" value="Small" />
+                        <label for="SmallCheck">Small</label>
+                        
+                        <hr />
+                        <p>Select a part of speech to see which were labeled:</p>
+                        <input type="checkbox" id="nounCheck" name="pos" value="noun" />
+                        <label for="nounCheck">Nouns</label><br/>
+                        <input type="checkbox" id="verbCheck" name="pos" value="verb" />
+                        <label for="verbCheck">Verbs</label><br/>
+                        <input type="checkbox" id="adjCheck" name="pos" value="adj" />
+                        <label for="adjCheck">Adjectives</label><br/>
+                        <input type="checkbox" id="advCheck" name="pos" value="adv" />
+                        <label for="advCheck">Adverbs</label>
+                    </div>
                 </div>
             </body>
         </html>
