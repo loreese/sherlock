@@ -6,6 +6,7 @@
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
+                <script type="text/javascript" src="sherlock.js">/**/</script>
                 <link rel="stylesheet" type="text/css" href="../css/booktxt.css"/>
                 <title> The Sign of the Four Text </title>
             </head>
