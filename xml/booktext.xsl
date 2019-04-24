@@ -11,8 +11,6 @@
                 <title> The Sign of the Four Text </title>
             </head>
             <body>
-
-                
                 <h1>Detecting Orientalism in Sherlock Holmes</h1>
                 <h1 class="subhead">The Sign of the Four</h1>
                 <xsl:comment>#include virtual="../ssi/navbar.xhtml" </xsl:comment>
