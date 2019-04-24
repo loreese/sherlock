@@ -127,12 +127,11 @@ div.flexbox {
     height: 80vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
 }
 div.text-menu {
     align-self: flex-end;
-    width: 20%;
-    height: auto;
     margin: auto;
     order: 3;
     flex-grow: 1;
@@ -145,17 +144,28 @@ div.text {
     flex: 0 1 75%;
     border: none;
     padding: 25px;
-    margin-top: 25px;
+    
     margin-right: auto;
     margin-left: auto;
     color: black;
     overflow-y: scroll;
+    height: 500px;
 }
 div#textMenu{
-    flex: 0 1 20%;
+    flex: 0 1 30%;
+     background-image: url('../images/parchbk.jpg');
+     background-size: 500px 100px;
+    font-family: 'IM Fell DW Pica', serif;
+    height: 500px;
+    width: 15%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 q {
     quotes: "\201C" "\201D";
+}
+p.txtmnu {
+    text-indent: 0;
 }
 p {
     text-indent: 50px;

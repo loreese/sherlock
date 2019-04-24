@@ -27,7 +27,7 @@
                         <xsl:apply-templates select="//book"/>
                     </div>
                     <div id="textMenu">
-                        <p>Select a character to see their descriptions from the text:</p>
+                        <p class="txtmnu">Select a character to see their descriptions from the text:</p>
                         <input type="checkbox" id="SherlockCheck" name="charDesc" value="Sherlock" />
                         <label for="SherlockCheck">Sherlock</label>
                         <br />
@@ -38,7 +38,7 @@
                         <label for="SmallCheck">Small</label>
                         
                         <hr />
-                        <p>Select a part of speech to see which were labeled:</p>
+                        <p class="txtmnu">Select a part of speech to see which were labeled:</p>
                         <input type="checkbox" id="nounCheck" name="pos" value="n" />
                         <label for="nounCheck">Nouns</label><br/>
                         <input type="checkbox" id="verbCheck" name="pos" value="vb" />
