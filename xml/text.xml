@@ -1179,7 +1179,7 @@
                                 the other of us with an obvious pride at the effect which his story
                                 had produced, and then continued between the puffs of <desc
                                         target="obj" host="occident"> his <adj type="exotic"
-                                                att="neg">overgrown</adj> pipe.</desc></p>
+                                                att="ambig">overgrown</adj> pipe.</desc></p>
 
                         <p><q speaker="Thaddeus">My brother and I,</q>said he, <q speaker="Thaddeus"
                                         >were, as you may imagine, much excited as to the treasure
@@ -3870,7 +3870,7 @@
                                 turning which they took there could no longer be any question about
                                 it. At Greenwich we were about three hundred paces behind them. At
                                 Blackwall we could not have been more than two hundred and fifty.
-                                        <desc host="occident" target="pers">I have coursed many <n
+                                        <desc host="orient" target="pers">I have coursed many <n
                                                 att="neg" type="prim">creatures </n>in many
                                         countries during my checkered career, but never did sport
                                         give me such a wild thrill as this mad, flying man-hunt down
