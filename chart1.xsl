@@ -6,10 +6,10 @@
     <xsl:variable name="yscale" select="10"/>
     <xsl:template match="/">
         <div class="descBar">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1550">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 700">
                 <g transform="translate(120,500)">
-                    <line x1="0" y1="0" x2="800" y2="0" stroke="black" stroke-width="2"/>
-                    <line x1="0" y1="0" x2="0" y2="-450" stroke="black" stroke-width="2"/>
+                    <line x1="0" y1="0" x2="700" y2="0" stroke="black" stroke-width="2"/>
+                    <line x1="0" y1="0" x2="0" y2="-300" stroke="black" stroke-width="2"/>
                     <xsl:apply-templates select="//book"/>
 
                 </g>
@@ -122,11 +122,7 @@
         <rect x="600" y="-{$yscale   * $wat-none-neg}" height="{$yscale * $wat-none-neg}" width="20"
             fill="blue" stroke="black" stroke-width=".5"/>
 
-        <!-- <text x="80" y="80" text-anchor="start">
-            blue=neg
-            yellow=ambigious
-            green=pos
-        </text> -->
+      
         <text x="135" y="50" text-anchor="middle"> Primitive </text>
         <text x="280" y="50" text-anchor="middle"> Violent </text>
         <text x="435" y="50" text-anchor="middle"> Exotic </text>
@@ -139,27 +135,27 @@
         <text x="460" y="30" text-anchor="middle">W</text>
         <text x="560" y="30" text-anchor="middle">S</text>
         <text x="610" y="30" text-anchor="middle">W</text>
-        <line x1="0" y1="-50" x2="800" y2="-50" stroke="gray" stroke-width="2"
+        <line x1="0" y1="-50" x2="700" y2="-50" stroke="gray" stroke-width="2"
             stroke-dasharray="1,5"/>
         <text x="-30" y="-50" text-anchor="middle">
             5
         </text>
-        <line x1="0" y1="-100" x2="800" y2="-100" stroke="gray" stroke-width="2"
+        <line x1="0" y1="-100" x2="700" y2="-100" stroke="gray" stroke-width="2"
             stroke-dasharray="1,5"/>
         <text x="-30" y="-100" text-anchor="middle">
             10
         </text>
-        <line x1="0" y1="-150" x2="800" y2="-150" stroke="gray" stroke-width="2"
+        <line x1="0" y1="-150" x2="700" y2="-150" stroke="gray" stroke-width="2"
             stroke-dasharray="1,5"/>
         <text x="-30" y="-150" text-anchor="middle">
             15
         </text>
-        <line x1="0" y1="-200" x2="800" y2="-200" stroke="gray" stroke-width="2"
+        <line x1="0" y1="-200" x2="700" y2="-200" stroke="gray" stroke-width="2"
             stroke-dasharray="1,5"/>
         <text x="-30" y="-200" text-anchor="middle">
             20
         </text>
-        <line x1="0" y1="-250" x2="800" y2="-250" stroke="gray" stroke-width="2"
+        <line x1="0" y1="-250" x2="700" y2="-250" stroke="gray" stroke-width="2"
             stroke-dasharray="1,5"/>
         <text x="-30" y="-250" text-anchor="middle">
             25
