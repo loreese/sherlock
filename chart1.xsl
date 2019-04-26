@@ -6,7 +6,7 @@
     <xsl:variable name="yscale" select="10"/>
     <xsl:template match="/">
         <div class="descBar">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 550">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1550">
                 <g transform="translate(120,500)">
                     <line x1="0" y1="0" x2="800" y2="0" stroke="black" stroke-width="2"/>
                     <line x1="0" y1="0" x2="0" y2="-450" stroke="black" stroke-width="2"/>
@@ -139,5 +139,39 @@
         <text x="460" y="30" text-anchor="middle">W</text>
         <text x="560" y="30" text-anchor="middle">S</text>
         <text x="610" y="30" text-anchor="middle">W</text>
+        <line x1="0" y1="-50" x2="800" y2="-50" stroke="gray" stroke-width="2"
+            stroke-dasharray="1,5"/>
+        <text x="-30" y="-50" text-anchor="middle">
+            5
+        </text>
+        <line x1="0" y1="-100" x2="800" y2="-100" stroke="gray" stroke-width="2"
+            stroke-dasharray="1,5"/>
+        <text x="-30" y="-100" text-anchor="middle">
+            10
+        </text>
+        <line x1="0" y1="-150" x2="800" y2="-150" stroke="gray" stroke-width="2"
+            stroke-dasharray="1,5"/>
+        <text x="-30" y="-150" text-anchor="middle">
+            15
+        </text>
+        <line x1="0" y1="-200" x2="800" y2="-200" stroke="gray" stroke-width="2"
+            stroke-dasharray="1,5"/>
+        <text x="-30" y="-200" text-anchor="middle">
+            20
+        </text>
+        <line x1="0" y1="-250" x2="800" y2="-250" stroke="gray" stroke-width="2"
+            stroke-dasharray="1,5"/>
+        <text x="-30" y="-250" text-anchor="middle">
+            25
+        </text>
+        <text x="50" y="100" text-anchor="">
+            Green = Positive
+        </text>
+        <text x="50" y="120" text-anchor="">
+           Yellow = Ambiguous
+        </text>
+        <text x="50" y="140" text-anchor="">
+          Blue = Negative
+        </text>
     </xsl:template>
 </xsl:stylesheet>
