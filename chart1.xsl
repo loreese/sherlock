@@ -91,7 +91,7 @@
             select="count(descendant::*[@type = 'exotic' and @att = 'neg'][ancestor::q[@speaker = 'Watson'] or not(ancestor::q)])"/>
         <rect x="450" y="-{$yscale  + 16 *  $wat-ex-pos}" height="{$yscale * $wat-ex-pos}"
             width="20" fill="green" stroke="black" stroke-width=".5"/>
-        <rect x="450" y="-{$yscale + 10 * $wat-ex-ambig}" height="{$yscale * $wat-ex-ambig}"
+        <rect x="450" y="-{$yscale * $wat-ex-ambig}" height="{$yscale * $wat-ex-ambig}"
             width="20" fill="yellow" stroke="black" stroke-width=".5"/>
         <rect x="450" y="-{$yscale   * $wat-ex-neg}" height="{$yscale * $wat-ex-neg}" width="20"
             fill="blue" stroke="black" stroke-width=".5"/>
@@ -164,7 +164,7 @@
         <text x="-30" y="-250" text-anchor="middle">
             25
         </text>
-        <text x="50" y="100" text-anchor="">
+     <!--<text x="50" y="100" text-anchor="">
             Green = Positive
         </text>
         <text x="50" y="120" text-anchor="">
@@ -172,6 +172,6 @@
         </text>
         <text x="50" y="140" text-anchor="">
           Blue = Negative
-        </text>
+        </text> -->
     </xsl:template>
 </xsl:stylesheet>
